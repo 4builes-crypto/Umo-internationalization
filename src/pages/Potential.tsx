@@ -127,32 +127,6 @@ export const Potential = () => {
         </motion.div>
       </div>
 
-      {/* Real Charts Section */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8">
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3 }}
-          className="glass-card p-6 min-h-[300px]"
-        >
-          <h4 className="text-sm font-bold text-textSecondary uppercase tracking-widest mb-4">
-            {language === 'es' ? 'Tendencia de Crecimiento' : 'Growth Trend'}
-          </h4>
-          <MarketGrowthChart />
-        </motion.div>
-
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
-          className="glass-card p-6 min-h-[300px]"
-        >
-          <h4 className="text-sm font-bold text-textSecondary uppercase tracking-widest mb-4">
-            {language === 'es' ? 'Impacto Normativo (AB 1346)' : 'Regulatory Impact (AB 1346)'}
-          </h4>
-          <RegulationImpactChart />
-        </motion.div>
-      </div>
     </div>
   );
 };
