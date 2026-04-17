@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import { TrendingUp, Globe2, BarChart2, PieChart } from 'lucide-react';
 import { DiagnosticSummary } from '../components/DiagnosticSummary';
 import { RadarDiagnostic } from '../components/RadarDiagnostic';
+import { MarketGrowthChart } from '../components/MarketGrowthChart';
+import { RegulationImpactChart } from '../components/RegulationImpactChart';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export const Potential = () => {
@@ -125,29 +127,30 @@ export const Potential = () => {
         </motion.div>
       </div>
 
-      {/* Placeholders for future charts (Refined) */}
-      <h3 className="text-xl font-bold text-white mt-8 mb-4 flex items-center gap-2">
-        <BarChart2 className="w-5 h-5 text-textSecondary" /> {language === 'es' ? 'Otros Indicadores (Próximamente)' : 'Other Indicators (Coming Soon)'}
-      </h3>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      {/* Real Charts Section */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className="glass-card p-6 min-h-[150px] flex flex-col items-center justify-center border-dashed border-2 border-glassBorder hover:border-unoOrange/50 group"
+          className="glass-card p-6 min-h-[300px]"
         >
-          <BarChart2 className="w-8 h-8 text-surfaceHover group-hover:text-unoOrange/50 transition-colors mb-4" />
-          <p className="text-textSecondary font-medium text-sm">{language === 'es' ? 'Proyección TAM USA' : 'USA TAM Projection'}</p>
+          <h4 className="text-sm font-bold text-textSecondary uppercase tracking-widest mb-4">
+            {language === 'es' ? 'Tendencia de Crecimiento' : 'Growth Trend'}
+          </h4>
+          <MarketGrowthChart />
         </motion.div>
 
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="glass-card p-6 min-h-[150px] flex flex-col items-center justify-center border-dashed border-2 border-glassBorder hover:border-unoOrange/50 group"
+          className="glass-card p-6 min-h-[300px]"
         >
-          <BarChart2 className="w-8 h-8 text-surfaceHover group-hover:text-unoOrange/50 transition-colors mb-4" />
-          <p className="text-textSecondary font-medium text-sm">{language === 'es' ? 'Escalabilidad UMO' : 'UMO Scalability'}</p>
+          <h4 className="text-sm font-bold text-textSecondary uppercase tracking-widest mb-4">
+            {language === 'es' ? 'Impacto Normativo (AB 1346)' : 'Regulatory Impact (AB 1346)'}
+          </h4>
+          <RegulationImpactChart />
         </motion.div>
       </div>
     </div>
