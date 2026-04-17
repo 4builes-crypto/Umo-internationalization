@@ -2,8 +2,6 @@ import { motion } from 'framer-motion';
 import { TrendingUp, Globe2, BarChart2, PieChart } from 'lucide-react';
 import { DiagnosticSummary } from '../components/DiagnosticSummary';
 import { RadarDiagnostic } from '../components/RadarDiagnostic';
-import { MarketGrowthChart } from '../components/MarketGrowthChart';
-import { RegulationImpactChart } from '../components/RegulationImpactChart';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export const Potential = () => {

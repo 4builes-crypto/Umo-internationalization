@@ -9,7 +9,7 @@ import { Sustainability } from './pages/Sustainability';
 import { Potential } from './pages/Potential';
 import { Viability } from './pages/Viability';
 import { SmartObjective } from './pages/SmartObjective';
-import { Bibliography as BibliographyPage } from './pages/Bibliography.tsx';
+import { Bibliography as BibliographyPage } from './pages/Bibliography';
 
 function App() {
   return (
