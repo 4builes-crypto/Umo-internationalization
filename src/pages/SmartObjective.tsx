@@ -34,11 +34,11 @@ export const SmartObjective = () => {
         <p className="text-xl md:text-2xl text-textSecondary leading-relaxed relative z-10 font-medium font-sans">
           {language === 'es' ? (
             <>
-              "Lograr la penetración comercial en el mercado de Estados Unidos vendiendo <strong className="text-unoOrange">10,000 unidades</strong> de asientos agrícolas de repuesto durante los primeros <strong className="text-white">18 meses</strong> post-lanzamiento, concretando al menos <strong className="text-white">2 alianzas B2B</strong> con distribuidores estratégicos en las regiones del Sun Belt o Midwest, para capturar tempranamente cuota del mercado secundario."
+              "El objetivo de este trabajo es diseñar, durante el desarrollo del proyecto académico, una propuesta de internacionalización para el ingreso de <strong className="text-unoOrange">UMO</strong> al mercado de Estados Unidos con <strong className="text-white">sillas para podadoras eléctricas</strong>, enfocada en <strong className="text-white">Arizona y California</strong>, a partir del análisis de la demanda, la competencia, las condiciones del sector y la viabilidad comercial, con el fin de establecer una estrategia de entrada sólida y realista para ambos estados."
             </>
           ) : (
             <>
-              "Achieve commercial penetration in the United States market by selling <strong className="text-unoOrange">10,000 units</strong> of replacement agricultural seats during the first <strong className="text-white">18 months</strong> post-launch, securing at least <strong className="text-white">2 B2B alliances</strong> with strategic distributors in the Sun Belt or Midwest regions, to capture early secondary market share."
+              "The objective of this work is to design, during the development of the academic project, an internationalization proposal for the entry of <strong className="text-unoOrange">UMO</strong> into the United States market with <strong className="text-white">seats for electric lawn mowers</strong>, focused on <strong className="text-white">Arizona and California</strong>, based on the analysis of demand, competition, sector conditions, and commercial viability, in order to establish a solid and realistic entry strategy for both states."
             </>
           )}
         </p>
@@ -50,36 +50,36 @@ export const SmartObjective = () => {
             letter: "S",
             title: "Specific",
             desc: language === 'es' 
-              ? "Venta de asientos agrícolas y cierre de 2 alianzas B2B."
-              : "Sale of agricultural seats and closing of 2 B2B alliances."
+              ? "Ingreso al mercado de EE.UU. con sillas para podadoras eléctricas en Arizona y California."
+              : "Entry into the U.S. market with electric lawn mower seats in Arizona and California."
           },
           {
             letter: "M",
             title: "Measurable",
             desc: language === 'es'
-              ? "10,000 unidades exactas enviadas y vendidas en el mercado target."
-              : "Exactly 10,000 units shipped and sold in the target market."
+              ? "Diseño de una propuesta basada en análisis de demanda, competencia y viabilidad."
+              : "Design of a proposal based on demand, competition, and viability analysis."
           },
           {
             letter: "A",
             title: "Achievable",
             desc: language === 'es'
-              ? "Volumen alcanzable mediante 1 o 2 contratos semestrales de un mayorista."
-              : "Archivable volume via 1 or 2 semi-annual contracts from a wholesaler."
+              ? "Desarrollado dentro del marco y recursos del proyecto académico."
+              : "Developed within the framework and resources of the academic project."
           },
           {
             letter: "R",
             title: "Relevant",
             desc: language === 'es'
-              ? "Crucial para lograr la sostenibilidad financiera y validar el modelo OEM."
-              : "Crucial for achieving financial sustainability and validating the OEM model."
+              ? "Establecer una estrategia de entrada sólida y realista para la expansión de UMO."
+              : "Establish a solid and realistic entry strategy for UMO's expansion."
           },
           {
             letter: "T",
             title: "Time-bound",
             desc: language === 'es'
-              ? "Plazo de 18 meses tras el lanzamiento oficial de operaciones exportadoras."
-              : "18-month timeframe following the official launch of export operations."
+              ? "Finalización durante el desarrollo del presente proyecto académico."
+              : "Completion during the development of the current academic project."
           }
         ].map((item, i) => (
           <motion.div
