@@ -45,7 +45,7 @@ export const RegulationImpactChart = () => {
       
       <div className="w-full h-[220px]">
         <ResponsiveContainer width="100%" height="100%">
-          <ComposedChart data={data} margin={{ top: 10, right: 5, left: -30, bottom: 0 }}>
+          <ComposedChart data={data} margin={{ top: 10, right: 5, left: -30, bottom: 20 }}>
             <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="rgba(255,255,255,0.03)" />
             <XAxis 
               dataKey="year" 

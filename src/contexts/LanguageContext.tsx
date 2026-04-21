@@ -54,6 +54,8 @@ export const translations: any = {
     potencial: { es: 'Diagnóstico De Potencialidades', en: 'Potential Diagnostic' },
     viabilidad: { es: 'Viabilidad De Internacionalización', en: 'Internationalization Viability' },
     smart: { es: 'Objetivo SMART', en: 'SMART Objective' },
+    panorama: { es: 'Panorama Económico', en: 'Economic Outlook' },
+    economics: { es: 'Análisis Macroeconómico', en: 'Macroeconomic Analysis' },
     fase2: { es: 'Selección De Mercado', en: 'Market Selection' },
     market: { es: 'Preselección', en: 'Pre-selection' },
     fase3: { es: 'Modo De Entrada', en: 'Entry Mode' },

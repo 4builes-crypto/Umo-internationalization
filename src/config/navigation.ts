@@ -1,4 +1,4 @@
-import { Building2, BookMarked } from 'lucide-react';
+import { Building2, BookMarked, TrendingUp } from 'lucide-react';
 import type { NavCategory } from '../types/navigation';
 
 export const NAVIGATION_DATA: NavCategory[] = [
@@ -14,6 +14,14 @@ export const NAVIGATION_DATA: NavCategory[] = [
       { id: 'sostenibilidad', label: '5. Dimensiones De Sostenibilidad', path: '/sustainability' },
       { id: 'viabilidad', label: '6. Análisis De Viabilidad', path: '/viability' },
       { id: 'smart', label: '7. Objetivo SMART', path: '/smart-objective' },
+    ]
+  },
+  {
+    id: 'panorama',
+    label: 'Panorama Económico',
+    icon: TrendingUp,
+    subcategories: [
+      { id: 'economics', label: 'Análisis Macroeconómico', path: '/economics' },
     ]
   },
   {

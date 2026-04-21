@@ -15,33 +15,34 @@ export const SunBeltInfographic = () => {
       {/* Top Section: ownership and resale */}
       <div className="grid grid-cols-2 gap-4">
         <div className="bg-white/5 rounded-xl p-3 border border-white/10 flex flex-col items-center">
-          <div className="h-16 w-full relative">
+          <div className="h-16 w-full relative mt-1">
             <ResponsiveContainer width="100%" height="100%">
-              <PieChart>
+              <PieChart margin={{ top: 0, right: 0, bottom: 4, left: 0 }}>
                 <Pie
                   data={dataPie}
                   cx="50%"
                   cy="100%"
                   startAngle={180}
                   endAngle={0}
-                  innerRadius={30}
-                  outerRadius={45}
+                  innerRadius={28}
+                  outerRadius={42}
                   paddingAngle={0}
                   dataKey="value"
+                  stroke="none"
                 >
                   <Cell fill="#f97316" />
-                  <Cell fill="rgba(255,255,255,0.05)" />
+                  <Cell fill="rgba(255,255,255,0.1)" />
                 </Pie>
               </PieChart>
             </ResponsiveContainer>
-            <div className="absolute inset-x-0 bottom-0 flex flex-col items-center">
-              <span className="text-sm font-black text-white leading-none">66%</span>
-              <span className="text-[7px] text-textSecondary uppercase font-bold">
+            <div className="absolute bottom-[4px] inset-x-0 flex flex-col items-center">
+              <span className="text-base font-black text-white leading-none">66%</span>
+              <span className="text-[7px] text-textSecondary uppercase font-bold tracking-tight">
                 {language === 'es' ? 'Propiedad' : 'Ownership'}
               </span>
             </div>
           </div>
-          <p className="text-[8px] text-textSecondary text-center mt-1 leading-tight opacity-70">
+          <p className="text-[8px] text-textSecondary text-center mt-2 leading-tight opacity-70">
             {language === 'es' ? 'Tasa estabilizada EE.UU. 2024' : 'Stabilized US Rate 2024'}
           </p>
         </div>

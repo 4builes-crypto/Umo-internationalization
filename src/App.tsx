@@ -9,13 +9,14 @@ import { Sustainability } from './pages/Sustainability';
 import { Potential } from './pages/Potential';
 import { Viability } from './pages/Viability';
 import { SmartObjective } from './pages/SmartObjective';
+import { Economics } from './pages/Economics';
 import { Bibliography as BibliographyPage } from './pages/Bibliography';
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        {/* The exactly 8 requested routes */}
+        {/* The requested routes */}
         <Route index element={<Overview />} />
         <Route path="bmc" element={<BMC />} />
         <Route path="potential" element={<Potential />} />
@@ -23,6 +24,7 @@ function App() {
         <Route path="sustainability" element={<Sustainability />} />
         <Route path="viability" element={<Viability />} />
         <Route path="smart-objective" element={<SmartObjective />} />
+        <Route path="economics" element={<Economics />} />
         <Route path="bibliography" element={<BibliographyPage />} />
 
         {/* Catch-all */}
