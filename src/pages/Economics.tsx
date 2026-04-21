@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { TrendingUp, Globe, DollarSign, BarChart3 } from 'lucide-react';
+import { Globe, DollarSign, BarChart3 } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export const Economics = () => {
