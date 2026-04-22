@@ -30,17 +30,30 @@ export const ProductIdentity = () => {
         <div className="absolute top-0 right-0 w-64 h-64 bg-unoOrange/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 group-hover:bg-unoOrange/20 transition-colors duration-500" />
         
         <h3 className="text-2xl font-bold text-white mb-6">
-          {language === 'es' ? 'Identidad Corporativa' : 'Corporate Identity'}
+          {language === 'es' ? 'Identidad Corporativa y Contexto de la Empresa' : 'Corporate Identity & Company Context'}
         </h3>
-        <p className="text-lg text-textSecondary leading-relaxed">
-          <strong className="text-white">UMO</strong> {language === 'es' 
-            ? 'es el epicentro estratégico del proyecto. El nombre refleja simplicidad, liderazgo y eficiencia.' 
-            : 'is the strategic epicenter of the project. The name reflects simplicity, leadership, and efficiency.'}
-          <br /><br />
-          {language === 'es'
-            ? 'La empresa se concibe como una entidad con enfoque técnico, encargada de la manufactura y gestión logística de productos agroindustriales (específicamente asientos para maquinaria) destinados a ser exportados al exigente mercado de Estados Unidos.'
-            : 'The company is conceived as a technical entity, in charge of manufacturing and logistics management of agro-industrial products (specifically machinery seats) intended to be exported to the demanding US market.'}
-        </p>
+        <div className="text-lg text-textSecondary leading-relaxed space-y-4">
+          <p>
+            <strong className="text-white">UMO</strong> {language === 'es' 
+              ? 'es una compañía colombiana con más de 55 años de trayectoria y liderazgo en la fabricación de sistemas de escape automotrices y partes de reposición. Con sede en su planta productiva en Antioquia, la empresa cuenta con certificaciones internacionales de altísima exigencia (IATF, SGS) y el estándar ASES, lo que la acredita como proveedor de alcance global para marcas como Renault.' 
+              : 'is a Colombian company with over 55 years of experience and leadership in manufacturing automotive exhaust systems and aftermarket parts. Based in its production plant in Antioquia, the company holds highly demanding international certifications (IATF, SGS) and the ASES standard, accrediting it as a global supplier for brands like Renault.'}
+          </p>
+          <p>
+            {language === 'es'
+              ? 'Además de sus divisiones de vehículos livianos y pesados, UMO destaca por su gran capacidad de innovación e ingeniería en plásticos y textiles para el sector de motocicletas, diseñando forros de asientos con tecnología avanzada (como su línea Thermoliner, que reduce la temperatura térmica superficial).'
+              : 'In addition to its light and heavy vehicle divisions, UMO stands out for its great capacity for innovation and engineering in plastics and textiles for the motorcycle sector, designing seat covers with advanced technology (such as its Thermoliner line, which reduces surface thermal temperature).'}
+          </p>
+          <div className="p-4 bg-unoOrange/10 border-l-2 border-unoOrange mt-6 rounded-r-xl">
+            <h4 className="text-white font-bold text-lg mb-2">
+              {language === 'es' ? 'El Proyecto de Internacionalización' : 'The Internationalization Project'}
+            </h4>
+            <p className="text-base">
+              {language === 'es'
+                ? 'Apoyado en su robusta experiencia técnica, capacidad de manufactura a escala e infraestructura probada, este proyecto estratégico busca diversificar el alcance comercial de UMO. El objetivo central es adaptar su tecnología de asientos y expandirse hacia el sector agroindustrial, exportando asientos premium para maquinaria de jardinería (como podadoras eléctricas de conducción "Ride-On") a Estados Unidos, focalizándose agresivamente en los estados con mayores requerimientos climáticos y residenciales: California y Arizona.'
+                : 'Backed by its robust technical expertise, scaled manufacturing capacity, and proven infrastructure, this strategic project seeks to diversify UMO\'s commercial reach. The core objective is adapting its seating technology and expanding into the agro-industrial sector, exporting premium seats for landscaping machinery (such as electric ride-on mowers) to the United States, focusing aggressively on the states with the highest climatic and residential demands: California and Arizona.'}
+            </p>
+          </div>
+        </div>
       </motion.div>
 
       {/* Product Description Section */}
