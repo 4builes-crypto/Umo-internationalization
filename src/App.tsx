@@ -2,7 +2,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { Layout } from './components/Layout';
 
 // Pages
-import { Overview } from './pages/Overview';
+import { ProductIdentity } from './pages/ProductIdentity';
 import { BMC } from './pages/BMC';
 import { DOFA } from './pages/DOFA';
 import { Sustainability } from './pages/Sustainability';
@@ -13,11 +13,12 @@ import { Economics } from './pages/Economics';
 import { Bibliography as BibliographyPage } from './pages/Bibliography';
 
 function App() {
+  // Vite HMR trigger
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
         {/* The requested routes */}
-        <Route index element={<Overview />} />
+        <Route index element={<ProductIdentity />} />
         <Route path="bmc" element={<BMC />} />
         <Route path="potential" element={<Potential />} />
         <Route path="dofa" element={<DOFA />} />

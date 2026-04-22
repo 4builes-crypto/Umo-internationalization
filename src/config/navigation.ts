@@ -7,8 +7,8 @@ export const NAVIGATION_DATA: NavCategory[] = [
     label: 'Mapeo Inicial De La Empresa',
     icon: Building2,
     subcategories: [
-      { id: 'empresa', label: '1. Resumen De La Empresa (UMO)', path: '/' },
-      { id: 'bmc', label: '2. Descripción Del Bien Y Business Model Canvas', path: '/bmc' },
+      { id: 'identity', label: '1. Identidad Corporativa y Descripción Del Producto', path: '/' },
+      { id: 'bmc', label: '2. Business Model Canvas', path: '/bmc' },
       { id: 'potencial', label: '3. Diagnóstico De Potencialidades', path: '/potential' },
       { id: 'dofa', label: '4. Análisis DOFA', path: '/dofa' },
       { id: 'sostenibilidad', label: '5. Dimensiones De Sostenibilidad', path: '/sustainability' },

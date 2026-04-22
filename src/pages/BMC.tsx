@@ -2,66 +2,28 @@ import { motion } from 'framer-motion';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export const BMC = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   return (
     <div className="space-y-8 pb-12 h-full flex flex-col">
       <header className="space-y-4">
-        <h2 className="text-xl font-bold uppercase tracking-widest text-textSecondary">{t('common', 'Sección 2')}</h2>
+        <h2 className="text-xl font-bold uppercase tracking-widest text-textSecondary">
+          {language === 'es' ? 'Sección 2' : 'Section 2'}
+        </h2>
         <h1 className="text-3xl lg:text-4xl font-bold tracking-tight text-white border-b border-glassBorder pb-4">
           {t('bmc', 'title')}
         </h1>
       </header>
 
-      {/* Item Description Section */}
-      <motion.div 
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="glass-card p-6 md:p-10 relative overflow-hidden"
-      >
-        <div className="absolute top-0 right-0 w-48 h-48 bg-unoOrange/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-        
-        <h3 className="text-2xl font-bold text-unoOrange mb-6">{t('bmc', 'engineeringTitle')}</h3>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
-          <div className="space-y-4">
-            <p className="text-white text-lg font-medium leading-relaxed">
-              {t('bmc', 'engineeringDesc')}
-            </p>
-            <div className="bg-white/5 p-4 rounded-lg border-l-4 border-unoOrange">
-              <h4 className="text-white font-bold mb-2">{t('bmc', 'thermal')}</h4>
-              <p className="text-textSecondary text-sm">
-                {t('bmc', 'thermalDesc')}
-              </p>
-            </div>
-          </div>
-
-          <div className="space-y-6">
-            <div>
-              <h4 className="text-white font-bold mb-1 italic">{t('bmc', 'resistance')}</h4>
-              <p className="text-textSecondary text-sm leading-relaxed">
-                {t('bmc', 'resistanceDesc')}
-              </p>
-            </div>
-            <div>
-              <h4 className="text-white font-bold mb-1 italic">{t('bmc', 'brand')}</h4>
-              <p className="text-textSecondary text-sm leading-relaxed">
-                {t('bmc', 'brandDesc')}
-              </p>
-            </div>
-          </div>
-        </div>
-      </motion.div>
-
       {/* BMC Container */}
       <motion.div 
         initial={{ opacity: 0, scale: 0.98 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5, delay: 0.1 }}
-        className="glass-card flex-1 min-h-[600px] overflow-hidden flex flex-col pt-4 mt-8"
+        transition={{ duration: 0.5 }}
+        className="glass-card flex-1 min-h-[600px] overflow-hidden flex flex-col pt-4"
       >
         <div className="px-4 pb-2 border-b border-glassBorder">
-          <h3 className="text-lg font-bold text-white uppercase tracking-wider">{t('nav', 'bmc')}</h3>
+          <h3 className="text-lg font-bold text-white uppercase tracking-wider">{t('bmc', 'title')}</h3>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-5 h-full auto-rows-fr">
           {/* Top row */}

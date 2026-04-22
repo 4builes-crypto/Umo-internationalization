@@ -46,8 +46,8 @@ export const translations: any = {
   nav: {
     fase1: { es: 'Mapeo Inicial De La Empresa', en: 'Initial Company Mapping' },
     overview: { es: 'Resumen Ejecutivo', en: 'Executive Summary' },
-    empresa: { es: 'Identidad Corporativa', en: 'Corporate Identity' },
-    bmc: { es: 'Descripción del Bien y Business Model Canvas', en: 'Product Description & Business Model Canvas' },
+    identity: { es: 'Identidad Corporativa y Descripción del Producto', en: 'Corporate Identity & Product Description' },
+    bmc: { es: 'Business Model Canvas', en: 'Business Model Canvas' },
     target: { es: 'Mercado Objetivo', en: 'Target Market' },
     dofa: { es: 'Análisis Interno (DOFA)', en: 'Internal Analysis (SWOT)' },
     sostenibilidad: { es: 'Sostenibilidad', en: 'Sustainability' },
@@ -66,8 +66,11 @@ export const translations: any = {
   common: {
     'Sección 2': { es: 'Sección 2', en: 'Section 2' }
   },
+  identity: {
+    title: { es: 'Identidad Corporativa y Descripción del Producto', en: 'Corporate Identity & Product Description' },
+  },
   bmc: {
-    title: { es: 'Descripción del Bien y Business Model Canvas', en: 'Product Description & Business Model Canvas' },
+    title: { es: 'Business Model Canvas', en: 'Business Model Canvas' },
     engineeringTitle: { es: 'Ingeniería de Confort UMO', en: 'UMO Comfort Engineering' },
     engineeringDesc: { es: 'Nuestros asientos industriales optimizan la productividad eliminando la fatiga mediante ergonomía avanzada y ciencia de materiales.', en: 'Our industrial seats optimize productivity by eliminating fatigue through advanced ergonomics and material science.' },
     thermal: { es: 'Rendimiento Térmico y Mecánico', en: 'Thermal & Mechanical Performance' },

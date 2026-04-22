@@ -87,6 +87,7 @@ export const Sidebar = () => {
                         <NavLink
                           key={sub.id}
                           to={sub.path}
+                          end={sub.path === '/'}
                           onClick={closeSidebar}
                           className={({ isActive }) => twMerge(
                             "block px-3 py-2 text-sm font-medium rounded-lg transition-all duration-200 border",
