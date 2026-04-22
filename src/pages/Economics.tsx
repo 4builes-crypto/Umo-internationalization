@@ -34,8 +34,8 @@ export const Economics = () => {
           <div className="space-y-4 flex-1">
             <p className="text-sm text-textSecondary border-l-2 border-surfaceHover pl-4 leading-relaxed">
               {language === 'es'
-                ? 'Análisis de las tendencias económicas globales, inflación y tasas de interés que afectan el sector industrial.'
-                : 'Analysis of global economic trends, inflation, and interest rates affecting the industrial sector.'}
+                ? 'Seguimiento de la inflación y las tasas de interés en EE.UU., factores críticos que impactan los costos operativos y la capacidad adquisitiva en el mercado objetivo.'
+                : 'Monitoring inflation and interest rates in the US, critical factors impacting operating costs and purchasing power in the target market.'}
             </p>
           </div>
         </motion.div>
@@ -52,8 +52,8 @@ export const Economics = () => {
           <div className="space-y-4 flex-1">
             <p className="text-sm text-textSecondary border-l-2 border-surfaceHover pl-4 leading-relaxed">
               {language === 'es'
-                ? 'Comportamiento de divisas y proyecciones de inversión en infraestructura y equipos.'
-                : 'Currency behavior and investment projections in infrastructure and equipment.'}
+                ? 'Análisis comparativo de indicadores de crecimiento entre California y Arizona, incluyendo niveles salariales, PIB per cápita y dinamismo laboral.'
+                : 'Comparative analysis of growth indicators between California and Arizona, including wage levels, GDP per capita, and labor market dynamism.'}
             </p>
           </div>
         </motion.div>
