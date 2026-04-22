@@ -34,8 +34,8 @@ export const Economics = () => {
           <div className="space-y-4 flex-1">
             <p className="text-sm text-textSecondary border-l-2 border-surfaceHover pl-4 leading-relaxed">
               {language === 'es'
-                ? 'Seguimiento de la inflación y las tasas de interés en EE.UU., factores críticos que impactan los costos operativos y la capacidad adquisitiva en el mercado objetivo.'
-                : 'Monitoring inflation and interest rates in the US, critical factors impacting operating costs and purchasing power in the target market.'}
+                ? 'Análisis de las variables macroeconómicas fundamentales en los Estados Unidos que condicionan el entorno de negocios y la viabilidad financiera del proyecto.'
+                : 'Analysis of the fundamental macroeconomic variables in the United States that condition the business environment and the project\'s financial viability.'}
             </p>
           </div>
         </motion.div>
@@ -47,13 +47,13 @@ export const Economics = () => {
           className="glass-card p-6 md:p-8 flex flex-col"
         >
           <h3 className="text-xl font-bold text-unoOrange mb-6 flex items-center gap-3">
-            <DollarSign className="w-6 h-6" /> {language === 'es' ? 'Indicadores Financieros' : 'Financial Indicators'}
+            <DollarSign className="w-6 h-6" /> {language === 'es' ? 'Análisis Regional' : 'Regional Analysis'}
           </h3>
           <div className="space-y-4 flex-1">
             <p className="text-sm text-textSecondary border-l-2 border-surfaceHover pl-4 leading-relaxed">
               {language === 'es'
-                ? 'Análisis comparativo de indicadores de crecimiento entre California y Arizona, incluyendo niveles salariales, PIB per cápita y dinamismo laboral.'
-                : 'Comparative analysis of growth indicators between California and Arizona, including wage levels, GDP per capita, and labor market dynamism.'}
+                ? 'Evaluación sistemática de indicadores de crecimiento y competitividad en Arizona y California para sustentar la toma de decisiones estratégicas de expansión.'
+                : 'Systematic evaluation of growth and competitiveness indicators in Arizona and California to support strategic expansion decisions.'}
             </p>
           </div>
         </motion.div>
