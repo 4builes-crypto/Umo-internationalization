@@ -219,7 +219,7 @@ export const EconomicsCharts = () => {
 
       {/* Chart 4: PIB */}
       <ChartContainer 
-        title={language === 'es' ? 'Gráfico Comparativo del PIB Real per Cápita: California vs. Arizona' : 'Comparative Graph of Real GDP per Capita: California vs. Arizona'}
+        title={language === 'es' ? 'PIB per capita' : 'Real GDP per Capita'}
         analysisPlaceholder={language === 'es' ? '[Espacio para tu análisis del PIB per cápita aquí...]' : '[Space for your GDP per capita analysis here...]'}
         tableContent={
           <table className="w-full text-sm text-left text-textSecondary">
@@ -261,7 +261,7 @@ export const EconomicsCharts = () => {
 
       {/* Chart 5: Inflación */}
       <ChartContainer 
-        title={language === 'es' ? 'Gráfico Comparativo de Tasas de Inflación Anual: Estados Unidos vs. Región Oeste' : 'Comparative Graph of Annual Inflation Rates: United States vs. West Region'}
+        title={language === 'es' ? 'Tasas de Inflación Anual: Estados Unidos vs. Región Oeste' : 'Annual Inflation Rates: United States vs. West Region'}
         analysisPlaceholder={language === 'es' ? '[Espacio para tu análisis de la inflación aquí...]' : '[Space for your inflation analysis here...]'}
         tableContent={
           <table className="w-full text-sm text-left text-textSecondary">
