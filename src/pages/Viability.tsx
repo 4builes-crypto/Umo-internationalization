@@ -106,6 +106,7 @@ export const Viability = () => {
             {language === 'es' ? 'El proyecto es ' : 'The project is '}
             <strong className="text-green-400">
               {language === 'es' ? 'Altamente Viable' : 'Highly Viable'}
+            </strong>
             {language === 'es'
               ? '. El conocimiento previo del mercado de internacionalización permite a UMO capitalizar las proyecciones de expansión hacia los $9.71 billones. La transición a podadoras eléctricas (Ley AB 1346) y la necesidad de modelos ride-on por el tamaño de los lotes en California y Arizona, aseguran una demanda alta en el mercado secundario B2B norteamericano.'
               : '. Prior knowledge of the internationalization market allows UMO to capitalize on expansion projections reaching $9.71 billion. The transition to electric mowers (Law AB 1346) and the need for ride-on models due to lot sizes in California and Arizona ensure high demand in the North American B2B secondary market.'}
