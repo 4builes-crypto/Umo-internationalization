@@ -1,4 +1,4 @@
-// Build trigger: Macroeconomic analysis deployment
+// Build trigger: Final content synchronization - 2026-04-22
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
