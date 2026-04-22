@@ -106,10 +106,9 @@ export const Viability = () => {
             {language === 'es' ? 'El proyecto es ' : 'The project is '}
             <strong className="text-green-400">
               {language === 'es' ? 'Altamente Viable' : 'Highly Viable'}
-            </strong>
             {language === 'es'
-              ? '. El beneficio competitivo de pertenecer a la misma zona horaria, apalancado con exenciones arancelarias e insumos de alta calidad, configura a UMO como un disruptor en el mercado secundario B2B norteamericano.'
-              : '. The competitive advantage of belonging to the same time zone, leveraged with tariff exemptions and high-quality inputs, sets UMO as a disruptor in the North American B2B secondary market.'}
+              ? '. El conocimiento previo del mercado de internacionalización, apalancado con exenciones arancelarias e insumos de alta calidad, configura a UMO como un disruptor en el mercado secundario B2B norteamericano.'
+              : '. Prior knowledge of the internationalization market, leveraged with tariff exemptions and high-quality inputs, sets UMO as a disruptor in the North American B2B secondary market.'}
           </p>
         </div>
       </motion.div>

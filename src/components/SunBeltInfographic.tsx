@@ -65,7 +65,7 @@ export const SunBeltInfographic = () => {
         <div className="flex items-center gap-2 bg-unoOrange/10 p-2 rounded-lg border border-unoOrange/20">
           <Map className="w-4 h-4 text-unoOrange shrink-0" />
           <div className="flex flex-col">
-            <span className="text-[10px] font-bold text-white uppercase tracking-tighter italic">Texas · Florida · Arizona</span>
+            <span className="text-[10px] font-bold text-white uppercase tracking-tighter italic">California · Arizona</span>
           </div>
         </div>
 
