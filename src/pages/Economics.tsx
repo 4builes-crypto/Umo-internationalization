@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
-import { Globe, DollarSign, BarChart3 } from 'lucide-react';
+import { Globe, DollarSign } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import { EconomicsCharts } from '../components/EconomicsCharts';
 
 export const Economics = () => {
   const { language } = useLanguage();
@@ -21,7 +22,7 @@ export const Economics = () => {
         </p>
       </header>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 mb-10">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -58,22 +59,7 @@ export const Economics = () => {
         </motion.div>
       </div>
 
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.2 }}
-        className="glass-card p-8 flex flex-col items-center justify-center text-center space-y-4"
-      >
-        <BarChart3 className="w-12 h-12 text-unoOrange opacity-50" />
-        <h3 className="text-xl font-bold text-white">
-          {language === 'es' ? 'Próximamente: Dashboard Financiero' : 'Coming Soon: Financial Dashboard'}
-        </h3>
-        <p className="text-textSecondary max-w-lg">
-          {language === 'es'
-            ? 'Estamos preparando un panel interactivo con datos en tiempo real sobre el mercado de autopartes y maquinaria.'
-            : 'We are preparing an interactive panel with real-time data on the auto parts and machinery market.'}
-        </p>
-      </motion.div>
+      <EconomicsCharts />
     </div>
   );
 };
