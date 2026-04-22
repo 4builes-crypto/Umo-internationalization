@@ -18,7 +18,7 @@ const salarioData = [
   { year: '2023', california: 38.4, arizona: 30.5 },
   { year: '2024', california: 40.2, arizona: 32.5 },
   { year: '2025', california: 41.98, arizona: 34.85 },
-  { year: '2026', arizona: 35.32 }
+  { year: '2026', california: 42.43, arizona: 35.32 }
 ];
 
 const desempleoData = [
