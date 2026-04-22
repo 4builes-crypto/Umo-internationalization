@@ -107,8 +107,8 @@ export const Viability = () => {
             <strong className="text-green-400">
               {language === 'es' ? 'Altamente Viable' : 'Highly Viable'}
             {language === 'es'
-              ? '. El conocimiento previo del mercado de internacionalización, apalancado con exenciones arancelarias e insumos de alta calidad, configura a UMO como un disruptor en el mercado secundario B2B norteamericano.'
-              : '. Prior knowledge of the internationalization market, leveraged with tariff exemptions and high-quality inputs, sets UMO as a disruptor in the North American B2B secondary market.'}
+              ? '. El conocimiento previo del mercado de internacionalización permite a UMO capitalizar las proyecciones de expansión hacia los $9.71 billones. La transición a podadoras eléctricas (Ley AB 1346) y la necesidad de modelos ride-on por el tamaño de los lotes en California y Arizona, aseguran una demanda alta en el mercado secundario B2B norteamericano.'
+              : '. Prior knowledge of the internationalization market allows UMO to capitalize on expansion projections reaching $9.71 billion. The transition to electric mowers (Law AB 1346) and the need for ride-on models due to lot sizes in California and Arizona ensure high demand in the North American B2B secondary market.'}
           </p>
         </div>
       </motion.div>
