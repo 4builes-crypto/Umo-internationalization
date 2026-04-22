@@ -54,7 +54,14 @@ const inflacionData = [
   { year: '2025', us: 2.7, west: 2.7 }
 ];
 
-const ChartContainer = ({ title, children, analysisPlaceholder, tableContent }: any) => {
+interface ChartContainerProps {
+  title: string;
+  children: React.ReactNode;
+  analysisPlaceholder: string;
+  tableContent: React.ReactNode;
+}
+
+const ChartContainer = ({ title, children, analysisPlaceholder, tableContent }: ChartContainerProps) => {
   const { language } = useLanguage();
   return (
     <div className="glass-card p-6 md:p-8 space-y-6">
