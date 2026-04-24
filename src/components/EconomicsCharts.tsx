@@ -63,25 +63,37 @@ const ChartContainer = ({ title, children, analysisPlaceholder, tableContent, vi
   const { language } = useLanguage();
   return (
     <div className="glass-card p-6 md:p-8 space-y-6">
-      <h3 className="text-xl font-bold text-white text-center">{title}</h3>
+      <h3 className="text-xl font-bold text-white text-center pb-2">{title}</h3>
       
-      {viabilityScores && (
-        <div className="flex flex-wrap justify-center gap-4 py-2 border-y border-glassBorder/50">
-          <div className="flex items-center gap-2 bg-blue-500/10 px-3 py-1.5 rounded-full border border-blue-500/20">
-            <span className="text-xs font-bold uppercase tracking-wider text-blue-400">CA {language === 'es' ? 'VIABILIDAD' : 'VIABILITY'}:</span>
-            <span className="text-lg font-black text-white">{viabilityScores.california.toFixed(2)}</span>
-          </div>
-          <div className="flex items-center gap-2 bg-orange-500/10 px-3 py-1.5 rounded-full border border-orange-500/20">
-            <span className="text-xs font-bold uppercase tracking-wider text-orange-400">AZ {language === 'es' ? 'VIABILIDAD' : 'VIABILITY'}:</span>
-            <span className="text-lg font-black text-white">{viabilityScores.arizona.toFixed(2)}</span>
-          </div>
-        </div>
-      )}
-
       <div className="h-[400px] w-full">
         {children}
       </div>
-      <div className="pt-6 border-t border-glassBorder space-y-4">
+      
+      <div className="pt-6 border-t border-glassBorder space-y-6">
+        {viabilityScores && (
+          <div>
+            <h4 className="text-lg font-semibold text-unoOrange mb-2">
+              {language === 'es' ? 'Puntaje de viabilidad' : 'Viability Score'}
+            </h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm text-left text-textSecondary">
+                <thead className="bg-surface/50 text-white">
+                  <tr>
+                    <th className="px-4 py-2">California</th>
+                    <th className="px-4 py-2">Arizona</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-glassBorder bg-surface/20">
+                    <td className="px-4 py-2 text-white font-bold">{viabilityScores.california.toFixed(2)}</td>
+                    <td className="px-4 py-2 text-white font-bold">{viabilityScores.arizona.toFixed(2)}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
+
         <div>
           <h4 className="text-lg font-semibold text-unoOrange mb-2">
             {language === 'es' ? 'Análisis Preliminar' : 'Preliminary Analysis'}
@@ -90,6 +102,7 @@ const ChartContainer = ({ title, children, analysisPlaceholder, tableContent, vi
             {analysisPlaceholder}
           </p>
         </div>
+
         <div>
           <h4 className="text-lg font-semibold text-unoOrange mb-2">
             {language === 'es' ? 'Datos' : 'Data'}
