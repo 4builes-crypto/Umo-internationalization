@@ -14,7 +14,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 
 const consumoData = [
   { year: '2021', california: 55098, arizona: 46223 },
-  { year: '2022', california: null, arizona: null }, 
+  { year: '2022', california: 60525, arizona: 50665 }, 
   { year: '2023', california: 64368, arizona: 53451 },
   { year: '2024', california: 67565, arizona: 56211 },
 ];
