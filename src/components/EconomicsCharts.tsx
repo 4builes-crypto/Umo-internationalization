@@ -45,11 +45,11 @@ const pibData = [
 ];
 
 const inflacionData = [
-  { year: '2021', us: 4.7, west: 5.0 },
-  { year: '2022', us: 8.0, west: 8.2 },
-  { year: '2023', us: 4.12, west: 4.3 },
-  { year: '2024', us: 2.95, west: 3.0 },
-  { year: '2025', us: 2.7, west: 2.7 }
+  { year: '2021', phoenix: 9.7, sacramento: 7.1 },
+  { year: '2022', phoenix: 9.5, sacramento: 6.2 },
+  { year: '2023', phoenix: 2.7, sacramento: 3.6 },
+  { year: '2024', phoenix: 1.6, sacramento: 2.5 },
+  { year: '2025', phoenix: 1.7, sacramento: 2.55 }
 ];
 
 interface ChartContainerProps {
@@ -259,23 +259,23 @@ export const EconomicsCharts = () => {
 
       {/* Chart 5: Inflación */}
       <ChartContainer 
-        title={language === 'es' ? 'Tasas de Inflación Anual: Estados Unidos vs. Región Oeste' : 'Annual Inflation Rates: United States vs. West Region'}
-        analysisPlaceholder={language === 'es' ? 'Luego de que se llegaran a cifras altas de inflación en años pasados como el 2021 y 2022, la economía estadounidense se pudo consolidar en un rango de inflación de entre el 2.5% y 3% lo que le sirve como ventaja a UMO para entrar como exportador porque esto permite tener una estabilidad en los precios, por lo tanto se le va a hacer más fácil a la empresa hacer proyecciones de márgenes y se va a reducir el riesgo de que se tenga que ajustar constantemente el precio. por otro lado también es importante mencionar que el año 2026 se puede ver como un riesgo por todos los problemas geopolíticos que están ocurriendo actualmente.' : 'After hitting high inflation figures in past years like 2021 and 2022, the US economy was able to consolidate within an inflation range of 2.5% to 3%, which gives UMO an exporter advantage as it allows for price stability. Consequently, margin projections become easier and the risk of constant price adjustments is reduced. On the other hand, 2026 can be viewed as a risk factor due to currently unfolding geopolitical problems.'}
+        title={language === 'es' ? 'Tasa de Inflación en Ciudades Capitales: Phoenix vs. Sacramento' : 'Inflation Rate in Capital Cities: Phoenix vs. Sacramento'}
+        analysisPlaceholder={language === 'es' ? 'La elección de Phoenix y Sacramento como puntos estratégicos responde a su relevancia como capitales y núcleos económicos de Arizona y California. La tendencia de desinflación observada en estas ciudades refleja una estabilización que favorece directamente la exportación de las sillas para podadoras ride-on. Al moderarse el crecimiento de los precios, aumenta el ingreso disponible de los consumidores, permitiendo que propietarios y empresas de mantenimiento cuenten con mayor liquidez. Este excedente financiero facilita que los usuarios finales inviertan en mantener sus equipos en estado óptimo, adquiriendo todas sus partes y accesorios' : 'The choice of Phoenix and Sacramento as strategic points responds to their relevance as capitals and economic hubs of Arizona and California. The disinflation trend observed in these cities reflects a stabilization that directly favors the export of ride-on mower seats. As price growth moderates, consumer disposable income increases, allowing owners and maintenance companies to have greater liquidity. This financial surplus facilitates end users investing in maintaining their equipment in optimal condition, acquiring all its parts and accessories.'}
         tableContent={
           <table className="w-full text-sm text-left text-textSecondary">
             <thead className="bg-surface/50 text-white">
               <tr>
                 <th className="px-4 py-2">{language === 'es' ? 'Año' : 'Year'}</th>
-                <th className="px-4 py-2">{language === 'es' ? 'Estados Unidos (IPC Anual)' : 'United States (Annual CPI)'}</th>
-                <th className="px-4 py-2">{language === 'es' ? 'Región Oeste (BLS)' : 'West Region (BLS)'}</th>
+                <th className="px-4 py-2">Phoenix, AZ (%)</th>
+                <th className="px-4 py-2">Sacramento, CA (%)</th>
               </tr>
             </thead>
             <tbody>
               {inflacionData.map(row => (
                 <tr key={row.year} className="border-b border-glassBorder">
                   <td className="px-4 py-2">{row.year}</td>
-                  <td className="px-4 py-2">{row.us.toFixed(2)}%</td>
-                  <td className="px-4 py-2">{row.west.toFixed(2)}%</td>
+                  <td className="px-4 py-2">{row.phoenix.toFixed(2)}%</td>
+                  <td className="px-4 py-2">{row.sacramento.toFixed(2)}%</td>
                 </tr>
               ))}
             </tbody>
@@ -289,11 +289,11 @@ export const EconomicsCharts = () => {
             <YAxis stroke="#ffffff80" domain={[0, 10]} tickFormatter={(value) => `${value}%`} />
             <Tooltip contentStyle={{ backgroundColor: '#1a1a1a', borderColor: '#ffffff20' }} />
             <Legend />
-            <Line type="monotone" dataKey="us" name={language === 'es' ? "Estados Unidos (IPC Anual)" : "United States (Annual CPI)"} stroke="#3b82f6" strokeWidth={2} dot={{ r: 4 }}>
-              <LabelList dataKey="us" position="bottom" fill="#ffffff" fontSize={11} formatter={(v: any) => `${v.toFixed(2)}%`} />
+            <Line type="monotone" dataKey="phoenix" name="Phoenix, AZ" stroke="#3b82f6" strokeWidth={2} dot={{ r: 4 }}>
+              <LabelList dataKey="phoenix" position="top" fill="#ffffff" fontSize={11} formatter={(v: any) => `${v.toFixed(1)}%`} />
             </Line>
-            <Line type="monotone" dataKey="west" name={language === 'es' ? "Región Oeste (BLS)" : "West Region (BLS)"} stroke="#f97316" strokeWidth={2} dot={{ r: 4 }}>
-              <LabelList dataKey="west" position="top" fill="#ffffff" fontSize={11} formatter={(v: any) => `${v.toFixed(2)}%`} />
+            <Line type="monotone" dataKey="sacramento" name="Sacramento, CA" stroke="#f97316" strokeWidth={2} dot={{ r: 4 }}>
+              <LabelList dataKey="sacramento" position="top" fill="#ffffff" fontSize={11} formatter={(v: any) => `${v.toFixed(1)}%`} />
             </Line>
           </LineChart>
         </ResponsiveContainer>
