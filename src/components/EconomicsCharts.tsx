@@ -27,13 +27,12 @@ const desempleoData = [
   { year: '2025', california: 5.4, arizona: 4.3 }
 ];
 
-const interesData = [
-  { year: '2021', tasa: 0.08 },
-  { year: '2022', tasa: 4.33 },
-  { year: '2023', tasa: 5.33 },
-  { year: '2024', tasa: 4.33 },
-  { year: '2025', tasa: 4.33 },
-  { year: '2026', tasa: 3.63 }
+const impuestosData = [
+  { year: '2021', california: 7.25, arizona: 5.6 },
+  { year: '2022', california: 7.25, arizona: 5.6 },
+  { year: '2023', california: 7.25, arizona: 5.6 },
+  { year: '2024', california: 7.25, arizona: 5.6 },
+  { year: '2025', california: 7.25, arizona: 5.6 }
 ];
 
 const pibData = [
@@ -178,23 +177,25 @@ export const EconomicsCharts = () => {
         </ResponsiveContainer>
       </ChartContainer>
 
-      {/* Chart 3: Tasas de interés */}
+      {/* Chart 3: Impuestos */}
       <ChartContainer 
-        title={language === 'es' ? 'Tasas de Interés (%)' : 'Interest Rates (%)'}
-        analysisPlaceholder={language === 'es' ? 'A pesar de que hubo un periodo de tiempo de porcentajes altos de la tasa de interés (2023 a 2025) pudimos analizar que actualmente en en 2026 se está manejando una tasa del 3.63% con una proyección del 3.10% para 2027-2028 segun (Federal Reserve Board, 2025). lo que presenta un panorama positivo para UMO, ya que una tasa de interés baja incentiva a la compra por credito de distribuidores y consumidores finales, ya que la cultura de compra del estadounidense le gusta comprar con financiamiento por lo tanto si las tasas de interés se mantienen en bajos porcentajes, la empresa UMO se verá beneficiada.' : 'Despite a period of high interest rates (2023 to 2025), analysis shows that currently in 2026 a rate of 3.63% is being maintained, with a projection of 3.10% for 2027-2028 according to the Federal Reserve Board (2025). This presents a positive outlook for UMO, as low interest rates incentivize credit purchases by distributors and end consumers; the American buying culture leans heavily into financing, meaning UMO will benefit if rates remain low.'}
+        title={language === 'es' ? 'Tasas de Impuestos sobre las Ventas (Sales Tax %)' : 'Sales Tax Rates (%)'}
+        analysisPlaceholder={language === 'es' ? 'Estos datos nos reflejan una robustez económica en Arizona y California. Esta estabilidad fiscal, poco común en otros mercados, ofrece un panorama de seguridad para el proyecto, ya que permite proyectar márgenes de utilidad y precios de venta finales sin el riesgo de variaciones imprevistas. Al mantenerse estáticos los impuestos, la economía estatal proyecta una solidez que genera confianza tanto en el exportador como en el consumidor final. Para la exportación de sillas para podadoras, este escenario es ideal. La combinación de impuestos fijos y una inflación controlada asegura que el ingreso de las personas no se vea afectado.' : 'These data reflect economic robustness in Arizona and California. This fiscal stability, uncommon in other markets, offers a secure outlook for the project, allowing for the projection of profit margins and final sales prices without the risk of unforeseen variations. By remaining static, state taxes project a solidity that generates confidence for both the exporter and the final consumer. For the export of mower seats, this scenario is ideal. The combination of fixed taxes and controlled inflation ensures that peoples income is not affected.'}
         tableContent={
           <table className="w-full text-sm text-left text-textSecondary">
             <thead className="bg-surface/50 text-white">
               <tr>
                 <th className="px-4 py-2">{language === 'es' ? 'Año' : 'Year'}</th>
-                <th className="px-4 py-2">{language === 'es' ? 'Tasa' : 'Rate'}</th>
+                <th className="px-4 py-2">Arizona (%)</th>
+                <th className="px-4 py-2">California (%)</th>
               </tr>
             </thead>
             <tbody>
-              {interesData.map(row => (
+              {impuestosData.map(row => (
                 <tr key={row.year} className="border-b border-glassBorder">
                   <td className="px-4 py-2">{row.year}</td>
-                  <td className="px-4 py-2">{row.tasa}%</td>
+                  <td className="px-4 py-2">{row.arizona}%</td>
+                  <td className="px-4 py-2">{row.california}%</td>
                 </tr>
               ))}
             </tbody>
@@ -202,14 +203,17 @@ export const EconomicsCharts = () => {
         }
       >
         <ResponsiveContainer width="100%" height="100%">
-          <LineChart data={interesData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+          <LineChart data={impuestosData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="#ffffff20" />
             <XAxis dataKey="year" stroke="#ffffff80" />
-            <YAxis stroke="#ffffff80" domain={[0, 6]} tickFormatter={(value) => `${value}%`} />
+            <YAxis stroke="#ffffff80" domain={[0, 10]} tickFormatter={(value) => `${value}%`} />
             <Tooltip contentStyle={{ backgroundColor: '#1a1a1a', borderColor: '#ffffff20' }} />
             <Legend />
-            <Line type="monotone" dataKey="tasa" name={language === 'es' ? "Tasa de Interés" : "Interest Rate"}  stroke="#3b82f6" strokeWidth={2} dot={{ r: 4 }}>
-              <LabelList dataKey="tasa" position="top" fill="#ffffff" fontSize={11} formatter={(v: any) => `${v}%`} />
+            <Line type="monotone" dataKey="arizona" name="Arizona"  stroke="#3b82f6" strokeWidth={2} dot={{ r: 4 }}>
+              <LabelList dataKey="arizona" position="top" fill="#ffffff" fontSize={11} formatter={(v: any) => `${v}%`} />
+            </Line>
+            <Line type="monotone" dataKey="california" name="California"  stroke="#f97316" strokeWidth={2} dot={{ r: 4 }}>
+              <LabelList dataKey="california" position="top" fill="#ffffff" fontSize={11} formatter={(v: any) => `${v}%`} />
             </Line>
           </LineChart>
         </ResponsiveContainer>

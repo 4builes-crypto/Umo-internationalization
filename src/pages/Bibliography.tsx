@@ -191,6 +191,27 @@ const referencesContent = [
     title: 'United States Consumer Spending.',
     source: '',
     link: 'https://tradingeconomics.com/united-states/consumer-spending'
+  },
+  {
+    author: 'California Department of Tax and Fee Administration',
+    year: '2025',
+    title: 'History of Statewide Sales and Use Tax Rates.',
+    source: 'State of California',
+    link: 'https://cdtfa.ca.gov/taxes-and-fees/sales-use-tax-rates-history.htm'
+  },
+  {
+    author: 'Arizona Department of Revenue',
+    year: '2025',
+    title: 'Transaction Privilege Tax Rates.',
+    source: 'State of Arizona',
+    link: 'https://azdor.gov/transaction-privilege-tax/tax-rates'
+  },
+  {
+    author: 'Tax Foundation',
+    year: '2025',
+    title: 'State and Local Sales Tax Rates, Midyear 2025.',
+    source: '',
+    link: 'https://taxfoundation.org/data/all/state/sales-tax-rates-midyear-2025/'
   }
 ];
 
