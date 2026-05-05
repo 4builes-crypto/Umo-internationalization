@@ -11,6 +11,11 @@ import { Viability } from './pages/Viability';
 import { SmartObjective } from './pages/SmartObjective';
 import { Economics } from './pages/Economics';
 import { Bibliography as BibliographyPage } from './pages/Bibliography';
+import { SocialCultural } from './pages/SocialCultural';
+import { PoliticalLegal } from './pages/PoliticalLegal';
+import { TechEnvironmental } from './pages/TechEnvironmental';
+import { InternationalTrade } from './pages/InternationalTrade';
+import { ForeignInvestment } from './pages/ForeignInvestment';
 
 function App() {
   // Vite HMR trigger
@@ -26,6 +31,11 @@ function App() {
         <Route path="viability" element={<Viability />} />
         <Route path="smart-objective" element={<SmartObjective />} />
         <Route path="economics" element={<Economics />} />
+        <Route path="social-cultural" element={<SocialCultural />} />
+        <Route path="political-legal" element={<PoliticalLegal />} />
+        <Route path="tech-environmental" element={<TechEnvironmental />} />
+        <Route path="international-trade" element={<InternationalTrade />} />
+        <Route path="foreign-investment" element={<ForeignInvestment />} />
         <Route path="bibliography" element={<BibliographyPage />} />
 
         {/* Catch-all */}

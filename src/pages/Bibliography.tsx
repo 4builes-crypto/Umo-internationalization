@@ -25,20 +25,6 @@ const referencesContent = [
     link: 'https://www.bea.gov/data/gdp/gdp-state'
   },
   {
-    author: 'USAFacts',
-    year: '2026',
-    title: 'What is the gross domestic product (GDP) in California?',
-    source: '',
-    link: 'https://usafacts.org/answers/what-is-the-gross-domestic-product-gdp/state/california/'
-  },
-  {
-    author: 'USAFacts',
-    year: '2026',
-    title: 'What is the gross domestic product (GDP) in Arizona?',
-    source: '',
-    link: 'https://usafacts.org/answers/what-is-the-gross-domestic-product-gdp/state/arizona/'
-  },
-  {
     author: 'Bureau of Labor Statistics',
     year: '2026',
     title: 'Consumer Price Index — March 2026 [Comunicado de prensa].',
@@ -51,20 +37,6 @@ const referencesContent = [
     title: 'Consumer Price Index, West Region — March 2026.',
     source: '',
     link: 'https://www.bls.gov/regions/west/news-release/consumerpriceindex_west.htm'
-  },
-  {
-    author: 'Macrotrends',
-    year: '2026',
-    title: 'U.S. Inflation Rate 1960–2024.',
-    source: '',
-    link: 'https://www.macrotrends.net/global-metrics/countries/usa/united-states/inflation-rate-cpi'
-  },
-  {
-    author: 'Trading Economics',
-    year: '2026',
-    title: 'United States Inflation Rate.',
-    source: '',
-    link: 'https://tradingeconomics.com/united-states/inflation-cpi'
   },
   {
     author: 'U.S. Bureau of Labor Statistics',
@@ -95,20 +67,6 @@ const referencesContent = [
     link: 'https://www.bls.gov/regions/west/news-release/laborunderutilization_arizona.htm'
   },
   {
-    author: 'USAFacts',
-    year: '2026',
-    title: 'What is the unemployment rate in California right now?',
-    source: '',
-    link: 'https://usafacts.org/answers/what-is-the-unemployment-rate/state/california/'
-  },
-  {
-    author: 'USAFacts',
-    year: '2026',
-    title: 'What is the unemployment rate in Arizona right now?',
-    source: '',
-    link: 'https://usafacts.org/answers/what-is-the-unemployment-rate/state/arizona/'
-  },
-  {
     author: 'Federal Reserve Bank of St. Louis',
     year: '2026',
     title: 'Federal Funds Effective Rate [FEDFUNDS].',
@@ -121,34 +79,6 @@ const referencesContent = [
     title: 'Open Market Operations.',
     source: '',
     link: 'https://www.federalreserve.gov/monetarypolicy/openmarket.htm'
-  },
-  {
-    author: 'Statista',
-    year: '2026',
-    title: 'U.S. federal funds effective rate 1954–2024.',
-    source: '',
-    link: 'https://www.statista.com/statistics/187616/effective-rate-of-us-federal-funds-monthly/'
-  },
-  {
-    author: 'Trading Economics',
-    year: '2026',
-    title: 'United States Fed Funds Interest Rate.',
-    source: '',
-    link: 'https://tradingeconomics.com/united-states/interest-rate'
-  },
-  {
-    author: 'Bureau of Economic Analysis',
-    year: '2024',
-    title: 'Personal consumption expenditures by state, 2023 [Comunicado de prensa].',
-    source: 'U.S. Department of Commerce',
-    link: 'https://www.bea.gov/news/2024/personal-consumption-expenditures-state-2023'
-  },
-  {
-    author: 'Bureau of Economic Analysis',
-    year: '2023',
-    title: 'Personal consumption expenditures by state, 2022 [Comunicado de prensa].',
-    source: 'U.S. Department of Commerce',
-    link: 'https://www.bea.gov/news/2023/personal-consumption-expenditures-state-2022'
   },
   {
     author: 'Bureau of Economic Analysis',
@@ -186,13 +116,6 @@ const referencesContent = [
     link: 'https://www.theglobaleconomy.com/USA/household_consumption/'
   },
   {
-    author: 'Trading Economics',
-    year: '2026',
-    title: 'United States Consumer Spending.',
-    source: '',
-    link: 'https://tradingeconomics.com/united-states/consumer-spending'
-  },
-  {
     author: 'California Department of Tax and Fee Administration',
     year: '2025',
     title: 'History of Statewide Sales and Use Tax Rates.',
@@ -222,7 +145,7 @@ export const Bibliography = () => {
     <div className="space-y-8 pb-12">
       <header className="space-y-4">
         <h2 className="text-xl font-bold uppercase tracking-widest text-textSecondary">
-          {language === 'es' ? 'Sección 8' : 'Section 8'}
+          {language === 'es' ? 'Sección 14' : 'Section 14'}
         </h2>
         <h1 className="text-3xl lg:text-4xl font-bold tracking-tight text-white border-b border-glassBorder pb-4 flex items-center gap-3">
           <BookOpen className="w-8 h-8 text-unoOrange" /> {language === 'es' ? 'Bibliografías' : 'Bibliography'}

@@ -46,9 +46,9 @@ export const Sidebar = () => {
               onClick={() => toggleCategory(category.id)}
               className="w-full flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-medium text-textSecondary hover:text-white hover:bg-surfaceHover transition-colors"
             >
-              <div className="flex items-center gap-3">
-                <category.icon className={clsx("w-5 h-5", expandedCategories[category.id] ? "text-unoOrange" : "text-textSecondary")} />
-                {t('nav', category.id)}
+              <div className="flex items-center gap-3 text-left">
+                <category.icon className={clsx("w-5 h-5 shrink-0", expandedCategories[category.id] ? "text-unoOrange" : "text-textSecondary")} />
+                <span className="leading-tight">{t('nav', category.id)}</span>
               </div>
               <ChevronDown 
                 className={clsx(
