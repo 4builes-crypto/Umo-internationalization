@@ -132,13 +132,13 @@ export const TechEnvironmental = () => {
             </p>
             <div className="grid grid-cols-1 gap-4">
               <div className="p-5 bg-zinc-900/80 rounded-xl border-l-4 border-unoOrange glass-card">
-                <h4 className="text-white font-bold text-xs mb-2 tracking-widest uppercase">ARIZONA</h4>
+                <h4 className="text-unoOrange font-bold text-xs mb-2 tracking-widest uppercase">ARIZONA</h4>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es' ? 'Ciclo ininterrumpido de 12 meses. Flotas operan a máxima capacidad constante.' : 'Uninterrupted 12-month cycle. Fleets operate at constant maximum capacity.'}
                 </p>
               </div>
               <div className="p-5 bg-zinc-900/80 rounded-xl border-l-4 border-blue-400 glass-card">
-                <h4 className="text-white font-bold text-xs mb-2 tracking-widest uppercase">CALIFORNIA</h4>
+                <h4 className="text-blue-400 font-bold text-xs mb-2 tracking-widest uppercase">CALIFORNIA</h4>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es' ? 'Estacionalidad mediterránea. Actividad intensiva entre abril y octubre.' : 'Mediterranean seasonality. Intensive activity between April and October.'}
                 </p>
