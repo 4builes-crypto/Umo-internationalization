@@ -89,7 +89,7 @@ export const TechEnvironmental = () => {
             <div className="space-y-4">
               <p className="text-sm text-white font-medium leading-relaxed">
                 {language === 'es'
-                  ? 'Tecnología de poliuretano de alta resiliencia combinada con mallas 3D estructurales.'
+                  ? 'Tecnología de poliuretano de alta resistencia combinada con mallas 3D estructurales.'
                   : 'High-resilience polyurethane technology combined with structural 3D mesh.'}
               </p>
               <div className="space-y-3">
@@ -206,7 +206,7 @@ export const TechEnvironmental = () => {
               <Zap className="absolute top-4 right-4 text-unoOrange w-6 h-6 opacity-30" />
               <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-3">
                 <ShieldCheck className="text-unoOrange w-6 h-6" />
-                {language === 'es' ? 'Resiliencia Activa UMO' : 'UMO Active Resilience'}
+                {language === 'es' ? 'Resistencia Activa UMO' : 'UMO Active Resilience'}
               </h3>
               <p className="text-sm text-textSecondary leading-relaxed mb-6">
                 {language === 'es'
