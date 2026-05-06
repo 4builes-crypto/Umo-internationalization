@@ -9,10 +9,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 
 export const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [expandedCategories, setExpandedCategories] = useState<Record<string, boolean>>({
-    'fase1': true,
-    'referencias': true
-  });
+  const [expandedCategories, setExpandedCategories] = useState<Record<string, boolean>>({});
   
   const { t } = useLanguage();
 
