@@ -42,7 +42,7 @@ export const TechEnvironmental = () => {
                   ? 'El análisis de la interacción física entre el vehículo y el terreno es un factor crítico para determinar la tasa de sustitución de componentes en maquinaria de paisajismo comercial. Las podadoras eléctricas de tipo ride-on, al carecer de sistemas de suspensión independientes complejos, dependen casi en su totalidad de los neumáticos y del diseño del asiento para amortiguar las irregularidades del entorno.'
                   : 'Physical interaction analysis between vehicle and terrain is a critical factor in determining the replacement rate of components in commercial landscaping machinery. Ride-on electric mowers, lacking complex independent suspension systems, rely almost entirely on tires and seat design to dampen environmental irregularities.'}
               </p>
-              <div className="bg-unoOrange/5 border border-unoOrange/10 p-5 rounded-xl flex gap-4 items-start">
+              <div className="bg-unoOrange/5 border border-unoOrange/10 p-6 rounded-xl flex gap-4 items-start mt-8 mb-8">
                 <Info className="text-unoOrange shrink-0 w-5 h-5 mt-0.5" />
                 <p className="text-sm text-white italic leading-relaxed">
                   {language === 'es'
