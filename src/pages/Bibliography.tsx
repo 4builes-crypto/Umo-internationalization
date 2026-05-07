@@ -29,6 +29,39 @@ const referencesBySector = [
         }
       },
       {
+        author: 'Arizona Commerce Authority',
+        year: '2025',
+        title: 'Foreign Direct Investment and International Trade in Arizona.',
+        source: '',
+        link: 'https://www.azcommerce.com/programs/international-trade/',
+        description: {
+          es: 'Análisis de la IED y el comercio internacional en Arizona, destacando el auge de la manufactura avanzada.',
+          en: 'Analysis of FDI and international trade in Arizona, highlighting the boom in advanced manufacturing.'
+        }
+      },
+      {
+        author: 'SelectUSA',
+        year: '2025',
+        title: 'Foreign Direct Investment (FDI): California and Arizona State Profiles.',
+        source: 'U.S. Department of Commerce',
+        link: 'https://www.trade.gov/selectusa-invest-state-profiles',
+        description: {
+          es: 'Perfiles estatales de IED que permiten contrastar el flujo de capital hacia tecnología limpia y manufactura.',
+          en: 'State FDI profiles allowing a contrast of capital flow toward clean technology and manufacturing.'
+        }
+      },
+      {
+        author: 'U.S. Customs and Border Protection (CBP)',
+        year: '2024',
+        title: 'About Foreign-Trade Zones: Benefits and Regulations.',
+        source: 'DHS',
+        link: 'https://www.cbp.gov/border-management/ports-entry/foreign-trade-zones/about',
+        description: {
+          es: 'Guía oficial sobre los beneficios de las FTZ para diferir o reducir el pago de aranceles.',
+          en: 'Official guide on FTZ benefits for deferring or reducing tariff payments.'
+        }
+      },
+      {
         author: 'LegalClarity',
         year: '2026',
         title: 'When does AB 1346 go into effect? Dates and phases.',
@@ -46,8 +79,8 @@ const referencesBySector = [
         source: 'DHS',
         link: 'https://www.cbp.gov/trade/free-trade-agreements/colombia',
         description: {
-          es: 'Documentación oficial sobre el Acuerdo de Promoción Comercial entre EE.UU. y Colombia y sus beneficios arancelarios.',
-          en: 'Official documentation on the U.S.-Colombia Trade Promotion Agreement and its tariff benefits.'
+          es: 'Documentación oficial sobre el Acuerdo de Promoción Comercial entre EE.UU. y Colombia.',
+          en: 'Official documentation on the U.S.-Colombia Trade Promotion Agreement.'
         }
       },
       {
@@ -89,14 +122,25 @@ const referencesBySector = [
     sector: { es: 'Macroeconómico y PIB', en: 'Macroeconomics & GDP' },
     items: [
       {
+        author: 'U.S. Bureau of Economic Analysis (BEA)',
+        year: '2025',
+        title: 'New Foreign Direct Investment in the United States by State.',
+        source: 'U.S. Department of Commerce',
+        link: 'https://www.bea.gov/data/intl-trade-investment/direct-investment-retail',
+        description: {
+          es: 'Estadísticas detalladas sobre la nueva inversión extranjera por estado, clave para identificar clústeres industriales.',
+          en: 'Detailed statistics on new foreign investment by state, key to identifying industrial clusters.'
+        }
+      },
+      {
         author: 'Bureau of Economic Analysis',
         year: '2025',
         title: 'Gross domestic product by state, 2025.',
         source: 'U.S. Department of Commerce',
         link: 'https://www.bea.gov/data/gdp/gdp-state',
         description: {
-          es: 'Datos de crecimiento del PIB en Arizona y California, utilizados para validar la robustez económica de los estados seleccionados.',
-          en: 'GDP growth data for Arizona and California, used to validate the economic robustness of the selected states.'
+          es: 'Datos de crecimiento del PIB en Arizona y California, utilizados para validar la robustez económica.',
+          en: 'GDP growth data for Arizona and California, used to validate economic robustness.'
         }
       },
       {
@@ -106,8 +150,8 @@ const referencesBySector = [
         source: 'U.S. Department of Commerce',
         link: 'https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024',
         description: {
-          es: 'Estadísticas sobre el ingreso personal real, fundamentales para determinar el poder adquisitivo de los clientes potenciales.',
-          en: 'Real personal income statistics, fundamental for determining the purchasing power of potential customers.'
+          es: 'Estadísticas sobre el ingreso personal real, fundamentales para determinar el poder adquisitivo.',
+          en: 'Real personal income statistics, fundamental for determining purchasing power.'
         }
       }
     ]
