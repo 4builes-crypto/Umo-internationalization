@@ -1,4 +1,4 @@
-import { Truck, Settings, ShieldCheck, Box } from 'lucide-react';
+import { Truck, Settings, Box } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export const InternationalTrade = () => {
@@ -134,32 +134,6 @@ export const InternationalTrade = () => {
         </div>
       </section>
 
-      {/* Strategic Summary */}
-      <section className="pt-10">
-        <div className="glass-card p-8 bg-gradient-to-br from-unoOrange/10 to-blue-400/5 border-unoOrange/20 relative overflow-hidden">
-          <ShieldCheck className="absolute -right-4 -bottom-4 w-32 h-32 text-unoOrange/5" />
-          <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
-            <ShieldCheck className="text-unoOrange w-6 h-6" />
-            {language === 'es' ? 'Promedio Final de Viabilidad Comercial' : 'Final Commercial Viability Average'}
-          </h3>
-          <div className="flex gap-8 items-center">
-            <div className="space-y-1">
-              <p className="text-[10px] font-bold text-unoOrange uppercase tracking-widest">ARIZONA</p>
-              <p className="text-3xl font-black text-white">4.7</p>
-            </div>
-            <div className="w-px h-12 bg-glassBorder" />
-            <div className="space-y-1">
-              <p className="text-[10px] font-bold text-blue-400 uppercase tracking-widest">CALIFORNIA</p>
-              <p className="text-3xl font-black text-white">4.0</p>
-            </div>
-            <p className="text-sm text-textSecondary leading-relaxed flex-1 ml-4 hidden md:block">
-              {language === 'es'
-                ? 'Arizona lidera la viabilidad comercial gracias a su agresiva política de FTZ y su integración logística superior bajo el T-MEC.'
-                : 'Arizona leads commercial viability thanks to its aggressive FTZ policy and superior logistical integration under USMCA.'}
-            </p>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
