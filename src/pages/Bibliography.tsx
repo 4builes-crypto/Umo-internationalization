@@ -8,13 +8,68 @@ const referencesBySector = [
     items: [
       {
         author: 'California Air Resources Board (CARB)',
-        year: '2022',
-        title: 'Assembly Bill 1346 Summary: Small Off-Road Engines.',
+        year: '2021',
+        title: 'CARB approves updated regulations requiring most new small off-road engines be zero emission by 2024.',
         source: 'State of California',
-        link: 'https://ww2.arb.ca.gov/2021-assembly-bill-1346',
+        link: 'https://ww2.arb.ca.gov/news/carb-approves-updated-regulations-requiring-most-new-small-road-engines-be-zero-emission-2024',
         description: {
-          es: 'Información sobre la prohibición de motores de combustión interna en equipos de jardinería para 2024, clave para la ventaja competitiva de las podadoras eléctricas.',
-          en: 'Information on the ban of internal combustion engines in landscaping equipment by 2024, key to the competitive advantage of electric mowers.'
+          es: 'Información sobre la prohibición (AB 1346) de motores de combustión interna de hasta 25 HP para 2024, clave para el mercado eléctrico en California.',
+          en: 'Information on the ban (AB 1346) of internal combustion engines up to 25 HP by 2024, key to the electric market in California.'
+        }
+      },
+      {
+        author: 'Arizona Revised Statutes § 49-474.02',
+        year: '2021',
+        title: 'Voluntary lawn and garden equipment emissions reduction program; criteria.',
+        source: 'Justia Law',
+        link: 'https://law.justia.com/codes/arizona/2021/title-49/section-49-474-02/',
+        description: {
+          es: 'Marco legal del programa voluntario de incentivos para la reducción de emisiones en Arizona.',
+          en: 'Legal framework of the voluntary emissions reduction incentive program in Arizona.'
+        }
+      },
+      {
+        author: 'LegalClarity',
+        year: '2026',
+        title: 'When does AB 1346 go into effect? Dates and phases.',
+        source: '',
+        link: 'https://legalclarity.org/when-does-ab-1346-go-into-effect/',
+        description: {
+          es: 'Cronología y fases de implementación de la ley AB 1346 en California.',
+          en: 'Chronology and implementation phases of AB 1346 in California.'
+        }
+      },
+      {
+        author: 'U.S. Customs and Border Protection (CBP)',
+        year: '2012',
+        title: 'Colombia Trade Promotion Agreement (COTPA).',
+        source: 'DHS',
+        link: 'https://www.cbp.gov/trade/free-trade-agreements/colombia',
+        description: {
+          es: 'Documentación oficial sobre el Acuerdo de Promoción Comercial entre EE.UU. y Colombia y sus beneficios arancelarios.',
+          en: 'Official documentation on the U.S.-Colombia Trade Promotion Agreement and its tariff benefits.'
+        }
+      },
+      {
+        author: 'Office of the United States Trade Representative (USTR)',
+        year: '2012',
+        title: 'Overview of the U.S.-Colombia Trade Agreement.',
+        source: 'Executive Office of the President',
+        link: 'https://ustr.gov/uscolombiatpa/facts',
+        description: {
+          es: 'Resumen ejecutivo de los compromisos y desgravaciones arancelarias bajo el TPA.',
+          en: 'Executive summary of commitments and tariff reductions under the TPA.'
+        }
+      },
+      {
+        author: 'Yale Review of International Studies',
+        year: '2025',
+        title: 'The impact of US tariffs and deportation on Colombia.',
+        source: 'Yale University',
+        link: 'https://yris.yira.org/column/the-impact-of-us-tariffs-and-deportation-on-colombia/',
+        description: {
+          es: 'Análisis de la disputa diplomática y la amenaza de aranceles del 25% a bienes colombianos en 2025.',
+          en: 'Analysis of the diplomatic dispute and the threat of 25% tariffs on Colombian goods in 2025.'
         }
       },
       {
@@ -72,14 +127,47 @@ const referencesBySector = [
         }
       },
       {
-        author: 'Bureau of Labor Statistics',
-        year: '2026',
-        title: 'Consumer Price Index — March 2026.',
-        source: 'U.S. Department of Labor',
-        link: 'https://www.bls.gov/news.release/cpi.htm',
+        author: 'California Department of Industrial Relations (DIR)',
+        year: 's.f.',
+        title: 'California Code of Regulations, Title 8, Section 5110 — Repetitive Motion Injuries.',
+        source: 'State of California',
+        link: 'https://www.dir.ca.gov/title8/5110.html',
         description: {
-          es: 'Datos de inflación (IPC) para entender el incremento en el costo de vida y su impacto en el consumo de bienes no esenciales.',
-          en: 'Inflation data (CPI) to understand the increase in the cost of living and its impact on the consumption of non-essential goods.'
+          es: 'Regulación ergonómica de California que obliga a implementar controles para reducir riesgos por vibración (WBV).',
+          en: 'California ergonomic regulation requiring controls to reduce vibration risks (WBV).'
+        }
+      },
+      {
+        author: 'Safe At Work California',
+        year: '2020',
+        title: "California's Ergonomics Standard.",
+        source: 'State Compensation Insurance Fund',
+        link: 'https://www.safeatworkca.com/safety-articles/californias-ergonomics-standard/',
+        description: {
+          es: 'Análisis del estándar ergonómico de California y su diferenciación frente al marco federal.',
+          en: 'Analysis of the California ergonomic standard and its differentiation from the federal framework.'
+        }
+      },
+      {
+        author: 'J.J. Keller & Associates',
+        year: '2024',
+        title: 'Protecting workers with an ergonomics program.',
+        source: '',
+        link: 'https://www.jjkellersafety.com/resources/articles/2024/protecting-workers-with-an-ergonomics-program',
+        description: {
+          es: 'Mejores prácticas para programas ergonómicos bajo la cláusula de deber general de OSHA federal.',
+          en: 'Best practices for ergonomic programs under the federal OSHA general duty clause.'
+        }
+      },
+      {
+        author: 'Occupational Safety and Health Administration (OSHA)',
+        year: 's.f.',
+        title: 'OSHA Field Safety and Health Management System Manual Chapter 20: Ergonomics.',
+        source: 'U.S. Department of Labor',
+        link: 'https://www.osha.gov/shms/chapter-20',
+        description: {
+          es: 'Manual federal de OSHA sobre ergonomía y gestión de riesgos en el lugar de trabajo.',
+          en: 'Federal OSHA manual on ergonomics and workplace risk management.'
         }
       },
       {
@@ -89,8 +177,8 @@ const referencesBySector = [
         source: 'Journal of Mechanical Engineering and Sciences',
         link: 'https://doi.org/10.15282/jmes.7.2014.7.0105',
         description: {
-          es: 'Estudio técnico sobre los riesgos a la salud por vibración y ruido en maquinaria de jardinería, sustentando la necesidad de asientos con amortiguación avanzada.',
-          en: 'Technical study on health risks from vibration and noise in landscaping machinery, supporting the need for seats with advanced damping.'
+          es: 'Estudio técnico sobre los riesgos a la salud por vibración y ruido en maquinaria de jardinería.',
+          en: 'Technical study on health risks from vibration and noise in landscaping machinery.'
         }
       }
     ]
@@ -119,71 +207,6 @@ const referencesBySector = [
           es: 'Datos históricos de temperatura y radiación UV, fundamentales para sustentar la ventaja de disipación térmica de la tecnología UMO.',
           en: 'Historical temperature and UV radiation data, fundamental to support the thermal dissipation advantage of UMO technology.'
         }
-      },
-      {
-        author: 'Arizona Cooperative Extension',
-        year: '2021',
-        title: 'Turfgrass maintenance guide for commercial and residential lawns.',
-        source: 'University of Arizona',
-        link: 'https://extension.arizona.edu/publication/turfgrass-maintenance-guide-residential-and-commercial-lawns-low-elevation-arizona',
-        description: {
-          es: 'Guía de mantenimiento de césped que confirma el ciclo operativo de 12 meses en Arizona, validando la alta demanda de reposición.',
-          en: 'Turf maintenance guide confirming the 12-month operating cycle in Arizona, validating high replacement demand.'
-        }
-      },
-      {
-        author: 'University of California Agriculture and Natural Resources',
-        year: '2023',
-        title: 'Mowing and grasscycling guidelines for California landscapes.',
-        source: 'UC ANR',
-        link: 'https://ucanr.edu/site/landscape-lush/mowing-and-grasscycling',
-        description: {
-          es: 'Directrices de corte en California que muestran la estacionalidad del servicio, permitiendo contrastar el desgaste operativo con Arizona.',
-          en: 'Mowing guidelines in California showing service seasonality, allowing for a contrast in operational wear with Arizona.'
-        }
-      }
-    ]
-  },
-  {
-    sector: { es: 'Política Monetaria', en: 'Monetary Policy' },
-    items: [
-      {
-        author: 'Federal Reserve Bank of St. Louis',
-        year: '2026',
-        title: 'Federal Funds Effective Rate [FEDFUNDS].',
-        source: 'FRED',
-        link: 'https://fred.stlouisfed.org/series/FEDFUNDS',
-        description: {
-          es: 'Tasas de interés de la Reserva Federal, críticas para proyectar costos de financiamiento y comportamiento del crédito.',
-          en: 'Federal Reserve interest rates, critical for projecting financing costs and credit behavior.'
-        }
-      }
-    ]
-  },
-  {
-    sector: { es: 'Consumo y Gastos', en: 'Consumption & Spending' },
-    items: [
-      {
-        author: 'Bureau of Economic Analysis',
-        year: '2025',
-        title: 'Per Capita Personal Consumption Expenditures.',
-        source: 'FRED',
-        link: 'https://fred.stlouisfed.org/series/CAPCEPC',
-        description: {
-          es: 'Gasto per cápita detallado por estado, permitiendo identificar la disposición al gasto en servicios y bienes duraderos.',
-          en: 'Detailed per capita spending by state, allowing for the identification of willingness to spend on services and durable goods.'
-        }
-      },
-      {
-        author: 'TheGlobalEconomy.com',
-        year: '2026',
-        title: 'USA: Household consumption, percent of GDP.',
-        source: 'World Bank Data',
-        link: 'https://www.theglobaleconomy.com/USA/household_consumption/',
-        description: {
-          es: 'Proporción del consumo de los hogares respecto al PIB nacional para contextualizar la economía basada en el consumo.',
-          en: 'Household consumption as a percentage of national GDP to contextualize the consumption-based economy.'
-        }
       }
     ]
   },
@@ -191,14 +214,47 @@ const referencesBySector = [
     sector: { es: 'Fiscal y Tributario', en: 'Fiscal & Tax' },
     items: [
       {
-        author: 'Tax Foundation / State Depts of Revenue',
-        year: '2025',
-        title: 'Sales and Use Tax Rates (CA & AZ).',
-        source: '',
-        link: 'https://taxfoundation.org/data/all/state/sales-tax-rates-midyear-2025/',
+        author: 'Tax Foundation',
+        year: '2026',
+        title: 'Tariff Tracker: 2026 Trump Tariffs & Trade War by the Numbers.',
+        source: 'Tax Foundation Research',
+        link: 'https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/',
         description: {
-          es: 'Tasas impositivas estatales y locales aplicables a la venta de podadoras, esenciales para el cálculo del precio final al consumidor.',
-          en: 'State and local tax rates applicable to the sale of mowers, essential for calculating the final consumer price.'
+          es: 'Seguimiento detallado de los aranceles impuestos en 2026 y la anulación judicial de los aranceles IEEPA.',
+          en: 'Detailed tracking of tariffs imposed in 2026 and the judicial annulment of IEEPA tariffs.'
+        }
+      },
+      {
+        author: 'Tariffstool',
+        year: '2026',
+        title: 'Section 122 tariff rates — 10% global rate (2026).',
+        source: '',
+        link: 'https://www.tariffstool.com/guides/section-122-tariff-rates-2026',
+        description: {
+          es: 'Guía sobre la aplicación del arancel global del 10% bajo la Sección 122 del Trade Act de 1974.',
+          en: 'Guide on the application of the 10% global tariff under Section 122 of the Trade Act of 1974.'
+        }
+      },
+      {
+        author: 'Grant Thornton',
+        year: '2026',
+        title: "The Trump administration's new tariff road map.",
+        source: 'GT Alerts',
+        link: 'https://www.grantthornton.com/insights/alerts/tax/2026/insights/the-trump-administration-new-tariff-road-map',
+        description: {
+          es: 'Análisis de la estrategia arancelaria y el uso de la Sección 122 como puente hacia la Sección 301.',
+          en: 'Analysis of the tariff strategy and the use of Section 122 as a bridge toward Section 301.'
+        }
+      },
+      {
+        author: 'ArentFox Schiff',
+        year: '2026',
+        title: 'New tariffs to replace IEEPA: USTR initiates sweeping Section 301 investigations.',
+        source: '',
+        link: 'https://www.afslaw.com/perspectives/customs-import-compliance-blog/new-tariffs-replace-ieepa-ustr-initiates-sweeping',
+        description: {
+          es: 'Información sobre las investigaciones de la Sección 301 contra 60 países, incluido Colombia, por temas laborales.',
+          en: 'Information on Section 301 investigations against 60 countries, including Colombia, for labor issues.'
         }
       }
     ]
@@ -229,7 +285,8 @@ export const Bibliography = () => {
           <motion.div 
             key={sIdx}
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
             transition={{ delay: sIdx * 0.1 }}
             className="space-y-4"
           >
