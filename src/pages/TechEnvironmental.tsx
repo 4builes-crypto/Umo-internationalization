@@ -60,9 +60,9 @@ export const TechEnvironmental = () => {
                     ? 'El área metropolitana presenta caliche en el subsuelo, una capa cementada con dureza equivalente a la del hormigón (NRCS, 2024).'
                     : 'The metropolitan area features caliche in the subsoil, a cemented layer with hardness equivalent to concrete (NRCS, 2024).'}
                 </p>
-                <p className="text-xs text-unoOrange/80 mt-3 font-bold uppercase">
-                  {language === 'es' ? '→ Precipita el colapso de materiales.' : '→ Precipitates material collapse.'}
-                </p>
+                <div className="mt-3 flex items-center gap-2">
+                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded">Score: 5.0</span>
+                </div>
               </div>
               <div className="glass-card p-6 border-zinc-800 hover:border-blue-400/30 transition-colors">
                 <h4 className="text-blue-400 font-bold mb-3 tracking-widest uppercase text-xs">CALIFORNIA</h4>
@@ -71,6 +71,9 @@ export const TechEnvironmental = () => {
                     ? 'Suelos aluviales más profundos, blandos y porosos (NRCS, 2024). El impacto por rigidez vertical es significativamente menor.'
                     : 'Deeper, softer, and more porous alluvial soils (NRCS, 2024). Vertical stiffness impact is significantly lower.'}
                 </p>
+                <div className="mt-3 flex items-center gap-2">
+                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded">Score: 3.5</span>
+                </div>
               </div>
             </div>
           </div>
@@ -132,13 +135,19 @@ export const TechEnvironmental = () => {
             </p>
             <div className="grid grid-cols-1 gap-4">
               <div className="p-5 bg-zinc-900/80 rounded-xl border-l-4 border-unoOrange glass-card">
-                <h4 className="text-unoOrange font-bold text-xs mb-2 tracking-widest uppercase">ARIZONA</h4>
+                <div className="flex justify-between items-start mb-2">
+                  <h4 className="text-unoOrange font-bold text-xs tracking-widest uppercase">ARIZONA</h4>
+                  <span className="text-[10px] font-bold text-white px-1.5 py-0.5 bg-unoOrange/40 rounded">5.0</span>
+                </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es' ? 'Ciclo ininterrumpido de 12 meses. Flotas operan a máxima capacidad constante.' : 'Uninterrupted 12-month cycle. Fleets operate at constant maximum capacity.'}
                 </p>
               </div>
               <div className="p-5 bg-zinc-900/80 rounded-xl border-l-4 border-blue-400 glass-card">
-                <h4 className="text-blue-400 font-bold text-xs mb-2 tracking-widest uppercase">CALIFORNIA</h4>
+                <div className="flex justify-between items-start mb-2">
+                  <h4 className="text-blue-400 font-bold text-xs tracking-widest uppercase">CALIFORNIA</h4>
+                  <span className="text-[10px] font-bold text-white px-1.5 py-0.5 bg-blue-400/40 rounded">3.0</span>
+                </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es' ? 'Estacionalidad mediterránea. Actividad intensiva entre abril y octubre.' : 'Mediterranean seasonality. Intensive activity between April and October.'}
                 </p>
@@ -192,11 +201,17 @@ export const TechEnvironmental = () => {
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div>
-                  <span className="text-unoOrange font-bold text-xs uppercase tracking-widest mb-1 block">ARIZONA:</span>
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="text-unoOrange font-bold text-xs uppercase tracking-widest">ARIZONA:</span>
+                    <span className="text-[10px] font-bold text-white px-1.5 py-0.5 bg-unoOrange/40 rounded">5.0</span>
+                  </div>
                   <p className="text-sm text-textSecondary">Extremo (+100 días &gt; 38°C) con UV severo.</p>
                 </div>
                 <div>
-                  <span className="text-blue-400 font-bold text-xs uppercase tracking-widest mb-1 block">CALIFORNIA:</span>
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="text-blue-400 font-bold text-xs uppercase tracking-widest">CALIFORNIA:</span>
+                    <span className="text-[10px] font-bold text-white px-1.5 py-0.5 bg-blue-400/40 rounded">3.5</span>
+                  </div>
                   <p className="text-sm text-textSecondary">Insolación y UV en rangos moderados.</p>
                 </div>
               </div>
@@ -219,6 +234,34 @@ export const TechEnvironmental = () => {
                     ? '"Mientras la competencia se quiebra bajo el sol de Phoenix, UMO resiste el impacto UV sin perder flexibilidad."'
                     : '"While competition cracks under the Phoenix sun, UMO resists UV impact without losing flexibility."'}
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Resumen Final de Viabilidad */}
+      <section className="pt-8 border-t border-glassBorder">
+        <div className="glass-card p-8 bg-gradient-to-r from-unoOrange/10 to-transparent border-unoOrange/30">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-8">
+            <div className="space-y-2">
+              <h3 className="text-2xl font-bold text-white">
+                {language === 'es' ? 'Promedio Final de Viabilidad' : 'Final Viability Average'}
+              </h3>
+              <p className="text-textSecondary text-sm">
+                {language === 'es' 
+                  ? 'Consolidado del análisis tecnológico y geoambiental para ambos mercados.' 
+                  : 'Consolidated tech and environmental analysis for both markets.'}
+              </p>
+            </div>
+            <div className="flex gap-4">
+              <div className="text-center px-8 py-4 bg-zinc-900/80 rounded-2xl border border-unoOrange/50">
+                <p className="text-[10px] font-bold text-unoOrange uppercase tracking-widest mb-1">ARIZONA</p>
+                <p className="text-4xl font-black text-white">5.0</p>
+              </div>
+              <div className="text-center px-8 py-4 bg-zinc-900/80 rounded-2xl border border-blue-400/50">
+                <p className="text-[10px] font-bold text-blue-400 uppercase tracking-widest mb-1">CALIFORNIA</p>
+                <p className="text-4xl font-black text-white">3.3</p>
               </div>
             </div>
           </div>
