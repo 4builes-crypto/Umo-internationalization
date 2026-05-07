@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Scale, FileText, HandCoins, ShieldCheck, Zap, Info, ArrowRight, Gavel, AlertTriangle } from 'lucide-react';
+import { Scale, HandCoins, ShieldCheck, Zap, Info, ArrowRight, Gavel, AlertTriangle } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export const PoliticalLegal = () => {
