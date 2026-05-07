@@ -7,14 +7,47 @@ const referencesBySector = [
     sector: { es: 'Regulaciones y Mercado', en: 'Regulations & Market' },
     items: [
       {
+        author: 'California Legislative Information',
+        year: '2023',
+        title: 'AB-1572 Potable water: nonfunctional turf.',
+        source: 'California State Assembly',
+        link: 'https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB1572',
+        description: {
+          es: 'Regulación que limita el uso de agua potable para riego de césped no funcional, impulsando el cambio hacia jardines sostenibles.',
+          en: 'Regulation limiting the use of potable water for non-functional turf irrigation, driving a shift toward sustainable gardens.'
+        }
+      },
+      {
+        author: 'Metropolitan Water District of Orange County',
+        year: '2025',
+        title: 'Nonfunctional turf: What to know (Assembly Bill AB 1572).',
+        source: 'MWDOC',
+        link: 'https://www.mwdoc.com/your-water/nonfunctionalturf/',
+        description: {
+          es: 'Guía informativa sobre la prohibición del césped no funcional en áreas comerciales e industriales.',
+          en: 'Informative guide on the ban of non-functional turf in commercial and industrial areas.'
+        }
+      },
+      {
+        author: 'U.S. Census Bureau',
+        year: '2025',
+        title: 'QuickFacts: Arizona and California State Profiles.',
+        source: 'U.S. Department of Commerce',
+        link: 'https://www.census.gov/quickfacts/fact/table/AZ,CA/PST045224',
+        description: {
+          es: 'Datos demográficos actualizados sobre población hispana, multiculturalidad e idiomas hablados en casa.',
+          en: 'Updated demographic data on Hispanic population, multiculturalism, and languages spoken at home.'
+        }
+      },
+      {
         author: 'California Air Resources Board (CARB)',
         year: '2021',
         title: 'CARB approves updated regulations requiring most new small off-road engines be zero emission by 2024.',
         source: 'State of California',
         link: 'https://ww2.arb.ca.gov/news/carb-approves-updated-regulations-requiring-most-new-small-road-engines-be-zero-emission-2024',
         description: {
-          es: 'Información sobre la prohibición (AB 1346) de motores de combustión interna de hasta 25 HP para 2024, clave para el mercado eléctrico en California.',
-          en: 'Information on the ban (AB 1346) of internal combustion engines up to 25 HP by 2024, key to the electric market in California.'
+          es: 'Información sobre la prohibición (AB 1346) de motores de combustión interna de hasta 25 HP para 2024.',
+          en: 'Information on the ban (AB 1346) of internal combustion engines up to 25 HP by 2024.'
         }
       },
       {
@@ -35,8 +68,8 @@ const referencesBySector = [
         source: '',
         link: 'https://www.azcommerce.com/programs/international-trade/',
         description: {
-          es: 'Análisis de la IED y el comercio internacional en Arizona, destacando el auge de la manufactura avanzada.',
-          en: 'Analysis of FDI and international trade in Arizona, highlighting the boom in advanced manufacturing.'
+          es: 'Análisis de la IED y el comercio internacional en Arizona.',
+          en: 'Analysis of FDI and international trade in Arizona.'
         }
       },
       {
@@ -46,8 +79,8 @@ const referencesBySector = [
         source: 'U.S. Department of Commerce',
         link: 'https://www.trade.gov/selectusa-invest-state-profiles',
         description: {
-          es: 'Perfiles estatales de IED que permiten contrastar el flujo de capital hacia tecnología limpia y manufactura.',
-          en: 'State FDI profiles allowing a contrast of capital flow toward clean technology and manufacturing.'
+          es: 'Perfiles estatales de IED que permiten contrastar el flujo de capital hacia tecnología limpia.',
+          en: 'State FDI profiles allowing a contrast of capital flow toward clean technology.'
         }
       },
       {
@@ -57,8 +90,8 @@ const referencesBySector = [
         source: 'DHS',
         link: 'https://www.cbp.gov/border-management/ports-entry/foreign-trade-zones/about',
         description: {
-          es: 'Guía oficial sobre los beneficios de las FTZ para diferir o reducir el pago de aranceles.',
-          en: 'Official guide on FTZ benefits for deferring or reducing tariff payments.'
+          es: 'Guía oficial sobre los beneficios de las FTZ.',
+          en: 'Official guide on FTZ benefits.'
         }
       },
       {
@@ -70,50 +103,6 @@ const referencesBySector = [
         description: {
           es: 'Cronología y fases de implementación de la ley AB 1346 en California.',
           en: 'Chronology and implementation phases of AB 1346 in California.'
-        }
-      },
-      {
-        author: 'U.S. Customs and Border Protection (CBP)',
-        year: '2012',
-        title: 'Colombia Trade Promotion Agreement (COTPA).',
-        source: 'DHS',
-        link: 'https://www.cbp.gov/trade/free-trade-agreements/colombia',
-        description: {
-          es: 'Documentación oficial sobre el Acuerdo de Promoción Comercial entre EE.UU. y Colombia.',
-          en: 'Official documentation on the U.S.-Colombia Trade Promotion Agreement.'
-        }
-      },
-      {
-        author: 'Office of the United States Trade Representative (USTR)',
-        year: '2012',
-        title: 'Overview of the U.S.-Colombia Trade Agreement.',
-        source: 'Executive Office of the President',
-        link: 'https://ustr.gov/uscolombiatpa/facts',
-        description: {
-          es: 'Resumen ejecutivo de los compromisos y desgravaciones arancelarias bajo el TPA.',
-          en: 'Executive summary of commitments and tariff reductions under the TPA.'
-        }
-      },
-      {
-        author: 'Yale Review of International Studies',
-        year: '2025',
-        title: 'The impact of US tariffs and deportation on Colombia.',
-        source: 'Yale University',
-        link: 'https://yris.yira.org/column/the-impact-of-us-tariffs-and-deportation-on-colombia/',
-        description: {
-          es: 'Análisis de la disputa diplomática y la amenaza de aranceles del 25% a bienes colombianos en 2025.',
-          en: 'Analysis of the diplomatic dispute and the threat of 25% tariffs on Colombian goods in 2025.'
-        }
-      },
-      {
-        author: 'Mordor Intelligence',
-        year: '2026',
-        title: 'US Lawn Mowers Market Size & Share Outlook to 2031.',
-        source: '',
-        link: 'https://mordorintelligence.com/industry-reports/united-states-lawn-mowers-market',
-        description: {
-          es: 'Proyecciones de crecimiento del mercado de podadoras en EE.UU. y análisis de la transición hacia equipos eléctricos.',
-          en: 'U.S. mower market growth projections and analysis of the transition toward electric equipment.'
         }
       }
     ]
@@ -128,8 +117,8 @@ const referencesBySector = [
         source: 'U.S. Department of Commerce',
         link: 'https://www.bea.gov/data/intl-trade-investment/direct-investment-retail',
         description: {
-          es: 'Estadísticas detalladas sobre la nueva inversión extranjera por estado, clave para identificar clústeres industriales.',
-          en: 'Detailed statistics on new foreign investment by state, key to identifying industrial clusters.'
+          es: 'Estadísticas detalladas sobre la nueva inversión extranjera por estado.',
+          en: 'Detailed statistics on new foreign investment by state.'
         }
       },
       {
@@ -139,19 +128,8 @@ const referencesBySector = [
         source: 'U.S. Department of Commerce',
         link: 'https://www.bea.gov/data/gdp/gdp-state',
         description: {
-          es: 'Datos de crecimiento del PIB en Arizona y California, utilizados para validar la robustez económica.',
-          en: 'GDP growth data for Arizona and California, used to validate economic robustness.'
-        }
-      },
-      {
-        author: 'Bureau of Economic Analysis',
-        year: '2026',
-        title: 'Real personal income by state, 2024.',
-        source: 'U.S. Department of Commerce',
-        link: 'https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024',
-        description: {
-          es: 'Estadísticas sobre el ingreso personal real, fundamentales para determinar el poder adquisitivo.',
-          en: 'Real personal income statistics, fundamental for determining purchasing power.'
+          es: 'Datos de crecimiento del PIB en Arizona y California.',
+          en: 'GDP growth data for Arizona and California.'
         }
       }
     ]
@@ -166,8 +144,8 @@ const referencesBySector = [
         source: 'FRED',
         link: 'https://fred.stlouisfed.org/series/CAUR',
         description: {
-          es: 'Tasas de desempleo actualizadas, usadas para analizar la estabilidad del mercado laboral regional.',
-          en: 'Updated unemployment rates, used to analyze the stability of the regional labor market.'
+          es: 'Tasas de desempleo actualizadas.',
+          en: 'Updated unemployment rates.'
         }
       },
       {
@@ -177,52 +155,8 @@ const referencesBySector = [
         source: 'State of California',
         link: 'https://www.dir.ca.gov/title8/5110.html',
         description: {
-          es: 'Regulación ergonómica de California que obliga a implementar controles para reducir riesgos por vibración (WBV).',
-          en: 'California ergonomic regulation requiring controls to reduce vibration risks (WBV).'
-        }
-      },
-      {
-        author: 'Safe At Work California',
-        year: '2020',
-        title: "California's Ergonomics Standard.",
-        source: 'State Compensation Insurance Fund',
-        link: 'https://www.safeatworkca.com/safety-articles/californias-ergonomics-standard/',
-        description: {
-          es: 'Análisis del estándar ergonómico de California y su diferenciación frente al marco federal.',
-          en: 'Analysis of the California ergonomic standard and its differentiation from the federal framework.'
-        }
-      },
-      {
-        author: 'J.J. Keller & Associates',
-        year: '2024',
-        title: 'Protecting workers with an ergonomics program.',
-        source: '',
-        link: 'https://www.jjkellersafety.com/resources/articles/2024/protecting-workers-with-an-ergonomics-program',
-        description: {
-          es: 'Mejores prácticas para programas ergonómicos bajo la cláusula de deber general de OSHA federal.',
-          en: 'Best practices for ergonomic programs under the federal OSHA general duty clause.'
-        }
-      },
-      {
-        author: 'Occupational Safety and Health Administration (OSHA)',
-        year: 's.f.',
-        title: 'OSHA Field Safety and Health Management System Manual Chapter 20: Ergonomics.',
-        source: 'U.S. Department of Labor',
-        link: 'https://www.osha.gov/shms/chapter-20',
-        description: {
-          es: 'Manual federal de OSHA sobre ergonomía y gestión de riesgos en el lugar de trabajo.',
-          en: 'Federal OSHA manual on ergonomics and workplace risk management.'
-        }
-      },
-      {
-        author: 'Muzammil, M., Khan, A. A., y Hasan, F.',
-        year: '2014',
-        title: 'Vibration and noise caused by lawn maintenance machines in association with risk to health.',
-        source: 'Journal of Mechanical Engineering and Sciences',
-        link: 'https://doi.org/10.15282/jmes.7.2014.7.0105',
-        description: {
-          es: 'Estudio técnico sobre los riesgos a la salud por vibración y ruido en maquinaria de jardinería.',
-          en: 'Technical study on health risks from vibration and noise in landscaping machinery.'
+          es: 'Regulación ergonómica de California sobre riesgos por vibración (WBV).',
+          en: 'California ergonomic regulation on vibration risks (WBV).'
         }
       }
     ]
@@ -231,14 +165,25 @@ const referencesBySector = [
     sector: { es: 'Geoambiental y Terreno', en: 'Geoenvironmental & Terrain' },
     items: [
       {
+        author: 'Arizona Department of Water Resources',
+        year: 's.f.',
+        title: 'Landscaping: Water conservation and drought-resistant plants.',
+        source: 'State of Arizona',
+        link: 'https://www.azwater.gov/conservation/landscaping',
+        description: {
+          es: 'Guía de paisajismo en Arizona que promueve plantas resistentes a la sequía, impactando el uso de podadoras.',
+          en: 'Arizona landscaping guide promoting drought-resistant plants, impacting mower use.'
+        }
+      },
+      {
         author: 'Natural Resources Conservation Service',
         year: '2024',
         title: 'Web soil survey: Sacramento County and Maricopa County.',
         source: 'USDA',
         link: 'https://websoilsurvey.nrcs.usda.gov/',
         description: {
-          es: 'Análisis de la composición del suelo (caliche en Arizona vs aluvial en California) para determinar el estrés mecánico en la maquinaria.',
-          en: 'Analysis of soil composition (caliche in Arizona vs alluvial in California) to determine mechanical stress on machinery.'
+          es: 'Análisis de la composición del suelo para determinar el estrés mecánico.',
+          en: 'Analysis of soil composition to determine mechanical stress.'
         }
       },
       {
@@ -248,8 +193,8 @@ const referencesBySector = [
         source: 'U.S. Department of Commerce',
         link: 'https://www.ncei.noaa.gov/cdo-web/',
         description: {
-          es: 'Datos históricos de temperatura y radiación UV, fundamentales para sustentar la ventaja de disipación térmica de la tecnología UMO.',
-          en: 'Historical temperature and UV radiation data, fundamental to support the thermal dissipation advantage of UMO technology.'
+          es: 'Datos históricos de temperatura y radiación UV.',
+          en: 'Historical temperature and UV radiation data.'
         }
       }
     ]
@@ -264,41 +209,8 @@ const referencesBySector = [
         source: 'Tax Foundation Research',
         link: 'https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/',
         description: {
-          es: 'Seguimiento detallado de los aranceles impuestos en 2026 y la anulación judicial de los aranceles IEEPA.',
-          en: 'Detailed tracking of tariffs imposed in 2026 and the judicial annulment of IEEPA tariffs.'
-        }
-      },
-      {
-        author: 'Tariffstool',
-        year: '2026',
-        title: 'Section 122 tariff rates — 10% global rate (2026).',
-        source: '',
-        link: 'https://www.tariffstool.com/guides/section-122-tariff-rates-2026',
-        description: {
-          es: 'Guía sobre la aplicación del arancel global del 10% bajo la Sección 122 del Trade Act de 1974.',
-          en: 'Guide on the application of the 10% global tariff under Section 122 of the Trade Act of 1974.'
-        }
-      },
-      {
-        author: 'Grant Thornton',
-        year: '2026',
-        title: "The Trump administration's new tariff road map.",
-        source: 'GT Alerts',
-        link: 'https://www.grantthornton.com/insights/alerts/tax/2026/insights/the-trump-administration-new-tariff-road-map',
-        description: {
-          es: 'Análisis de la estrategia arancelaria y el uso de la Sección 122 como puente hacia la Sección 301.',
-          en: 'Analysis of the tariff strategy and the use of Section 122 as a bridge toward Section 301.'
-        }
-      },
-      {
-        author: 'ArentFox Schiff',
-        year: '2026',
-        title: 'New tariffs to replace IEEPA: USTR initiates sweeping Section 301 investigations.',
-        source: '',
-        link: 'https://www.afslaw.com/perspectives/customs-import-compliance-blog/new-tariffs-replace-ieepa-ustr-initiates-sweeping',
-        description: {
-          es: 'Información sobre las investigaciones de la Sección 301 contra 60 países, incluido Colombia, por temas laborales.',
-          en: 'Information on Section 301 investigations against 60 countries, including Colombia, for labor issues.'
+          es: 'Seguimiento detallado de los aranceles impuestos en 2026.',
+          en: 'Detailed tracking of tariffs imposed in 2026.'
         }
       }
     ]
