@@ -1,4 +1,4 @@
-import { Globe, Truck, Settings, TrendingUp, Anchor, AlertTriangle, ShieldCheck, Box } from 'lucide-react';
+import { Truck, Settings, ShieldCheck, Box } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export const InternationalTrade = () => {
@@ -20,128 +20,116 @@ export const InternationalTrade = () => {
         </p>
       </header>
 
-      {/* Arizona Analysis */}
+      {/* 1. Volumen y Especialización en Maquinaria */}
       <section className="space-y-6">
         <div className="flex items-center gap-3 border-l-4 border-unoOrange pl-4 py-1">
           <div className="w-10 h-10 rounded-xl bg-unoOrange/20 flex items-center justify-center text-unoOrange">
-            <Globe className="w-5 h-5" />
+            <Settings className="w-5 h-5" />
           </div>
-          <h2 className="text-xl font-bold text-white uppercase tracking-wider">Arizona</h2>
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider">
+            {language === 'es' ? '1. Volumen y Especialización en Maquinaria' : '1. Volume & Machinery Specialization'}
+          </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="glass-card p-6 border-zinc-800 hover:border-unoOrange/30 transition-all group">
-            <Truck className="w-8 h-8 text-unoOrange mb-4 opacity-70 group-hover:opacity-100 transition-opacity" />
-            <h3 className="text-white font-bold mb-3">
-              {language === 'es' ? '1. Relación T-MEC y Presión Competitiva' : '1. USMCA Relation & Competitive Pressure'}
-            </h3>
+            <div className="flex justify-between items-start mb-4">
+              <h4 className="text-unoOrange font-bold text-xs tracking-widest uppercase">ARIZONA</h4>
+              <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 4.0</span>
+            </div>
             <p className="text-sm text-textSecondary leading-relaxed mb-4">
               {language === 'es' 
-                ? 'Alta dependencia de México. La proximidad fronteriza permite abastecimiento inmediato y bajos costos logísticos regionales.' 
-                : 'High dependency on Mexico. Border proximity allows immediate supply and low regional logistical costs.'}
+                ? 'Flujo constante de importaciones vinculado a mantenimiento urbano y landscaping. El incremento del parque de maquinaria genera una demanda sostenida de repuestos ergonómicos.' 
+                : 'Constant import flow linked to urban maintenance and landscaping. The increase in machinery park generates sustained demand for ergonomic spares.'}
             </p>
-            <div className="p-3 bg-unoOrange/5 rounded-lg border border-unoOrange/10">
-              <p className="text-xs text-white italic">
-                {language === 'es' ? 'Oportunidad: Diferenciación técnica por encima del precio.' : 'Opportunity: Technical differentiation over price.'}
-              </p>
-            </div>
           </div>
 
-          <div className="glass-card p-6 border-zinc-800 hover:border-unoOrange/30 transition-all group">
-            <Settings className="w-8 h-8 text-unoOrange mb-4 opacity-70 group-hover:opacity-100 transition-opacity" />
-            <h3 className="text-white font-bold mb-3">
-              {language === 'es' ? '2. Importación de Maquinaria y Aftermarket' : '2. Machinery Imports & Aftermarket'}
-            </h3>
+          <div className="glass-card p-6 border-zinc-800 hover:border-blue-400/30 transition-all group">
+            <div className="flex justify-between items-start mb-4">
+              <h4 className="text-blue-400 font-bold text-xs tracking-widest uppercase">CALIFORNIA</h4>
+              <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 5.0</span>
+            </div>
             <p className="text-sm text-textSecondary leading-relaxed mb-4">
               {language === 'es' 
-                ? 'Crecimiento del parque industrial impulsa la demanda de repuestos ergonómicos debido al desgaste acelerado por el clima.' 
-                : 'Industrial park growth drives demand for ergonomic spares due to climate-accelerated wear.'}
+                ? 'Uno de los mayores volúmenes de importación industrial en EE.UU. a través de los puertos de LA y Long Beach. La reposición es una operación permanente.' 
+                : 'One of the highest industrial import volumes in the US through LA and Long Beach ports. Replacement is a permanent operation.'}
             </p>
-            <div className="p-3 bg-unoOrange/5 rounded-lg border border-unoOrange/10">
-              <p className="text-xs text-white italic">
-                {language === 'es' ? 'Oportunidad: Segmento de reposición menos saturado.' : 'Opportunity: Less saturated replacement segment.'}
-              </p>
-            </div>
-          </div>
-
-          <div className="glass-card p-6 border-zinc-800 hover:border-unoOrange/30 transition-all group">
-            <TrendingUp className="w-8 h-8 text-unoOrange mb-4 opacity-70 group-hover:opacity-100 transition-opacity" />
-            <h3 className="text-white font-bold mb-3">
-              {language === 'es' ? '3. Expansión de Landscaping Urbano' : '3. Urban Landscaping Expansion'}
-            </h3>
-            <p className="text-sm text-textSecondary leading-relaxed mb-4">
-              {language === 'es' 
-                ? 'El auge comercial e inmobiliario incrementa el uso de equipos, transformando el desgaste ambiental en oportunidad.' 
-                : 'Commercial and real estate boom increases equipment use, transforming environmental wear into opportunity.'}
-            </p>
-            <div className="p-3 bg-unoOrange/5 rounded-lg border border-unoOrange/10">
-              <p className="text-xs text-white italic">
-                {language === 'es' ? 'Oportunidad: Resistencia térmica como factor clave.' : 'Opportunity: Thermal resistance as a key factor.'}
-              </p>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* California Analysis */}
+      {/* 2. Facilitación Aduanera y FTZ */}
       <section className="space-y-6">
-        <div className="flex items-center gap-3 border-l-4 border-blue-400 pl-4 py-1">
-          <div className="w-10 h-10 rounded-xl bg-blue-400/20 flex items-center justify-center text-blue-400">
-            <Anchor className="w-5 h-5" />
+        <div className="flex items-center gap-3 border-l-4 border-unoOrange pl-4 py-1">
+          <div className="w-10 h-10 rounded-xl bg-unoOrange/20 flex items-center justify-center text-unoOrange">
+            <Box className="w-5 h-5" />
           </div>
-          <h2 className="text-xl font-bold text-white uppercase tracking-wider">California</h2>
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider">
+            {language === 'es' ? '2. Facilitación Aduanera y Zonas FTZ' : '2. Customs Facilitation & FTZ'}
+          </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="glass-card p-6 border-zinc-800 hover:border-blue-400/30 transition-all group">
-            <Box className="w-8 h-8 text-blue-400 mb-4 opacity-70 group-hover:opacity-100 transition-opacity" />
-            <h3 className="text-white font-bold mb-3">
-              {language === 'es' ? '1. Volumen de Importaciones' : '1. Import Volume'}
-            </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="glass-card p-6 border-zinc-800 hover:border-unoOrange/30 transition-all group">
+            <div className="flex justify-between items-start mb-4">
+              <h4 className="text-unoOrange font-bold text-xs tracking-widest uppercase">ARIZONA</h4>
+              <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 5.0</span>
+            </div>
             <p className="text-sm text-textSecondary leading-relaxed mb-4">
               {language === 'es' 
-                ? 'Nodo estratégico transpacífico con alta rotación de maquinaria. La reposición es una operación permanente.' 
-                : 'Strategic transpacific hub with high machinery rotation. Replacement is a permanent operation.'}
+                ? 'Ofrece uno de los programas de FTZ más agresivos, permitiendo reducción de impuestos y procesos simplificados para el exportador extranjero.' 
+                : 'Offers one of the most aggressive FTZ programs, allowing tax reductions and simplified processes for foreign exporters.'}
             </p>
-            <div className="p-3 bg-blue-400/5 rounded-lg border border-blue-400/10">
-              <p className="text-xs text-white italic">
-                {language === 'es' ? 'Oportunidad: Mercado de gran escala y rotación constante.' : 'Opportunity: Large-scale market and constant rotation.'}
-              </p>
-            </div>
           </div>
 
           <div className="glass-card p-6 border-zinc-800 hover:border-blue-400/30 transition-all group">
-            <AlertTriangle className="w-8 h-8 text-blue-400 mb-4 opacity-70 group-hover:opacity-100 transition-opacity" />
-            <h3 className="text-white font-bold mb-3">
-              {language === 'es' ? '2. Dependencia de Proveedores Externos' : '2. External Provider Dependency'}
-            </h3>
+            <div className="flex justify-between items-start mb-4">
+              <h4 className="text-blue-400 font-bold text-xs tracking-widest uppercase">CALIFORNIA</h4>
+              <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 3.0</span>
+            </div>
             <p className="text-sm text-textSecondary leading-relaxed mb-4">
               {language === 'es' 
-                ? 'Balanza comercial deficitaria facilita la entrada de actores internacionales especializados en nichos técnicos.' 
-                : 'Deficit trade balance facilitates entry of international players specialized in technical niches.'}
+                ? 'Puertos masivos pero complejidad burocrática y alta carga impositiva estatal neutralizan parte de los incentivos federales.' 
+                : 'Massive ports but bureaucratic complexity and high state tax burden neutralize part of the federal incentives.'}
             </p>
-            <div className="p-3 bg-blue-400/5 rounded-lg border border-blue-400/10">
-              <p className="text-xs text-white italic">
-                {language === 'es' ? 'Oportunidad: Cultura empresarial adaptada al suministro global.' : 'Opportunity: Business culture adapted to global supply.'}
-              </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 3. Crecimiento y Conectividad USMCA */}
+      <section className="space-y-6">
+        <div className="flex items-center gap-3 border-l-4 border-unoOrange pl-4 py-1">
+          <div className="w-10 h-10 rounded-xl bg-unoOrange/20 flex items-center justify-center text-unoOrange">
+            <Truck className="w-5 h-5" />
+          </div>
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider">
+            {language === 'es' ? '3. Crecimiento y Conectividad USMCA' : '3. Growth & USMCA Connectivity'}
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="glass-card p-6 border-zinc-800 hover:border-unoOrange/30 transition-all group">
+            <div className="flex justify-between items-start mb-4">
+              <h4 className="text-unoOrange font-bold text-xs tracking-widest uppercase">ARIZONA</h4>
+              <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 5.0</span>
             </div>
+            <p className="text-sm text-textSecondary leading-relaxed mb-4">
+              {language === 'es' 
+                ? 'Integración productiva directa con México bajo el T-MEC. Cadenas logísticas terrestres de bajo costo y alta velocidad operativa.' 
+                : 'Direct productive integration with Mexico under USMCA. Low-cost and high-speed terrestrial logistical chains.'}
+            </p>
           </div>
 
           <div className="glass-card p-6 border-zinc-800 hover:border-blue-400/30 transition-all group">
-            <Globe className="w-8 h-8 text-blue-400 mb-4 opacity-70 group-hover:opacity-100 transition-opacity" />
-            <h3 className="text-white font-bold mb-3">
-              {language === 'es' ? '3. Presión Competitiva Internacional' : '3. International Competitive Pressure'}
-            </h3>
+            <div className="flex justify-between items-start mb-4">
+              <h4 className="text-blue-400 font-bold text-xs tracking-widest uppercase">CALIFORNIA</h4>
+              <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 4.0</span>
+            </div>
             <p className="text-sm text-textSecondary leading-relaxed mb-4">
               {language === 'es' 
-                ? 'Competencia directa con México, China y Vietnam. Obliga a diferenciarse mediante calidad y desempeño prolongado.' 
-                : 'Direct competition with Mexico, China, and Vietnam. Forces differentiation through quality and prolonged performance.'}
+                ? 'Economía de gran escala con alta rotación pero mayor presión competitiva de socios transpacíficos y regionales.' 
+                : 'Large-scale economy with high rotation but greater competitive pressure from transpacific and regional partners.'}
             </p>
-            <div className="p-3 bg-blue-400/5 rounded-lg border border-blue-400/10">
-              <p className="text-xs text-white italic">
-                {language === 'es' ? 'Oportunidad: Calidad ergonómica como ventaja sostenible.' : 'Opportunity: Ergonomic quality as a sustainable advantage.'}
-              </p>
-            </div>
           </div>
         </div>
       </section>
@@ -152,13 +140,24 @@ export const InternationalTrade = () => {
           <ShieldCheck className="absolute -right-4 -bottom-4 w-32 h-32 text-unoOrange/5" />
           <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
             <ShieldCheck className="text-unoOrange w-6 h-6" />
-            {language === 'es' ? 'Propuesta de Valor UMO' : 'UMO Value Proposition'}
+            {language === 'es' ? 'Promedio Final de Viabilidad Comercial' : 'Final Commercial Viability Average'}
           </h3>
-          <p className="text-sm text-textSecondary leading-relaxed max-w-4xl">
-            {language === 'es'
-              ? 'En mercados saturados por proveedores globales y regionales, UMO debe transformar el desgaste ambiental y la intensidad operativa en su mayor activo. La especialización en sillines diseñados para condiciones extremas y confort prolongado permite superar la competencia por precio masivo, ofreciendo una solución técnica de alto valor dentro del mercado aftermarket de repuestos industriales.'
-              : 'In markets saturated by global and regional providers, UMO must transform environmental wear and operational intensity into its greatest asset. Specialization in seats designed for extreme conditions and prolonged comfort allows for overcoming mass price competition, offering a high-value technical solution within the industrial spares aftermarket.'}
-          </p>
+          <div className="flex gap-8 items-center">
+            <div className="space-y-1">
+              <p className="text-[10px] font-bold text-unoOrange uppercase tracking-widest">ARIZONA</p>
+              <p className="text-3xl font-black text-white">4.7</p>
+            </div>
+            <div className="w-px h-12 bg-glassBorder" />
+            <div className="space-y-1">
+              <p className="text-[10px] font-bold text-blue-400 uppercase tracking-widest">CALIFORNIA</p>
+              <p className="text-3xl font-black text-white">4.0</p>
+            </div>
+            <p className="text-sm text-textSecondary leading-relaxed flex-1 ml-4 hidden md:block">
+              {language === 'es'
+                ? 'Arizona lidera la viabilidad comercial gracias a su agresiva política de FTZ y su integración logística superior bajo el T-MEC.'
+                : 'Arizona leads commercial viability thanks to its aggressive FTZ policy and superior logistical integration under USMCA.'}
+            </p>
+          </div>
         </div>
       </section>
     </div>
