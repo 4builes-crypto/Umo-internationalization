@@ -7,25 +7,58 @@ const referencesBySector = [
     sector: { es: 'Regulaciones y Mercado', en: 'Regulations & Market' },
     items: [
       {
+        author: 'Arizona Commerce Authority',
+        year: '2026',
+        title: '2025 International Trade: Year in Review and USMCA Impact.',
+        source: 'ACA News',
+        link: 'https://www.azcommerce.com/news-events/news/2026/2/2025-international-trade/',
+        description: {
+          es: 'Análisis del impacto del T-MEC y el flujo comercial internacional de Arizona en 2025.',
+          en: 'Analysis of the USMCA impact and Arizona\'s international trade flow in 2025.'
+        }
+      },
+      {
+        author: 'California Chamber of Commerce (CalChamber)',
+        year: '2026',
+        title: 'California remains top exporting state: 2025 Trade Statistics.',
+        source: 'Advocacy CalChamber',
+        link: 'https://advocacy.calchamber.com/2026/03/03/california-remains-top-exporting-state/',
+        description: {
+          es: 'Estadísticas de exportación e importación de California, confirmando su liderazgo comercial transpacífico.',
+          en: 'California export and import statistics, confirming its transpacific trade leadership.'
+        }
+      },
+      {
+        author: 'Observatory of Economic Complexity (OEC)',
+        year: '2026',
+        title: 'Arizona and California: Subnational Economic Profiles.',
+        source: 'OEC World',
+        link: 'https://oec.world/en/profile/subnational_usa/california',
+        description: {
+          es: 'Perfiles económicos detallados que muestran el origen de las importaciones y la complejidad de los productos intercambiados.',
+          en: 'Detailed economic profiles showing the origin of imports and the complexity of traded products.'
+        }
+      },
+      {
+        author: 'Beacon Economics',
+        year: '2026',
+        title: 'California Trade Report: Analysis of Port Activity and Global Supply Chains.',
+        source: 'Beacon Econ Publications',
+        link: 'https://beaconecon.com/publications/ca-trade-report/',
+        description: {
+          es: 'Análisis de la actividad portuaria en Los Ángeles y Long Beach y su impacto en el abastecimiento industrial.',
+          en: 'Analysis of port activity in Los Angeles and Long Beach and its impact on industrial supply.'
+        }
+      },
+      {
         author: 'California Legislative Information',
         year: '2023',
         title: 'AB-1572 Potable water: nonfunctional turf.',
         source: 'California State Assembly',
         link: 'https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB1572',
         description: {
-          es: 'Regulación que limita el uso de agua potable para riego de césped no funcional, impulsando el cambio hacia jardines sostenibles.',
-          en: 'Regulation limiting the use of potable water for non-functional turf irrigation, driving a shift toward sustainable gardens.'
-        }
-      },
-      {
-        author: 'Metropolitan Water District of Orange County',
-        year: '2025',
-        title: 'Nonfunctional turf: What to know (Assembly Bill AB 1572).',
-        source: 'MWDOC',
-        link: 'https://www.mwdoc.com/your-water/nonfunctionalturf/',
-        description: {
-          es: 'Guía informativa sobre la prohibición del césped no funcional en áreas comerciales e industriales.',
-          en: 'Informative guide on the ban of non-functional turf in commercial and industrial areas.'
+          es: 'Regulación que limita el uso de agua potable para riego de césped no funcional.',
+          en: 'Regulation limiting the use of potable water for non-functional turf irrigation.'
         }
       },
       {
@@ -35,52 +68,8 @@ const referencesBySector = [
         source: 'U.S. Department of Commerce',
         link: 'https://www.census.gov/quickfacts/fact/table/AZ,CA/PST045224',
         description: {
-          es: 'Datos demográficos actualizados sobre población hispana, multiculturalidad e idiomas hablados en casa.',
-          en: 'Updated demographic data on Hispanic population, multiculturalism, and languages spoken at home.'
-        }
-      },
-      {
-        author: 'California Air Resources Board (CARB)',
-        year: '2021',
-        title: 'CARB approves updated regulations requiring most new small off-road engines be zero emission by 2024.',
-        source: 'State of California',
-        link: 'https://ww2.arb.ca.gov/news/carb-approves-updated-regulations-requiring-most-new-small-road-engines-be-zero-emission-2024',
-        description: {
-          es: 'Información sobre la prohibición (AB 1346) de motores de combustión interna de hasta 25 HP para 2024.',
-          en: 'Information on the ban (AB 1346) of internal combustion engines up to 25 HP by 2024.'
-        }
-      },
-      {
-        author: 'Arizona Revised Statutes § 49-474.02',
-        year: '2021',
-        title: 'Voluntary lawn and garden equipment emissions reduction program; criteria.',
-        source: 'Justia Law',
-        link: 'https://law.justia.com/codes/arizona/2021/title-49/section-49-474-02/',
-        description: {
-          es: 'Marco legal del programa voluntario de incentivos para la reducción de emisiones en Arizona.',
-          en: 'Legal framework of the voluntary emissions reduction incentive program in Arizona.'
-        }
-      },
-      {
-        author: 'Arizona Commerce Authority',
-        year: '2025',
-        title: 'Foreign Direct Investment and International Trade in Arizona.',
-        source: '',
-        link: 'https://www.azcommerce.com/programs/international-trade/',
-        description: {
-          es: 'Análisis de la IED y el comercio internacional en Arizona.',
-          en: 'Analysis of FDI and international trade in Arizona.'
-        }
-      },
-      {
-        author: 'SelectUSA',
-        year: '2025',
-        title: 'Foreign Direct Investment (FDI): California and Arizona State Profiles.',
-        source: 'U.S. Department of Commerce',
-        link: 'https://www.trade.gov/selectusa-invest-state-profiles',
-        description: {
-          es: 'Perfiles estatales de IED que permiten contrastar el flujo de capital hacia tecnología limpia.',
-          en: 'State FDI profiles allowing a contrast of capital flow toward clean technology.'
+          es: 'Datos demográficos actualizados sobre población hispana y multiculturalidad.',
+          en: 'Updated demographic data on Hispanic population and multiculturalism.'
         }
       },
       {
@@ -95,14 +84,14 @@ const referencesBySector = [
         }
       },
       {
-        author: 'LegalClarity',
-        year: '2026',
-        title: 'When does AB 1346 go into effect? Dates and phases.',
-        source: '',
-        link: 'https://legalclarity.org/when-does-ab-1346-go-into-effect/',
+        author: 'Office of the United States Trade Representative (USTR)',
+        year: '2012',
+        title: 'Overview of the U.S.-Colombia Trade Agreement.',
+        source: 'Executive Office of the President',
+        link: 'https://ustr.gov/uscolombiatpa/facts',
         description: {
-          es: 'Cronología y fases de implementación de la ley AB 1346 en California.',
-          en: 'Chronology and implementation phases of AB 1346 in California.'
+          es: 'Resumen ejecutivo de los compromisos y desgravaciones arancelarias bajo el TPA.',
+          en: 'Executive summary of commitments and tariff reductions under the TPA.'
         }
       }
     ]
@@ -110,6 +99,17 @@ const referencesBySector = [
   {
     sector: { es: 'Macroeconómico y PIB', en: 'Macroeconomics & GDP' },
     items: [
+      {
+        author: 'Office of the Arizona Governor',
+        year: '2026',
+        title: 'Economic benefits of international trade and USMCA integration in Arizona.',
+        source: 'AZ Governor News',
+        link: 'https://azgovernor.gov/office-arizona-governor/news/2026/01/governor-katie-hobbs-releases-study-touting-economic-benefits',
+        description: {
+          es: 'Estudio oficial sobre los beneficios económicos de la integración con México y el T-MEC para el estado de Arizona.',
+          en: 'Official study on the economic benefits of integration with Mexico and USMCA for the state of Arizona.'
+        }
+      },
       {
         author: 'U.S. Bureau of Economic Analysis (BEA)',
         year: '2025',
@@ -171,8 +171,8 @@ const referencesBySector = [
         source: 'State of Arizona',
         link: 'https://www.azwater.gov/conservation/landscaping',
         description: {
-          es: 'Guía de paisajismo en Arizona que promueve plantas resistentes a la sequía, impactando el uso de podadoras.',
-          en: 'Arizona landscaping guide promoting drought-resistant plants, impacting mower use.'
+          es: 'Guía de paisajismo en Arizona que promueve plantas resistentes a la sequía.',
+          en: 'Arizona landscaping guide promoting drought-resistant plants.'
         }
       },
       {
@@ -184,17 +184,6 @@ const referencesBySector = [
         description: {
           es: 'Análisis de la composición del suelo para determinar el estrés mecánico.',
           en: 'Analysis of soil composition to determine mechanical stress.'
-        }
-      },
-      {
-        author: 'National Oceanic and Atmospheric Administration (NOAA)',
-        year: '2025',
-        title: 'Climate data online: Historical weather observations.',
-        source: 'U.S. Department of Commerce',
-        link: 'https://www.ncei.noaa.gov/cdo-web/',
-        description: {
-          es: 'Datos históricos de temperatura y radiación UV.',
-          en: 'Historical temperature and UV radiation data.'
         }
       }
     ]
