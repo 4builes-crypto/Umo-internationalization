@@ -1,4 +1,4 @@
-import { Building2, BookMarked, TrendingUp, Users, Scale, Globe, Ship, Landmark } from 'lucide-react';
+import { Building2, BookMarked, TrendingUp, Users, Scale, Globe, Ship, Landmark, BarChart3 } from 'lucide-react';
 import type { NavCategory } from '../types/navigation';
 
 export const NAVIGATION_DATA: NavCategory[] = [
@@ -62,6 +62,14 @@ export const NAVIGATION_DATA: NavCategory[] = [
     icon: Landmark,
     subcategories: [
       { id: 'foreign_investment_sub', label: 'Análisis de Inversión', path: '/foreign-investment' },
+    ]
+  },
+  {
+    id: 'score_analysis',
+    label: 'Análisis de Puntajes',
+    icon: BarChart3,
+    subcategories: [
+      { id: 'score_analysis_sub', label: 'Resumen de Viabilidad', path: '/score-analysis' },
     ]
   },
   {

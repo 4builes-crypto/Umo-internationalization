@@ -66,6 +66,8 @@ export const translations: any = {
     international_trade_sub: { es: 'Acuerdos y Comercio', en: 'Agreements & Trade' },
     foreign_investment: { es: 'Inversión Extranjera', en: 'Foreign Investment' },
     foreign_investment_sub: { es: 'Análisis de Inversión', en: 'Investment Analysis' },
+    score_analysis: { es: 'Análisis de Puntajes', en: 'Score Analysis' },
+    score_analysis_sub: { es: 'Resumen de Viabilidad', en: 'Viability Summary' },
     fase2: { es: 'Selección De Mercado', en: 'Market Selection' },
     market: { es: 'Preselección', en: 'Pre-selection' },
     fase3: { es: 'Modo De Entrada', en: 'Entry Mode' },

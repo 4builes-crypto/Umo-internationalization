@@ -16,6 +16,7 @@ import { PoliticalLegal } from './pages/PoliticalLegal';
 import { TechEnvironmental } from './pages/TechEnvironmental';
 import { InternationalTrade } from './pages/InternationalTrade';
 import { ForeignInvestment } from './pages/ForeignInvestment';
+import { ScoreAnalysis } from './pages/ScoreAnalysis';
 
 function App() {
   // Vite HMR trigger
@@ -36,6 +37,7 @@ function App() {
         <Route path="tech-environmental" element={<TechEnvironmental />} />
         <Route path="international-trade" element={<InternationalTrade />} />
         <Route path="foreign-investment" element={<ForeignInvestment />} />
+        <Route path="score-analysis" element={<ScoreAnalysis />} />
         <Route path="bibliography" element={<BibliographyPage />} />
 
         {/* Catch-all */}
