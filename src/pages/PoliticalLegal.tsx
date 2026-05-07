@@ -164,7 +164,7 @@ export const PoliticalLegal = () => {
                     : 'As of May 2026, the seat pays a 10% tariff. UMO must monitor the expiration of Section 122 (July 2026) and the potential activation of Section 301, which would directly affect price competitiveness.'}
                 </p>
                 <div className="mt-4 flex items-center gap-2">
-                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-zinc-700 rounded">Puntuación: 3.5</span>
+                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-zinc-700 rounded whitespace-nowrap">Score: 3.5</span>
                 </div>
               </div>
             </div>
@@ -202,12 +202,12 @@ export const PoliticalLegal = () => {
                 <div>
                   <span className="text-unoOrange font-bold text-xs uppercase tracking-widest mb-1 block">CALIFORNIA:</span>
                   <p className="text-sm text-textSecondary">{language === 'es' ? 'Obligatorio (Sección 5110). Argumento de CUMPLIMIENTO.' : 'Mandatory (Section 5110). COMPLIANCE argument.'}</p>
-                  <span className="inline-block mt-2 text-[10px] font-bold bg-unoOrange/20 px-2 py-0.5 rounded">Score: 5</span>
+                  <span className="inline-block mt-2 text-xs font-bold bg-unoOrange/20 px-2 py-0.5 rounded whitespace-nowrap">Score: 5.0</span>
                 </div>
                 <div>
                   <span className="text-blue-400 font-bold text-xs uppercase tracking-widest mb-1 block">ARIZONA:</span>
                   <p className="text-sm text-textSecondary">{language === 'es' ? 'Estándar federal general. Argumento de PRODUCTIVIDAD.' : 'General federal standard. PRODUCTIVITY argument.'}</p>
-                  <span className="inline-block mt-2 text-[10px] font-bold bg-blue-400/20 px-2 py-0.5 rounded">Score: 2</span>
+                  <span className="inline-block mt-2 text-xs font-bold bg-blue-400/20 px-2 py-0.5 rounded whitespace-nowrap">Score: 2.0</span>
                 </div>
               </div>
             </div>

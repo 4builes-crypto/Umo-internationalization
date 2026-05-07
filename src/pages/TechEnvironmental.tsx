@@ -61,7 +61,7 @@ export const TechEnvironmental = () => {
                     : 'The metropolitan area features caliche in the subsoil, a cemented layer with hardness equivalent to concrete (NRCS, 2024).'}
                 </p>
                 <div className="mt-3 flex items-center gap-2">
-                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded">Score: 5.0</span>
+                  <span className="text-xs font-bold text-white px-2 py-1 bg-unoOrange/40 rounded whitespace-nowrap">Score: 5.0</span>
                 </div>
               </div>
               <div className="glass-card p-6 border-zinc-800 hover:border-blue-400/30 transition-colors">
@@ -72,7 +72,7 @@ export const TechEnvironmental = () => {
                     : 'Deeper, softer, and more porous alluvial soils (NRCS, 2024). Vertical stiffness impact is significantly lower.'}
                 </p>
                 <div className="mt-3 flex items-center gap-2">
-                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded">Score: 3.5</span>
+                  <span className="text-xs font-bold text-white px-2 py-1 bg-blue-400/40 rounded whitespace-nowrap">Score: 3.5</span>
                 </div>
               </div>
             </div>
@@ -137,7 +137,7 @@ export const TechEnvironmental = () => {
               <div className="p-5 bg-zinc-900/80 rounded-xl border-l-4 border-unoOrange glass-card">
                 <div className="flex justify-between items-start mb-2">
                   <h4 className="text-unoOrange font-bold text-xs tracking-widest uppercase">ARIZONA</h4>
-                  <span className="text-[10px] font-bold text-white px-1.5 py-0.5 bg-unoOrange/40 rounded text-nowrap">Score: 5.0</span>
+                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 5.0</span>
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es' ? 'Ciclo ininterrumpido de 12 meses. Flotas operan a máxima capacidad constante.' : 'Uninterrupted 12-month cycle. Fleets operate at constant maximum capacity.'}
@@ -146,7 +146,7 @@ export const TechEnvironmental = () => {
               <div className="p-5 bg-zinc-900/80 rounded-xl border-l-4 border-blue-400 glass-card">
                 <div className="flex justify-between items-start mb-2">
                   <h4 className="text-blue-400 font-bold text-xs tracking-widest uppercase">CALIFORNIA</h4>
-                  <span className="text-[10px] font-bold text-white px-1.5 py-0.5 bg-blue-400/40 rounded text-nowrap">Score: 3.0</span>
+                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 3.0</span>
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es' ? 'Estacionalidad mediterránea. Actividad intensiva entre abril y octubre.' : 'Mediterranean seasonality. Intensive activity between April and October.'}
@@ -201,16 +201,16 @@ export const TechEnvironmental = () => {
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div>
-                  <div className="flex items-center justify-between mb-1">
+                  <div className="flex items-center justify-between mb-1 gap-2">
                     <span className="text-unoOrange font-bold text-xs uppercase tracking-widest">ARIZONA:</span>
-                    <span className="text-[10px] font-bold text-white px-1.5 py-0.5 bg-unoOrange/40 rounded text-nowrap">Score: 5.0</span>
+                    <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 5.0</span>
                   </div>
                   <p className="text-sm text-textSecondary">Extremo (+100 días &gt; 38°C) con UV severo.</p>
                 </div>
                 <div>
-                  <div className="flex items-center justify-between mb-1">
+                  <div className="flex items-center justify-between mb-1 gap-2">
                     <span className="text-blue-400 font-bold text-xs uppercase tracking-widest">CALIFORNIA:</span>
-                    <span className="text-[10px] font-bold text-white px-1.5 py-0.5 bg-blue-400/40 rounded text-nowrap">Score: 3.5</span>
+                    <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 3.5</span>
                   </div>
                   <p className="text-sm text-textSecondary">Insolación y UV en rangos moderados.</p>
                 </div>
