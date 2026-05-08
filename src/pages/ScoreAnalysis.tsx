@@ -9,9 +9,9 @@ const scoreData = [
     california: 4.23
   },
   {
-    category: { es: 'Político y Legal', en: 'Political & Legal' },
-    arizona: 2.50,
-    california: 4.50
+    category: { es: 'Político - Legal', en: 'Political - Legal' },
+    arizona: 3.50,
+    california: 3.50
   },
   {
     category: { es: 'Tecnológico y Geoambiental', en: 'Technological & Environmental' },

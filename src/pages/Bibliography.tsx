@@ -201,6 +201,17 @@ const referencesBySector = [
           es: 'Seguimiento detallado de los aranceles impuestos en 2026.',
           en: 'Detailed tracking of tariffs imposed in 2026.'
         }
+      },
+      {
+        author: 'AZ Bound',
+        year: '2026',
+        title: 'The California to Arizona tax swap: Is it still a “slam dunk” in 2026?',
+        source: 'AZ Bound Publications',
+        link: 'https://azbound.com/california-arizona-tax-comparison/',
+        description: {
+          es: 'Comparativa detallada de la carga impositiva estatal y local entre California y Arizona.',
+          en: 'Detailed comparison of state and local tax burden between California and Arizona.'
+        }
       }
     ]
   },
