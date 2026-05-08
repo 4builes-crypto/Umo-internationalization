@@ -60,8 +60,8 @@ export const ForeignInvestment = () => {
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es'
-                    ? 'El estado se ha posicionado como el líder nacional en crecimiento de manufactura avanzada. En 2025, Arizona atrajo inversiones masivas superiores a los 40,000 millones de dólares solo en sectores de semiconductores y vehículos eléctricos (Arizona Commerce Authority, 2025). Este ecosistema, conocido como el "Silicon Desert", favorece a UMO porque crea una red logística optimizada para partes mecánicas y electrónicas, facilitando el movimiento de tus repuestos.'
-                    : 'The state has positioned itself as the national leader in advanced manufacturing growth. In 2025, Arizona attracted massive investments exceeding $40 billion in the semiconductor and electric vehicle sectors alone (Arizona Commerce Authority, 2025). This ecosystem, known as the "Silicon Desert," favors UMO by creating an optimized logistics network for mechanical and electronic parts, facilitating the movement of your spares.'}
+                    ? 'Líder en manufactura avanzada; atrajo +$40,000M en 2025 para semiconductores y EVs (ACA, 2025). El "Silicon Desert" ofrece a UMO una red logística optimizada para el movimiento eficiente de repuestos.'
+                    : 'Leader in advanced manufacturing; attracted +$40B in 2025 for semiconductors and EVs (ACA, 2025). The "Silicon Desert" offers UMO an optimized logistics network for efficient parts movement.'}
                 </p>
               </div>
               <div className="glass-card p-6 border-zinc-800 hover:border-blue-400/30 transition-colors">
@@ -71,8 +71,8 @@ export const ForeignInvestment = () => {
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es'
-                    ? 'Aunque mantiene un volumen robusto de IED en manufactura, su crecimiento se ha ralentizado en comparación con años anteriores debido a los altos costos operativos. California atrajo aproximadamente 18,000 millones de dólares en IED manufacturera en el último ciclo reportado (SelectUSA, 2025). Su fuerte sigue siendo la electrónica de consumo, más que la maquinaria pesada de exteriores.'
-                    : 'While maintaining a robust volume of FDI in manufacturing, its growth has slowed compared to previous years due to high operating costs. California attracted approximately $18 billion in manufacturing FDI in the last reported cycle (SelectUSA, 2025). Its strength remains consumer electronics rather than heavy outdoor machinery.'}
+                    ? 'Volumen robusto ($18,000M en el último ciclo, SelectUSA, 2025), pero con crecimiento ralentizado por altos costos operativos. Prioriza la electrónica de consumo sobre maquinaria pesada de exteriores.'
+                    : 'Robust volume ($18B in the last cycle, SelectUSA, 2025), but with growth slowed by high operating costs. It prioritizes consumer electronics over heavy outdoor machinery.'}
                 </p>
               </div>
             </div>
