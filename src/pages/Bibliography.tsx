@@ -203,6 +203,55 @@ const referencesBySector = [
         }
       }
     ]
+  },
+  {
+    sector: { es: 'Inversión y Desarrollo Industrial', en: 'Investment & Industrial Development' },
+    items: [
+      {
+        author: 'Arizona Commerce Authority',
+        year: '2025',
+        title: 'Manufacturing and Electric Vehicle Ecosystem Investment Report.',
+        source: 'ACA',
+        link: 'https://www.azcommerce.com/industries/manufacturing/',
+        description: {
+          es: 'Reporte sobre la inversión masiva en semiconductores y el ecosistema de vehículos eléctricos en Arizona.',
+          en: 'Report on massive investment in semiconductors and the electric vehicle ecosystem in Arizona.'
+        }
+      },
+      {
+        author: 'California Energy Commission',
+        year: '2025',
+        title: 'Investment in Zero-Emission Vehicle Infrastructure and Manufacturing.',
+        source: 'CEC',
+        link: 'https://www.energy.ca.gov/programs-and-topics/programs/clean-transportation-program',
+        description: {
+          es: 'Planes de inversión para la infraestructura de transporte limpio y manufactura sostenible en California.',
+          en: 'Investment plans for clean transportation infrastructure and sustainable manufacturing in California.'
+        }
+      },
+      {
+        author: 'SelectUSA',
+        year: '2025',
+        title: 'Foreign Direct Investment: California and Arizona State Profiles.',
+        source: 'U.S. Department of Commerce',
+        link: 'https://www.trade.gov/selectusa-invest-state-profiles',
+        description: {
+          es: 'Perfiles estatales de IED que detallan el flujo de capital extranjero hacia manufactura y tecnología.',
+          en: 'FDI state profiles detailing the flow of foreign capital toward manufacturing and technology.'
+        }
+      },
+      {
+        author: 'U.S. Department of Agriculture (USDA)',
+        year: '2025',
+        title: 'Agricultural Productivity and Sector Investment by State.',
+        source: 'USDA Economic Research Service',
+        link: 'https://www.ers.usda.gov/data-products/agricultural-productivity-in-the-u-s/',
+        description: {
+          es: 'Datos sobre productividad agrícola e inversión en maquinaria y agrotecnología.',
+          en: 'Data on agricultural productivity and investment in machinery and agrotechnology.'
+        }
+      }
+    ]
   }
 ];
 

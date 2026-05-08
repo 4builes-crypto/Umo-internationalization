@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Landmark, Zap, ShieldCheck, Info, ArrowRight, TrendingUp } from 'lucide-react';
+import { Landmark, Zap, ShieldCheck, Info, ArrowRight, TrendingUp, Tractor } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export const ForeignInvestment = () => {
@@ -188,6 +188,80 @@ export const ForeignInvestment = () => {
       </section>
 
 
+      {/* 3. Inversión en el Sector Agrícola y Paisajismo Comercial */}
+      <section className="space-y-6">
+        <div className="flex items-center gap-3 border-l-4 border-unoOrange pl-4 py-1">
+          <div className="w-10 h-10 rounded-xl bg-unoOrange/20 flex items-center justify-center text-unoOrange">
+            <Tractor className="w-5 h-5" />
+          </div>
+          <h2 className="text-xl font-bold text-white">
+            {language === 'es' 
+              ? '3. Inversión en el Sector Agrícola y Paisajismo Comercial' 
+              : '3. Investment in Agriculture & Commercial Landscaping'}
+          </h2>
+        </div>
+
+        <div className="glass-card p-8 relative overflow-hidden group">
+          <div className="absolute top-0 right-0 w-72 h-72 bg-unoOrange/5 rounded-full blur-3xl" />
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 relative z-10">
+            <div className="space-y-6">
+              <h3 className="text-lg font-bold text-white uppercase tracking-widest border-b border-white/10 pb-3 inline-block">
+                {language === 'es' ? 'Fuerza del Mercado' : 'Market Strength'}
+              </h3>
+              <p className="text-sm text-textSecondary leading-relaxed">
+                {language === 'es'
+                  ? 'Este factor mide el capital inyectado en industrias que dependen del uso intensivo de maquinaria de corte. Flotas más grandes implican una demanda superior de repuestos de alta calidad.'
+                  : 'This factor measures capital injected into industries depending on intensive use of cutting machinery. Larger fleets imply higher demand for high-quality spare parts.'}
+              </p>
+              <div className="grid grid-cols-2 gap-6">
+                <div>
+                  <div className="flex items-center justify-between mb-1 gap-2">
+                    <span className="text-blue-400 font-bold text-xs uppercase tracking-widest">CALIFORNIA:</span>
+                    <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 5.0</span>
+                  </div>
+                  <p className="text-sm text-textSecondary">
+                    {language === 'es' 
+                      ? 'Potencia agrícola ($5,000M en 2025, USDA). Mercado masivo para compatibilidad universal.' 
+                      : 'Agricultural powerhouse ($5B in 2025, USDA). Massive market for universal compatibility.'}
+                  </p>
+                </div>
+                <div>
+                  <div className="flex items-center justify-between mb-1 gap-2">
+                    <span className="text-unoOrange font-bold text-xs uppercase tracking-widest">ARIZONA:</span>
+                    <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 4.0</span>
+                  </div>
+                  <p className="text-sm text-textSecondary">
+                    {language === 'es' 
+                      ? 'Inversión de $1,200M (USDA). Intensidad operativa que obliga a rotación de repuestos premium.' 
+                      : '$1.2B investment (USDA). Operational intensity forcing premium spare rotation.'}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-zinc-900/50 p-8 rounded-3xl border border-white/10 relative glass-card flex flex-col justify-center">
+              <Landmark className="absolute top-4 right-4 text-unoOrange w-6 h-6 opacity-30" />
+              <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-3">
+                <TrendingUp className="text-unoOrange w-6 h-6" />
+                {language === 'es' ? 'Potencial de Reemplazo' : 'Replacement Potential'}
+              </h3>
+              <p className="text-sm text-textSecondary leading-relaxed mb-6">
+                {language === 'es'
+                  ? 'La inversión agrícola asegura que California sea el mercado de reemplazo más grande, mientras que en Arizona la exigencia del clima acelera el ciclo de vida del producto.'
+                  : 'Agricultural investment ensures California is the largest replacement market, while in Arizona, climate demands accelerate the product life cycle.'}
+              </p>
+              <div className="p-4 bg-unoOrange/10 rounded-xl border-l-4 border-unoOrange">
+                <p className="text-sm text-white font-medium italic">
+                  {language === 'es'
+                    ? 'La compatibilidad universal de UMO permite servir a miles de tractores de diversas marcas y motores.'
+                    : 'UMO\'s universal compatibility allows serving thousands of tractors from various brands and engines.'}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
