@@ -30,8 +30,8 @@ const scoreData = [
   },
   {
     category: { es: 'Inversión Extranjera', en: 'Foreign Investment' },
-    arizona: 4.83,
-    california: 4.00
+    arizona: 5.00,
+    california: 4.25
   }
 ];
 
