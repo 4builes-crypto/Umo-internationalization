@@ -60,8 +60,8 @@ export const ForeignInvestment = () => {
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es'
-                    ? 'Líder en manufactura avanzada; atrajo +$40,000M en 2025 para semiconductores y EVs (ACA, 2025). El "Silicon Desert" ofrece a UMO una red logística optimizada para el movimiento eficiente de repuestos.'
-                    : 'Leader in advanced manufacturing; attracted +$40B in 2025 for semiconductors and EVs (ACA, 2025). The "Silicon Desert" offers UMO an optimized logistics network for efficient parts movement.'}
+                    ? 'Líder en manufactura avanzada; atrajo +$40,000M en 2025 para semiconductores y EVs (ACA). El "Silicon Desert" ofrece a UMO una red logística optimizada para el movimiento eficiente de repuestos.'
+                    : 'Leader in advanced manufacturing; attracted +$40B in 2025 for semiconductors and EVs (ACA). The "Silicon Desert" offers UMO an optimized logistics network for efficient parts movement.'}
                 </p>
               </div>
               <div className="glass-card p-6 border-zinc-800 hover:border-blue-400/30 transition-colors">
@@ -71,8 +71,8 @@ export const ForeignInvestment = () => {
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es'
-                    ? 'Volumen robusto ($18,000M en el último ciclo, SelectUSA, 2025), pero con crecimiento ralentizado por altos costos operativos. Prioriza la electrónica de consumo sobre maquinaria pesada de exteriores.'
-                    : 'Robust volume ($18B in the last cycle, SelectUSA, 2025), but with growth slowed by high operating costs. It prioritizes consumer electronics over heavy outdoor machinery.'}
+                    ? 'Volumen robusto ($18,000M en el último ciclo, SelectUSA), pero con crecimiento ralentizado por altos costos operativos. Prioriza la electrónica de consumo sobre maquinaria pesada de exteriores.'
+                    : 'Robust volume ($18B in the last cycle, SelectUSA), but with growth slowed by high operating costs. It prioritizes consumer electronics over heavy outdoor machinery.'}
                 </p>
               </div>
             </div>
@@ -139,8 +139,8 @@ export const ForeignInvestment = () => {
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es'
-                    ? 'Centro neurálgico de baterías y EVs; captó inversiones >$15,000M en nuevas plantas (ACA, 2025). Como estado fabricante, UMO neutraliza la vibración mecánica severa en motores a gasolina y disipa el calor en sistemas eléctricos.'
-                    : 'Neuralgic center for batteries and EVs; captured >$15B in new plants (ACA, 2025). As a manufacturing state, UMO neutralizes severe mechanical vibration in gasoline engines and dissipates heat in electrical systems.'}
+                    ? 'Centro neurálgico de baterías y EVs; captó inversiones >$15,000M en nuevas plantas (ACA). Como estado fabricante, UMO neutraliza la vibración mecánica severa en motores a gasolina y disipa el calor en sistemas eléctricos.'
+                    : 'Neuralgic center for batteries and EVs; captured >$15B in new plants (ACA). As a manufacturing state, UMO neutralizes severe mechanical vibration in gasoline engines and dissipates heat in electrical systems.'}
                 </p>
               </div>
               <div className="glass-card p-6 border-zinc-800 hover:border-blue-400/30 transition-colors">
@@ -150,8 +150,8 @@ export const ForeignInvestment = () => {
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es'
-                    ? 'Líder en infraestructura de transporte limpio (CEC, 2025). Su versatilidad permite penetrar masivamente en flotas de gasolina actuales mientras se establece como estándar ergonómico para la transición eléctrica.'
-                    : 'Leader in clean transport infrastructure (CEC, 2025). Its versatility allows for massive penetration in current gasoline fleets while establishing itself as the ergonomic standard for the electric transition.'}
+                    ? 'Líder en infraestructura de transporte limpio (CEC). Su versatilidad permite penetrar masivamente en flotas de gasolina actuales mientras se establece como estándar ergonómico para la transición eléctrica.'
+                    : 'Leader in clean transport infrastructure (CEC). Its versatility allows for massive penetration in current gasoline fleets while establishing itself as the ergonomic standard for the electric transition.'}
                 </p>
               </div>
             </div>
