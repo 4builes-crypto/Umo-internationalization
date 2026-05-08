@@ -1,4 +1,4 @@
-import { Truck, Settings, Box } from 'lucide-react';
+import { Settings, Box, HandCoins } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export const InternationalTrade = () => {
@@ -96,40 +96,66 @@ export const InternationalTrade = () => {
         </div>
       </section>
 
-      {/* 3. Crecimiento y Conectividad USMCA */}
+      {/* 3. Acuerdo de Libre Comercio y Entorno Arancelario Actual */}
       <section className="space-y-6">
         <div className="flex items-center gap-3 border-l-4 border-unoOrange pl-4 py-1">
           <div className="w-10 h-10 rounded-xl bg-unoOrange/20 flex items-center justify-center text-unoOrange">
-            <Truck className="w-5 h-5" />
+            <HandCoins className="w-5 h-5" />
           </div>
           <h2 className="text-xl font-bold text-white uppercase tracking-wider">
-            {language === 'es' ? '3. Crecimiento y Conectividad USMCA' : '3. Growth & USMCA Connectivity'}
+            {language === 'es' 
+              ? '3. Acuerdo de Libre Comercio y Entorno Arancelario Actual' 
+              : '3. Free Trade Agreement & Current Tariff Environment'}
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="glass-card p-6 border-zinc-800 hover:border-unoOrange/30 transition-all group">
-            <div className="flex justify-between items-start mb-4">
-              <h4 className="text-unoOrange font-bold text-xs tracking-widest uppercase">ARIZONA</h4>
-              <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 5.0</span>
-            </div>
-            <p className="text-sm text-textSecondary leading-relaxed mb-4">
-              {language === 'es' 
-                ? 'Integración productiva directa con México bajo el T-MEC. Cadenas logísticas terrestres de bajo costo y alta velocidad operativa.' 
-                : 'Direct productive integration with Mexico under USMCA. Low-cost and high-speed terrestrial logistical chains.'}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="space-y-6">
+            <h3 className="text-lg font-bold text-unoOrange flex items-center gap-2">
+               {language === 'es' ? 'Ventaja Estructural (TPA)' : 'Structural Advantage (TPA)'}
+            </h3>
+            <p className="text-sm text-textSecondary leading-relaxed">
+              {language === 'es'
+                ? 'El TPA entre Colombia y EE.UU. (vigente desde 2012) eliminó aranceles para más del 80% de productos industriales. Si el sillín cumple reglas de origen, entra con arancel cero. Sin embargo, el entorno cambió en 2025-2026.'
+                : 'The TPA between Colombia and the US (in effect since 2012) eliminated tariffs for over 80% of industrial products. If the seat meets origin rules, it enters with zero tariff. However, the environment changed in 2025-2026.'}
             </p>
+            <div className="grid grid-cols-1 gap-4">
+              <div className="p-5 bg-zinc-900/80 rounded-xl border-l-4 border-unoOrange glass-card">
+                <h4 className="text-unoOrange font-bold text-xs mb-2 tracking-widest uppercase">Escenario 2026</h4>
+                <p className="text-sm text-textSecondary leading-relaxed">
+                  {language === 'es' 
+                    ? 'Desde el 24 de febrero de 2026 rige un arancel global del 10% (Sección 122). Las preferencias del TPA NO eximen de este pago actualmente.' 
+                    : 'Since February 24, 2026, a 10% global tariff (Section 122) has been in effect. TPA preferences DO NOT currently exempt from this payment.'}
+                </p>
+              </div>
+              <div className="p-5 bg-zinc-900/80 rounded-xl border-l-4 border-red-400 glass-card">
+                <h4 className="text-red-400 font-bold text-xs mb-2 tracking-widest uppercase">Riesgo Futuro: Sección 301</h4>
+                <p className="text-sm text-textSecondary leading-relaxed">
+                  {language === 'es' 
+                    ? 'Investigaciones en curso contra 60 países (incluido Colombia) podrían elevar los aranceles sin límite de tasa ni plazo. Es el riesgo político más crítico.' 
+                    : 'Ongoing investigations against 60 countries (including Colombia) could raise tariffs without rate or term limits. It is the most critical political risk.'}
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div className="glass-card p-6 border-zinc-800 hover:border-blue-400/30 transition-all group">
-            <div className="flex justify-between items-start mb-4">
-              <h4 className="text-blue-400 font-bold text-xs tracking-widest uppercase">CALIFORNIA</h4>
-              <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 4.0</span>
+          <div className="space-y-6">
+            <h3 className="text-lg font-bold text-unoOrange">{language === 'es' ? 'Implicación para UMO' : 'Implication for UMO'}</h3>
+            <div className="space-y-4">
+              <div className="bg-unoOrange/10 p-8 rounded-2xl border border-unoOrange/20 glass-card flex flex-col justify-center h-full">
+                <p className="text-sm text-white font-bold mb-3 uppercase tracking-wider">
+                  {language === 'es' ? 'Gestión de Costos' : 'Cost Management'}
+                </p>
+                <p className="text-sm text-textSecondary leading-relaxed">
+                  {language === 'es'
+                    ? 'A mayo de 2026, el sillín paga un 10% de arancel. UMO debe monitorear el vencimiento de la Sección 122 (julio 2026) y la posible activación de la Sección 301, que afectaría directamente la competitividad en precio.'
+                    : 'As of May 2026, the seat pays a 10% tariff. UMO must monitor the expiration of Section 122 (July 2026) and the potential activation of Section 301, which would directly affect price competitiveness.'}
+                </p>
+                <div className="mt-4 flex items-center gap-2">
+                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-zinc-700 rounded whitespace-nowrap">Score: 3.5</span>
+                </div>
+              </div>
             </div>
-            <p className="text-sm text-textSecondary leading-relaxed mb-4">
-              {language === 'es' 
-                ? 'Economía de gran escala con alta rotación pero mayor presión competitiva de socios transpacíficos y regionales.' 
-                : 'Large-scale economy with high rotation but greater competitive pressure from transpacific and regional partners.'}
-            </p>
           </div>
         </div>
       </section>
