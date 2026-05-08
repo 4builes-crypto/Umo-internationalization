@@ -212,6 +212,28 @@ const referencesBySector = [
           es: 'Comparativa detallada de la carga impositiva estatal y local entre California y Arizona.',
           en: 'Detailed comparison of state and local tax burden between California and Arizona.'
         }
+      },
+      {
+        author: 'California Department of Tax and Fee Administration (CDTFA)',
+        year: 's.f.',
+        title: 'Guía de impuestos para industria agropecuaria: Exenciones agrícolas.',
+        source: 'State of California',
+        link: 'https://cdtfa.ca.gov/industry/agriculture-spanish/farming-exemptions.htm',
+        description: {
+          es: 'Guía sobre exenciones parciales de impuestos para maquinaria y equipo agrícola en California.',
+          en: 'Guide on partial tax exemptions for agricultural machinery and equipment in California.'
+        }
+      },
+      {
+        author: 'Redw',
+        year: '2025',
+        title: 'Arizona TPT ruling expands tax benefits for agricultural equipment.',
+        source: 'Redw Insights',
+        link: 'https://www.redw.com/arizona-tpt-ruling-expands-tax-benefits-agricultural-equipment/',
+        description: {
+          es: 'Análisis de la resolución que expande los beneficios fiscales (TPT) para maquinaria agrícola en Arizona.',
+          en: 'Analysis of the ruling expanding tax benefits (TPT) for agricultural machinery in Arizona.'
+        }
       }
     ]
   },

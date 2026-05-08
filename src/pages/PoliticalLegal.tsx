@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Scale, ShieldCheck, Info, ArrowRight, Gavel, AlertTriangle } from 'lucide-react';
+import { Scale, ShieldCheck, Info, ArrowRight, Gavel, AlertTriangle, Tractor } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export const PoliticalLegal = () => {
@@ -170,6 +170,84 @@ export const PoliticalLegal = () => {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      {/* 3. Beneficios para Maquinaria Agrícola */}
+      <section className="space-y-6">
+        <div className="flex items-center gap-3 border-l-4 border-unoOrange pl-4 py-1">
+          <div className="w-10 h-10 rounded-xl bg-unoOrange/20 flex items-center justify-center text-unoOrange">
+            <Tractor className="w-5 h-5" />
+          </div>
+          <h2 className="text-xl font-bold text-white">
+            {language === 'es' 
+              ? '3. Beneficios e incentivos para maquinaria agrícola' 
+              : '3. Benefits & Incentives for Agricultural Machinery'}
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
+          <div className="xl:col-span-7 space-y-6">
+            <div className="prose prose-invert max-w-none">
+              <p className="text-sm text-textSecondary leading-relaxed">
+                {language === 'es'
+                  ? 'Este factor analiza las exenciones fiscales específicas para el sector agropecuario. Estos incentivos reducen significativamente el costo operativo para los compradores de maquinaria y repuestos, facilitando la inversión en equipo premium.'
+                  : 'This factor analyzes specific tax exemptions for the agricultural sector. These incentives significantly reduce operating costs for machinery and spare parts buyers, facilitating investment in premium equipment.'}
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="glass-card p-6 border-zinc-800 hover:border-unoOrange/30 transition-colors">
+                <div className="flex justify-between items-start mb-2">
+                  <h4 className="text-unoOrange font-bold text-xs tracking-widest uppercase">ARIZONA</h4>
+                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 5.0</span>
+                </div>
+                <p className="text-sm text-textSecondary leading-relaxed">
+                  {language === 'es'
+                    ? 'Deducción total del Transaction Privilege Tax (TPT) para maquinaria nueva/usada y equipo off-road (Redw, 2025). Mayor flujo de caja para el sector agrícola.'
+                    : 'Total Transaction Privilege Tax (TPT) deduction for new/used machinery and off-road equipment (Redw, 2025). Higher cash flow for the agricultural sector.'}
+                </p>
+              </div>
+              <div className="glass-card p-6 border-zinc-800 hover:border-blue-400/30 transition-colors">
+                <div className="flex justify-between items-start mb-2">
+                  <h4 className="text-blue-400 font-bold text-xs tracking-widest uppercase">CALIFORNIA</h4>
+                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 3.0</span>
+                </div>
+                <p className="text-sm text-textSecondary leading-relaxed">
+                  {language === 'es'
+                    ? 'Exención parcial del 5% estatal en maquinaria y partes de repuesto calificadas (CDTFA, s.f.). Beneficio parcial que ayuda pero no iguala la exención total de AZ.'
+                    : 'Partial 5% state exemption on qualified machinery and spare parts (CDTFA, n.d.). Partial benefit that helps but doesn\'t match AZ\'s total exemption.'}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <motion.div 
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="xl:col-span-5 glass-card p-6 border-unoOrange/30 bg-unoOrange/5 relative overflow-hidden h-full flex flex-col justify-center"
+          >
+            <Gavel className="absolute -right-4 -top-4 w-24 h-24 text-unoOrange/10" />
+            <h3 className="text-lg font-bold text-white mb-5 flex items-center gap-3">
+              <ShieldCheck className="text-unoOrange w-6 h-6" /> 
+              {language === 'es' ? 'Incentivo Sectorial' : 'Sectoral Incentive'}
+            </h3>
+            <p className="text-sm text-white font-medium leading-relaxed mb-4">
+              {language === 'es'
+                ? 'La exención total en Arizona potencia directamente el poder adquisitivo del público objetivo de UMO.'
+                : 'The total exemption in Arizona directly boosts the purchasing power of UMO\'s target audience.'}
+            </p>
+            <div className="space-y-3">
+              <div className="flex gap-3 items-center">
+                <ArrowRight className="text-unoOrange shrink-0 w-4 h-4" />
+                <p className="text-sm text-textSecondary">{language === 'es' ? 'Fomento a la reinversión.' : 'Incentive for reinvestment.'}</p>
+              </div>
+              <div className="flex gap-3 items-center">
+                <ArrowRight className="text-unoOrange shrink-0 w-4 h-4" />
+                <p className="text-sm text-textSecondary">{language === 'es' ? 'Menor barrera de costo.' : 'Lower cost barrier.'}</p>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </section>
     </div>
