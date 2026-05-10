@@ -1,4 +1,4 @@
-import { Users, Home, ShoppingBag, CheckCircle, ShieldCheck, ArrowRight } from 'lucide-react';
+import { Users, Home, ShoppingBag, CheckCircle, ShieldCheck } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { motion } from 'framer-motion';
 
@@ -143,59 +143,68 @@ export const SocialCultural = () => {
           </h2>
         </div>
 
-        <div className="glass-card p-8 relative overflow-hidden group">
-          <div className="absolute top-0 right-0 w-72 h-72 bg-unoOrange/5 rounded-full blur-3xl" />
+        <div className="glass-card p-8 border-zinc-800">
+          <div className="prose prose-invert max-w-none mb-8">
+            <p className="text-sm text-textSecondary leading-relaxed">
+              {language === 'es'
+                ? 'Este indicador mide la disposición a invertir en productos ergonómicos y de alto rendimiento que mejoran la experiencia laboral.'
+                : 'This indicator measures the willingness to invest in ergonomic and high-performance products that improve the work experience.'}
+            </p>
+          </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 relative z-10">
-            <div className="space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="space-y-4">
+              <div className="flex justify-between items-center">
+                <h4 className="text-unoOrange font-bold text-xs uppercase tracking-widest">ARIZONA</h4>
+                <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 4.0</span>
+              </div>
               <p className="text-sm text-textSecondary leading-relaxed">
-                {language === 'es'
-                  ? 'Este indicador mide la disposición a invertir en productos ergonómicos y de alto rendimiento que mejoran la experiencia laboral.'
-                  : 'This indicator measures the willingness to invest in ergonomic and high-performance products that improve the work experience.'}
+                {language === 'es' 
+                  ? 'Ingreso medio hogar: $79,964 y per cápita: $42,503. Arizona es atractivo si el producto se presenta como una compra práctica: un asiento que ayuda a trabajar más cómodo y soporta el calor.' 
+                  : 'Median household income: $79,964 and per capita: $42,503. Arizona is attractive if the product is presented as a practical purchase: a seat that helps work more comfortably and handles heat.'}
               </p>
-              <div className="grid grid-cols-2 gap-6">
-                <div className="space-y-2">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="text-unoOrange font-bold text-xs uppercase tracking-widest">ARIZONA:</span>
-                    <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 4.0</span>
-                  </div>
-                  <p className="text-xs text-textSecondary">
-                    {language === 'es' ? 'Ingreso hogar: $79,964. Enfoque práctico y durabilidad.' : 'Household income: $79,964. Focus on practicality and durability.'}
-                  </p>
-                </div>
-                <div className="space-y-2">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="text-blue-400 font-bold text-xs uppercase tracking-widest">CALIFORNIA:</span>
-                    <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 5.0</span>
-                  </div>
-                  <p className="text-xs text-textSecondary">
-                    {language === 'es' ? 'Ingreso hogar: $99,122. Valoración de diseño y funcionalidad premium.' : 'Household income: $99,122. Appreciation for premium design and functionality.'}
-                  </p>
-                </div>
-              </div>
             </div>
+            <div className="space-y-4">
+              <div className="flex justify-between items-center">
+                <h4 className="text-blue-400 font-bold text-xs uppercase tracking-widest">CALIFORNIA</h4>
+                <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 5.0</span>
+              </div>
+              <p className="text-sm text-textSecondary leading-relaxed">
+                {language === 'es' 
+                  ? 'Ingreso medio hogar: $99,122 y per cápita: $49,513. Indica mayor capacidad de compra, lo cual favorece la venta de productos con valor agregado y especializados.' 
+                  : 'Median household income: $99,122 and per capita: $49,513. Indicates higher purchasing power, favoring the sale of value-added and specialized products.'}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <div className="bg-zinc-900/50 p-6 rounded-3xl border border-white/10 relative glass-card flex flex-col justify-center">
-              <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-3">
-                <ShieldCheck className="text-unoOrange w-6 h-6" />
-                {language === 'es' ? 'Conclusión Sociocultural' : 'Socio-Cultural Conclusion'}
-              </h3>
-              <p className="text-sm text-textSecondary leading-relaxed mb-4">
-                {language === 'es'
-                  ? 'California domina en escala y poder adquisitivo, mientras que Arizona ofrece una conexión superior con el propietario directo y su entorno exterior.'
-                  : 'California dominates in scale and purchasing power, while Arizona offers a superior connection with the direct owner and their outdoor environment.'}
-              </p>
-              <div className="space-y-2">
-                <div className="flex gap-3 items-center">
-                  <ArrowRight className="text-unoOrange shrink-0 w-4 h-4" />
-                  <p className="text-xs text-textSecondary">{language === 'es' ? 'Presentar como solución ergonómica.' : 'Present as an ergonomic solution.'}</p>
-                </div>
-                <div className="flex gap-3 items-center">
-                  <ArrowRight className="text-unoOrange shrink-0 w-4 h-4" />
-                  <p className="text-xs text-textSecondary">{language === 'es' ? 'Diferenciación por durabilidad.' : 'Differentiation through durability.'}</p>
-                </div>
-              </div>
-            </div>
+      {/* Final Conclusion Section */}
+      <section className="pt-20">
+        <div className="glass-card p-10 bg-unoOrange/5 border-unoOrange/20 relative overflow-hidden">
+          <ShieldCheck className="absolute -right-4 -bottom-4 w-40 h-40 text-unoOrange/5" />
+          <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+            <CheckCircle className="text-unoOrange w-7 h-7" />
+            {language === 'es' ? 'Conclusión Sociocultural' : 'Socio-Cultural Conclusion'}
+          </h3>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <p className="text-sm text-textSecondary leading-relaxed">
+              {language === 'es'
+                ? 'Desde el punto de vista sociocultural, California es el estado más atractivo para UMO por su población masiva y capacidad de compra. Esto facilita la introducción de productos ergonómicos modernos y especializados.'
+                : 'From a socio-cultural perspective, California is the most attractive state for UMO due to its massive population and purchasing power. This facilitates the introduction of modern and specialized ergonomic products.'}
+            </p>
+            <p className="text-sm text-textSecondary leading-relaxed">
+              {language === 'es'
+                ? 'Arizona destaca por su alta tasa de viviendas propias y espacios exteriores. La mejor estrategia es presentar el sillón como una solución de durabilidad y reducción del cansancio operativa, ideal para climas extremos.'
+                : 'Arizona stands out for its high rate of home ownership and outdoor spaces. The best strategy is to present the seat as a solution for durability and reduced operational fatigue, ideal for extreme climates.'}
+            </p>
+          </div>
+          <div className="mt-8 p-6 bg-white/5 rounded-2xl border border-white/10">
+            <p className="text-sm text-white font-medium italic text-center">
+              {language === 'es'
+                ? '"Para UMO, la clave es posicionar el sillón no como un simple repuesto, sino como una mejora en la experiencia operativa y de confort."'
+                : '"For UMO, the key is to position the seat not as a simple spare part, but as an improvement in the operational and comfort experience."'}
+            </p>
           </div>
         </div>
       </section>
