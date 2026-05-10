@@ -25,8 +25,8 @@ const scoreData = [
   },
   {
     category: { es: 'Comercio Internacional', en: 'International Trade' },
-    arizona: 4.67,
-    california: 4.00
+    arizona: 4.10,
+    california: 4.30
   },
   {
     category: { es: 'Inversión Extranjera', en: 'Foreign Investment' },

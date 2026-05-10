@@ -285,6 +285,115 @@ const referencesBySector = [
         }
       }
     ]
+  },
+  {
+    sector: { es: 'Industria de Landscaping y Aftermarket', en: 'Landscaping & Aftermarket Industry' },
+    items: [
+      {
+        author: 'IBISWorld',
+        year: '2025',
+        title: 'Landscaping Services in Arizona.',
+        source: 'IBISWorld Industry Report',
+        link: 'https://www.ibisworld.com/united-states/industry/arizona/landscaping-services/17278/',
+        description: {
+          es: 'Reporte sobre el valor y crecimiento de la industria de landscaping en Arizona.',
+          en: 'Report on the value and growth of the landscaping industry in Arizona.'
+        }
+      },
+      {
+        author: 'IBISWorld',
+        year: '2025',
+        title: 'Machinery Maintenance & Heavy Equipment Repair Services in California.',
+        source: 'IBISWorld Industry Report',
+        link: 'https://www.ibisworld.com/united-states/industry/california/machinery-maintenance-heavy-equipment-repair-services/14970/',
+        description: {
+          es: 'Análisis de los servicios de mantenimiento de maquinaria en California.',
+          en: 'Analysis of machinery maintenance services in California.'
+        }
+      },
+      {
+        author: 'IBISWorld',
+        year: '2025',
+        title: 'Farm, Lawn & Garden Equipment Wholesaling in California.',
+        source: 'IBISWorld Industry Report',
+        link: 'https://www.ibisworld.com/united-states/industry/california/farm-lawn-garden-equipment-wholesaling/14710/',
+        description: {
+          es: 'Distribución mayorista de equipos de jardín y agrícolas en California.',
+          en: 'Wholesale distribution of garden and agricultural equipment in California.'
+        }
+      },
+      {
+        author: 'DataHorizzon Research',
+        year: '2025',
+        title: 'Lawn and Garden Equipment Aftermarket Parts Market Report.',
+        source: 'Market Research',
+        link: 'https://datahorizzonresearch.com/lawn-and-garden-equipment-aftermarket-parts-market-54217',
+        description: {
+          es: 'Estudio de mercado global sobre repuestos aftermarket para equipos de jardín.',
+          en: 'Global market study on aftermarket parts for garden equipment.'
+        }
+      },
+      {
+        author: 'Cognitive Market Research',
+        year: '2026',
+        title: 'Lawn and Garden Equipment Aftermarket Parts Market Analysis.',
+        source: 'Market Analysis',
+        link: 'https://www.cognitivemarketresearch.com/lawn-and-garden-equipment-aftermarket-parts-market-report',
+        description: {
+          es: 'Análisis detallado de la demanda de componentes de reposición en el mercado norteamericano.',
+          en: 'Detailed analysis of replacement component demand in the North American market.'
+        }
+      }
+    ]
+  },
+  {
+    sector: { es: 'Logística y Tiempo de Exportación', en: 'Logistics & Export Lead Time' },
+    items: [
+      {
+        author: 'Freightos',
+        year: '2025',
+        title: 'International Freight Shipping Transit Time Calculator.',
+        source: 'Freightos Marketplace',
+        link: 'https://www.freightos.com/freight-resources/transit-time-calculator/',
+        description: {
+          es: 'Herramienta de cálculo de tiempos de tránsito para carga internacional.',
+          en: 'Transit time calculation tool for international freight.'
+        }
+      },
+      {
+        author: 'Maersk',
+        year: '2025',
+        title: 'Transit Time and Shipping Routes Latin America to United States.',
+        source: 'Maersk Logistics',
+        link: 'https://www.maersk.com/',
+        description: {
+          es: 'Rutas marítimas y tiempos estimados desde Latinoamérica hacia EE.UU.',
+          en: 'Maritime routes and estimated times from Latin America to the US.'
+        }
+      },
+      {
+        author: 'Port of Los Angeles / Long Beach',
+        year: '2025',
+        title: 'Port Statistics and Cargo Operations.',
+        source: 'Port Authorities',
+        link: 'https://www.portoflosangeles.org/business/statistics',
+        description: {
+          es: 'Estadísticas de carga e infraestructura portuaria en California.',
+          en: 'Cargo statistics and port infrastructure in California.'
+        }
+      },
+      {
+        author: 'International Trade Administration',
+        year: '2025',
+        title: 'U.S. Transportation and Logistics Industry Overview.',
+        source: 'U.S. Department of Commerce',
+        link: 'https://www.trade.gov/transportation-and-logistics-industry',
+        description: {
+          es: 'Visión general de la industria logística y de transporte en los Estados Unidos.',
+          en: 'Overview of the transportation and logistics industry in the United States.'
+        }
+      }
+    ]
   }
 ];
 
