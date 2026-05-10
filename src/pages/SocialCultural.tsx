@@ -155,18 +155,18 @@ export const SocialCultural = () => {
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <div className="flex justify-between">
-                    <span className="text-unoOrange font-bold text-xs uppercase">AZ:</span>
-                    <span className="text-xs font-bold text-white">Score: 4.0</span>
+                  <div className="flex justify-between items-center mb-2">
+                    <span className="text-unoOrange font-bold text-xs uppercase tracking-widest">ARIZONA:</span>
+                    <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 4.0</span>
                   </div>
                   <p className="text-xs text-textSecondary">
                     {language === 'es' ? 'Ingreso hogar: $79,964. Enfoque práctico y durabilidad.' : 'Household income: $79,964. Focus on practicality and durability.'}
                   </p>
                 </div>
                 <div className="space-y-2">
-                  <div className="flex justify-between">
-                    <span className="text-blue-400 font-bold text-xs uppercase">CA:</span>
-                    <span className="text-xs font-bold text-white">Score: 5.0</span>
+                  <div className="flex justify-between items-center mb-2">
+                    <span className="text-blue-400 font-bold text-xs uppercase tracking-widest">CALIFORNIA:</span>
+                    <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 5.0</span>
                   </div>
                   <p className="text-xs text-textSecondary">
                     {language === 'es' ? 'Ingreso hogar: $99,122. Valoración de diseño y funcionalidad premium.' : 'Household income: $99,122. Appreciation for premium design and functionality.'}
