@@ -68,8 +68,8 @@ const referencesBySector = [
         source: 'U.S. Department of Commerce',
         link: 'https://www.census.gov/quickfacts/fact/table/AZ,CA/PST045224',
         description: {
-          es: 'Datos demográficos actualizados sobre población hispana y multiculturalidad.',
-          en: 'Updated demographic data on Hispanic population and multiculturalism.'
+          es: 'Datos demográficos actualizados sobre población, multiculturalidad, tasas de vivienda propia e ingresos por hogar.',
+          en: 'Updated demographic data on population, multiculturalism, home ownership rates, and household income.'
         }
       },
       {
