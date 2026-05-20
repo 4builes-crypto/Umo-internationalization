@@ -182,8 +182,41 @@ const referencesBySector = [
         source: 'USDA',
         link: 'https://websoilsurvey.nrcs.usda.gov/',
         description: {
-          es: 'Análisis de la composición del suelo para determinar el estrés mecánico.',
-          en: 'Analysis of soil composition to determine mechanical stress.'
+          es: 'Análisis de la composición del suelo (caliche en Arizona vs aluvial en California) para determinar el estrés mecánico en la maquinaria.',
+          en: 'Analysis of soil composition (caliche in Arizona vs alluvial in California) to determine mechanical stress on machinery.'
+        }
+      },
+      {
+        author: 'National Oceanic and Atmospheric Administration (NOAA)',
+        year: '2025',
+        title: 'Climate data online: Historical weather observations.',
+        source: 'U.S. Department of Commerce',
+        link: 'https://www.ncei.noaa.gov/cdo-web/',
+        description: {
+          es: 'Datos históricos de temperatura y radiación UV, fundamentales para sustentar la ventaja de disipación térmica de la tecnología UMO.',
+          en: 'Historical temperature and UV radiation data, fundamental to support the thermal dissipation advantage of UMO technology.'
+        }
+      },
+      {
+        author: 'Arizona Cooperative Extension',
+        year: '2021',
+        title: 'Turfgrass maintenance guide for commercial and residential lawns.',
+        source: 'University of Arizona',
+        link: 'https://extension.arizona.edu/publication/turfgrass-maintenance-guide-residential-and-commercial-lawns-low-elevation-arizona',
+        description: {
+          es: 'Guía de mantenimiento de césped que confirma el ciclo operativo de 12 meses en Arizona, validando la alta demanda de reposición.',
+          en: 'Turf maintenance guide confirming the 12-month operating cycle in Arizona, validating high replacement demand.'
+        }
+      },
+      {
+        author: 'University of California Agriculture and Natural Resources (UC ANR)',
+        year: '2023',
+        title: 'Mowing and grasscycling guidelines for California landscapes.',
+        source: 'UC ANR',
+        link: 'https://ucanr.edu/site/landscape-lush/mowing-and-grasscycling',
+        description: {
+          es: 'Directrices de corte en California que muestran la estacionalidad del servicio, permitiendo contrastar el desgaste operativo con Arizona.',
+          en: 'Mowing guidelines in California showing service seasonality, allowing for a contrast in operational wear with Arizona.'
         }
       }
     ]

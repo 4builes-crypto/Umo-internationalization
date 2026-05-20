@@ -140,7 +140,7 @@ export const TechEnvironmental = () => {
                   <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 5.0</span>
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
-                  {language === 'es' ? 'Ciclo ininterrumpido de 12 meses. Flotas operan a máxima capacidad constante.' : 'Uninterrupted 12-month cycle. Fleets operate at constant maximum capacity.'}
+                  {language === 'es' ? 'Ciclo ininterrumpido de 12 meses (Arizona Cooperative Extension, 2021). Flotas operan a máxima capacidad constante.' : 'Uninterrupted 12-month cycle (Arizona Cooperative Extension, 2021). Fleets operate at constant maximum capacity.'}
                 </p>
               </div>
               <div className="p-5 bg-zinc-900/80 rounded-xl border-l-4 border-blue-400 glass-card">
@@ -149,7 +149,7 @@ export const TechEnvironmental = () => {
                   <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 3.0</span>
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
-                  {language === 'es' ? 'Estacionalidad mediterránea. Actividad intensiva entre abril y octubre.' : 'Mediterranean seasonality. Intensive activity between April and October.'}
+                  {language === 'es' ? 'Estacionalidad mediterránea. Actividad intensiva entre abril y octubre (University of California Agriculture and Natural Resources [UC ANR], 2023).' : 'Mediterranean seasonality. Intensive activity between April and October (University of California Agriculture and Natural Resources [UC ANR], 2023).'}
                 </p>
               </div>
             </div>
@@ -196,8 +196,8 @@ export const TechEnvironmental = () => {
               </h3>
               <p className="text-sm text-textSecondary leading-relaxed">
                 {language === 'es'
-                  ? 'Los polímeros convencionales sufren fotodegradación y choque térmico. La radiación solar genera grietas que permiten la filtración de humedad hacia la espuma interna, destruyendo la ergonomía.'
-                  : 'Conventional polymers suffer from photodegradation and thermal shock. Solar radiation creates cracks that allow moisture filtration into the inner foam, destroying ergonomics.'}
+                  ? 'Los polímeros convencionales sufren fotodegradación y choque térmico. La radiación solar genera grietas que permiten la filtración de humedad hacia la espuma interna, destruyendo la ergonomía (National Oceanic and Atmospheric Administration [NOAA], 2025).'
+                  : 'Conventional polymers suffer from photodegradation and thermal shock. Solar radiation creates cracks that allow moisture filtration into the inner foam, destroying ergonomics (National Oceanic and Atmospheric Administration [NOAA], 2025).'}
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div>
@@ -205,14 +205,22 @@ export const TechEnvironmental = () => {
                     <span className="text-unoOrange font-bold text-xs uppercase tracking-widest">ARIZONA:</span>
                     <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 5.0</span>
                   </div>
-                  <p className="text-sm text-textSecondary">Extremo (+100 días &gt; 38°C) con UV severo.</p>
+                  <p className="text-sm text-textSecondary">
+                    {language === 'es' 
+                      ? 'Extremo (+100 días > 38°C) con UV severo (NOAA, 2025).' 
+                      : 'Extreme (+100 days > 38°C) with severe UV (NOAA, 2025).'}
+                  </p>
                 </div>
                 <div>
                   <div className="flex items-center justify-between mb-1 gap-2">
                     <span className="text-blue-400 font-bold text-xs uppercase tracking-widest">CALIFORNIA:</span>
                     <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 3.5</span>
                   </div>
-                  <p className="text-sm text-textSecondary">Insolación y UV en rangos moderados.</p>
+                  <p className="text-sm text-textSecondary">
+                    {language === 'es' 
+                      ? 'Insolación y UV en rangos moderados (NOAA, 2025).' 
+                      : 'Insolation and UV in moderate ranges (NOAA, 2025).'}
+                  </p>
                 </div>
               </div>
             </div>
