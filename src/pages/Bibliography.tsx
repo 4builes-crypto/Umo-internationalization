@@ -93,6 +93,17 @@ const referencesBySector = [
           es: 'Resumen ejecutivo de los compromisos y desgravaciones arancelarias bajo el TPA.',
           en: 'Executive summary of commitments and tariff reductions under the TPA.'
         }
+      },
+      {
+        author: 'Community Associations Institute (CAI)',
+        year: '2023',
+        title: 'National and State Statistical Profile of Association-Governed Communities.',
+        source: 'CAI Data Hub',
+        link: 'https://www.caionline.org/AboutCommunityAssociations/Pages/StatisticalProfile.aspx',
+        description: {
+          es: 'Estadísticas sobre la alta regulación y prevalencia de las HOAs en los desarrollos suburbanos de EE.UU.',
+          en: 'Statistics on the high regulation and prevalence of HOAs in US suburban developments.'
+        }
       }
     ]
   },
@@ -375,6 +386,28 @@ const referencesBySector = [
         description: {
           es: 'Análisis detallado de la demanda de componentes de reposición en el mercado norteamericano.',
           en: 'Detailed analysis of replacement component demand in the North American market.'
+        }
+      },
+      {
+        author: 'Arizona Landscape Contractors Association (ALCA)',
+        year: '2024',
+        title: 'Arizona Sustainable Landscaping Guidelines & Winter Overseeding Management.',
+        source: 'ALCA Resources',
+        link: 'https://www.azlca.com/resources',
+        description: {
+          es: 'Guía de paisajismo sostenible en Arizona que describe el ciclo continuo de mantenimiento y la siembra de invierno.',
+          en: 'Sustainable landscaping guide in Arizona describing the continuous maintenance cycle and winter overseeding.'
+        }
+      },
+      {
+        author: 'National Golf Foundation (NGF)',
+        year: '2024',
+        title: 'Golf Course Density and Maintenance Facilities in the US Sun Belt.',
+        source: 'NGF Publications',
+        link: 'https://www.ngf.org/golf-industry-research/',
+        description: {
+          es: 'Informe sobre la concentración de campos de golf en el Sun Belt y la frecuencia de mantenimiento requerida.',
+          en: 'Report on golf course density in the Sun Belt and the required maintenance frequency.'
         }
       }
     ]

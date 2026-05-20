@@ -1,4 +1,4 @@
-import { Users, Home, ShoppingBag, CheckCircle, ShieldCheck } from 'lucide-react';
+import { Users, Home, CheckCircle, ShieldCheck } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { motion } from 'framer-motion';
 
@@ -52,8 +52,8 @@ export const SocialCultural = () => {
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es'
-                    ? '7,623,818 personas (2025). Mercado más pequeño y menos saturado, ideal para una entrada enfocada y con menor presión competitiva inicial.'
-                    : '7,623,818 people (2025). Smaller, less saturated market, ideal for a focused entry with lower initial competitive pressure.'}
+                    ? '7,623,818 personas (2025) (U.S. Census Bureau, 2025). Mercado más pequeño y menos saturado, ideal para una entrada enfocada y con menor presión competitiva inicial.'
+                    : '7,623,818 people (2025) (U.S. Census Bureau, 2025). Smaller, less saturated market, ideal for a focused entry with lower initial competitive pressure.'}
                 </p>
               </div>
               <div className="glass-card p-6 border-zinc-800 hover:border-blue-400/30 transition-colors">
@@ -63,8 +63,8 @@ export const SocialCultural = () => {
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es'
-                    ? '39,355,309 personas (2025). Mercado masivo con la mayor cantidad de empresas de jardinería y zonas residenciales en EE.UU.'
-                    : '39,355,309 people (2025). Massive market with the highest number of landscaping companies and residential areas in the US.'}
+                    ? '39,355,309 personas (2025) (U.S. Census Bureau, 2025). Mercado masivo con la mayor cantidad de empresas de jardinería y zonas residenciales en EE.UU.'
+                    : '39,355,309 people (2025) (U.S. Census Bureau, 2025). Massive market with the highest number of landscaping companies and residential areas in the US.'}
                 </p>
               </div>
             </div>
@@ -90,7 +90,7 @@ export const SocialCultural = () => {
         </div>
       </section>
 
-      {/* 2. Perfil de vivienda y espacios exteriores */}
+      {/* 2. Cultura del Paisajismo y Estilo de Vida en el Sun Belt */}
       <section className="space-y-6">
         <div className="flex items-center gap-3 border-l-4 border-unoOrange pl-4 py-1">
           <div className="w-10 h-10 rounded-xl bg-unoOrange/20 flex items-center justify-center text-unoOrange">
@@ -98,8 +98,8 @@ export const SocialCultural = () => {
           </div>
           <h2 className="text-xl font-bold text-white">
             {language === 'es' 
-              ? '2. Perfil de vivienda y espacios exteriores' 
-              : '2. Housing Profile & Outdoor Spaces'}
+              ? '2. Cultura del Paisajismo y Estilo de Vida en el Sun Belt' 
+              : '2. Landscaping Culture & Sun Belt Lifestyle'}
           </h2>
         </div>
 
@@ -111,8 +111,8 @@ export const SocialCultural = () => {
             </div>
             <p className="text-sm text-textSecondary leading-relaxed mb-4">
               {language === 'es'
-                ? 'Tasa de vivienda propia del 67.4%. Los propietarios invierten significativamente más en mantenimiento y accesorios premium para sus equipos de jardín.'
-                : 'Home ownership rate of 67.4%. Owners invest significantly more in maintenance and premium accessories for their garden equipment.'}
+                ? 'El diseño urbano y las condiciones climáticas de Arizona consolidan un estilo de vida de cuidado intensivo de exteriores. El paisajismo es constante todo el año debido a la siembra de invierno y jardines xerófilos (Arizona Landscape Contractors Association [ALCA], 2024). Los operarios de podadoras pasan jornadas expuestos a calor severo, haciendo la ergonomía y confort térmico del asiento un factor crítico. La alta densidad de campos de golf exige mantenimiento diario bajo estándares estrictos (National Golf Foundation, 2024), acelerando el desgaste del equipo y validando la necesidad de componentes resistentes al calor.'
+                : 'Urban design and climatic conditions in Arizona consolidate an intensive outdoor lifestyle. Landscaping is year-round due to winter overseeding and desert-adapted xeriscaping (Arizona Landscape Contractors Association [ALCA], 2024). Mower operators spend long shifts exposed to severe heat, making seat ergonomics and thermal comfort critical. High golf course density requires daily maintenance under strict standards (National Golf Foundation, 2024), accelerating equipment wear and validating the need for heat-resistant components.'}
             </p>
           </div>
 
@@ -123,23 +123,23 @@ export const SocialCultural = () => {
             </div>
             <p className="text-sm text-textSecondary leading-relaxed mb-4">
               {language === 'es'
-                ? '14.8M de unidades de vivienda, pero con tasa de propiedad menor (55.9%). Mercado de gran volumen pero con decisiones de mantenimiento más fragmentadas.'
-                : '14.8M housing units, but with a lower ownership rate (55.9%). High-volume market but with more fragmented maintenance decisions.'}
+                ? 'California cuenta con una sólida cultura de áreas verdes residenciales e industriales, especialmente en valles y costas. Sin embargo, las restricciones de agua (AB 1572) y sequías recurrentes han modificado el estilo de vida suburbano hacia jardines con menor necesidad de riego y mantenimiento intensivo constante durante los meses más secos, a diferencia del ciclo constante y prolongado de Arizona.'
+                : 'California has a strong culture of residential and industrial green areas, especially in valleys and coasts. However, water restrictions (AB 1572) and recurring droughts have shifted suburban lifestyles toward landscaping with less irrigation and intensive continuous maintenance during the driest months, unlike Arizona\'s constant, prolonged cycle.'}
             </p>
           </div>
         </div>
       </section>
 
-      {/* 3. Capacidad de compra y consumo orientado a comodidad */}
+      {/* 3. Cultura de Conformidad Estética y Presión Social Comunitaria (HOAs) */}
       <section className="space-y-6">
         <div className="flex items-center gap-3 border-l-4 border-unoOrange pl-4 py-1">
           <div className="w-10 h-10 rounded-xl bg-unoOrange/20 flex items-center justify-center text-unoOrange">
-            <ShoppingBag className="w-5 h-5" />
+            <ShieldCheck className="w-5 h-5" />
           </div>
           <h2 className="text-xl font-bold text-white">
             {language === 'es' 
-              ? '3. Capacidad de compra y consumo orientado a comodidad' 
-              : '3. Purchasing Power & Comfort-Oriented Consumption'}
+              ? '3. Cultura de Conformidad Estética y Presión Social Comunitaria (HOAs)' 
+              : '3. Culture of Aesthetic Compliance & Community Social Pressure (HOAs)'}
           </h2>
         </div>
 
@@ -147,8 +147,8 @@ export const SocialCultural = () => {
           <div className="prose prose-invert max-w-none mb-8">
             <p className="text-sm text-textSecondary leading-relaxed">
               {language === 'es'
-                ? 'Este indicador mide la disposición a invertir en productos ergonómicos y de alto rendimiento que mejoran la experiencia laboral.'
-                : 'This indicator measures the willingness to invest in ergonomic and high-performance products that improve the work experience.'}
+                ? 'Este indicador analiza la influencia de las Asociaciones de Propietarios (Homeowners Associations o HOAs) y la cultura de la perfección estética residencial en la sociedad estadounidense, lo que impulsa el mantenimiento constante y el uso de equipos.'
+                : 'This indicator analyzes the influence of Homeowners Associations (HOAs) and the culture of residential aesthetic perfection in US society, driving constant maintenance and equipment usage.'}
             </p>
           </div>
           
@@ -156,23 +156,23 @@ export const SocialCultural = () => {
             <div className="space-y-4">
               <div className="flex justify-between items-center">
                 <h4 className="text-unoOrange font-bold text-xs uppercase tracking-widest">ARIZONA</h4>
-                <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 4.0</span>
+                <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 5.0</span>
               </div>
               <p className="text-sm text-textSecondary leading-relaxed">
                 {language === 'es' 
-                  ? 'Ingreso medio hogar: $79,964 y per cápita: $42,503. Arizona es atractivo si el producto se presenta como una compra práctica: un asiento que ayuda a trabajar más cómodo y soporta el calor.' 
-                  : 'Median household income: $79,964 and per capita: $42,503. Arizona is attractive if the product is presented as a practical purchase: a seat that helps work more comfortably and handles heat.'}
+                  ? 'La gran mayoría de los desarrollos suburbanos están regulados por HOAs, las cuales imponen normativas estrictas sobre la altura, el color y el estado general del césped y los jardines frontales (Community Associations Institute, 2023). El incumplimiento no solo acarrea penalizaciones formales, sino también un fuerte estigma social dentro de la comunidad. Esta presión sociocultural obliga a los residentes y a las empresas contratadas a mantener un uso intensivo y constante de tractores podadores, impulsando la adopción de fundas de alta resiliencia UMO para cumplir con la uniformidad exigida.' 
+                  : 'The vast majority of suburban developments are regulated by HOAs, which impose strict guidelines on lawn height, color, and maintenance (Community Associations Institute, 2023). Non-compliance leads to penalties and social stigma. This pressure forces residents and contractors into intensive and constant use of tractor mowers, driving the adoption of high-resilience UMO covers to meet the required aesthetic uniformity.'}
               </p>
             </div>
             <div className="space-y-4">
               <div className="flex justify-between items-center">
                 <h4 className="text-blue-400 font-bold text-xs uppercase tracking-widest">CALIFORNIA</h4>
-                <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 5.0</span>
+                <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 4.0</span>
               </div>
               <p className="text-sm text-textSecondary leading-relaxed">
                 {language === 'es' 
-                  ? 'Ingreso medio hogar: $99,122 y per cápita: $49,513. Indica mayor capacidad de compra, lo cual favorece la venta de productos con valor agregado y especializados.' 
-                  : 'Median household income: $99,122 and per capita: $49,513. Indicates higher purchasing power, favoring the sale of value-added and specialized products.'}
+                  ? 'California cuenta con la segunda mayor cantidad de HOAs en EE.UU., ejerciendo una gran presión estética. No obstante, las leyes estatales (como la ley AB 2104) limitan la capacidad de las HOAs de sancionar a propietarios que reemplacen el césped con plantas resistentes a la sequía para ahorrar agua. Esto modera ligeramente la presión del mantenimiento intensivo de césped tradicional, aunque la exigencia de prolijidad sigue siendo alta.' 
+                  : 'California has the second-highest number of HOAs in the US, exerting high aesthetic pressure. However, state laws (such as AB 2104) limit HOAs\' capacity to penalize homeowners replacing turf with drought-tolerant landscaping to save water. This slightly moderates traditional intensive mowing, though neatness and visual standards remain highly demanded.'}
               </p>
             </div>
           </div>
@@ -190,13 +190,13 @@ export const SocialCultural = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <p className="text-sm text-textSecondary leading-relaxed">
               {language === 'es'
-                ? 'Desde el punto de vista sociocultural, California es el estado más atractivo para UMO por su población masiva y capacidad de compra. Esto facilita la introducción de productos ergonómicos modernos y especializados.'
-                : 'From a socio-cultural perspective, California is the most attractive state for UMO due to its massive population and purchasing power. This facilitates the introduction of modern and specialized ergonomic products.'}
+                ? 'Desde el punto de vista sociocultural, California representa un mercado masivo pero sujeto a presiones de sostenibilidad. La clave para UMO es la compatibilidad universal que ayuda a los contratistas a cumplir de manera eficiente con las demandas estéticas bajo un contexto de transición a paisajismo de bajo consumo de agua.'
+                : 'From a socio-cultural perspective, California represents a massive market but subject to sustainability pressures. The key for UMO is its universal compatibility that helps contractors efficiently meet aesthetic demands in a context of transition to low-water landscaping.'}
             </p>
             <p className="text-sm text-textSecondary leading-relaxed">
               {language === 'es'
-                ? 'Arizona destaca por su alta tasa de viviendas propias y espacios exteriores. La mejor estrategia es presentar el sillón como una solución de durabilidad y reducción del cansancio operativa, ideal para climas extremos.'
-                : 'Arizona stands out for its high rate of home ownership and outdoor spaces. The best strategy is to present the seat as a solution for durability and reduced operational fatigue, ideal for extreme climates.'}
+                ? 'Arizona destaca por su cultura de paisajismo constante todo el año y la gran presión regulatoria de las HOAs. Esto exige que la maquinaria mantenga un estado estético y operativo impecable, haciendo de las fundas protectoras UMO un componente esencial para resistir el desgaste del sol y cumplir con las normas comunitarias.'
+                : 'Arizona stands out for its year-round landscaping culture and high regulatory pressure from HOAs. This requires machinery to maintain an impeccable aesthetic and operational status, making UMO protective covers an essential component to resist sun wear and comply with community rules.'}
             </p>
           </div>
           <div className="mt-8 p-6 bg-white/5 rounded-2xl border border-white/10">
