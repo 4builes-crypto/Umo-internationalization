@@ -208,11 +208,11 @@ export const TechEnvironmental = () => {
                   <p className="text-xs text-textSecondary leading-relaxed">
                     {language === 'es' ? (
                       <>
-                        El estado registra un índice UV promedio diario anual de <span className="text-unoOrange underline font-semibold">7.0</span>, entrando en la categoría de riesgo de exposición "Alto" como media constante durante los 365 días del año (National Oceanic and Atmospheric Administration [NOAA], 2025). Durante el periodo comprendido entre mayo y agosto, el índice UV máximo promedio alcanza de forma sostenida niveles "Extremos" de 11+, registrando además más de 100 días al año con temperaturas superiores a los 38°C (NOAA, 2025). El impacto constante de esta radiación destruye los polímeros de los sillines convencionales por fotodegradación acelerada.
+                        El estado registra un <span className="px-2 py-0.5 bg-unoOrange/40 text-white rounded font-semibold whitespace-nowrap">índice UV promedio diario anual de 7.0</span>, entrando en la categoría de riesgo de exposición "Alto" como media constante durante los 365 días del año (National Oceanic and Atmospheric Administration [NOAA], 2025). Durante el periodo comprendido entre mayo y agosto, el índice UV máximo promedio alcanza de forma sostenida niveles "Extremos" de 11+, registrando además más de 100 días al año con temperaturas superiores a los 38°C (NOAA, 2025). El impacto constante de esta radiación destruye los polímeros de los sillines convencionales por fotodegradación acelerada.
                       </>
                     ) : (
                       <>
-                        The state records an annual average daily UV index of <span className="text-unoOrange underline font-semibold">7.0</span>, entering the "High" exposure risk category as a constant average 365 days a year (National Oceanic and Atmospheric Administration [NOAA], 2025). During the period from May to August, the average maximum UV index consistently reaches "Extreme" levels of 11+, also recording more than 100 days a year with temperatures exceeding 38°C (NOAA, 2025). The constant impact of this radiation destroys conventional seat polymers through accelerated photodegradation.
+                        The state records an <span className="px-2 py-0.5 bg-unoOrange/40 text-white rounded font-semibold whitespace-nowrap">annual average daily UV index of 7.0</span>, entering the "High" exposure risk category as a constant average 365 days a year (National Oceanic and Atmospheric Administration [NOAA], 2025). During the period from May to August, the average maximum UV index consistently reaches "Extreme" levels of 11+, also recording more than 100 days a year with temperatures exceeding 38°C (NOAA, 2025). The constant impact of this radiation destroys conventional seat polymers through accelerated photodegradation.
                       </>
                     )}
                   </p>
@@ -225,11 +225,11 @@ export const TechEnvironmental = () => {
                   <p className="text-xs text-textSecondary leading-relaxed">
                     {language === 'es' ? (
                       <>
-                        Debido a su gran extensión geográfica y microclimas, el estado registra un índice UV promedio diario anual ponderado de <span className="text-blue-400 underline font-semibold">4.8</span>, clasificándose globalmente en la categoría de riesgo "Moderado" (NOAA, 2025). Mientras el sur de California alcanza picos de radiación "Muy Alta" de 9.0 en verano, las regiones del centro y norte promedian índices significativamente menores durante gran parte del año, reduciendo el promedio estatal (NOAA, 2025).
+                        Debido a su gran extensión geográfica y microclimas, el estado registra un <span className="px-2 py-0.5 bg-blue-400/40 text-white rounded font-semibold">índice UV promedio diario anual ponderado de 4.8</span>, clasificándose globalmente en la categoría de riesgo "Moderado" (NOAA, 2025). Mientras el sur de California alcanza picos de radiación "Muy Alta" de 9.0 en verano, las regiones del centro y norte promedian índices significativamente menores durante gran parte del año, reduciendo el promedio estatal (NOAA, 2025).
                       </>
                     ) : (
                       <>
-                        Due to its large geographic extension and microclimates, the state records a weighted annual average daily UV index of <span className="text-blue-400 underline font-semibold">4.8</span>, globally classifying under the "Moderate" risk category (NOAA, 2025). While southern California reaches "Very High" radiation peaks of 9.0 in summer, the central and northern regions average significantly lower indices during most of the year, reducing the state average (NOAA, 2025).
+                        Due to its large geographic extension and microclimates, the state records a <span className="px-2 py-0.5 bg-blue-400/40 text-white rounded font-semibold">weighted annual average daily UV index of 4.8</span>, globally classifying under the "Moderate" risk category (NOAA, 2025). While southern California reaches "Very High" radiation peaks of 9.0 in summer, the central and northern regions average significantly lower indices during most of the year, reducing the state average (NOAA, 2025).
                       </>
                     )}
                   </p>
