@@ -130,8 +130,8 @@ export const TechEnvironmental = () => {
             </h3>
             <p className="text-sm text-textSecondary leading-relaxed">
               {language === 'es'
-                ? 'La continuidad anual del servicio define las horas de uso. A mayor rodaje continuo, el desgaste por fricción mecánica se acelera exponencialmente.'
-                : 'Annual service continuity defines usage hours. More continuous running means mechanical friction wear accelerates exponentially.'}
+                ? 'La continuidad anual del servicio define las horas de uso operacionales en cada región (Arizona Cooperative Extension, 2021; University of California Agriculture and Natural Resources [UC ANR], 2023). A mayor rodaje continuo, el desgaste por fricción mecánica se acelera exponencialmente.'
+                : 'Annual service continuity defines the operational usage hours in each region (Arizona Cooperative Extension, 2021; UC ANR, 2023). More continuous running means mechanical friction wear accelerates exponentially.'}
             </p>
             <div className="grid grid-cols-1 gap-4">
               <div className="p-5 bg-zinc-900/80 rounded-xl border-l-4 border-unoOrange glass-card">
@@ -146,7 +146,7 @@ export const TechEnvironmental = () => {
               <div className="p-5 bg-zinc-900/80 rounded-xl border-l-4 border-blue-400 glass-card">
                 <div className="flex justify-between items-start mb-2">
                   <h4 className="text-blue-400 font-bold text-xs tracking-widest uppercase">CALIFORNIA</h4>
-                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 3.0</span>
+                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 2.92</span>
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es' ? 'Estacionalidad mediterránea. Actividad intensiva entre abril y octubre (University of California Agriculture and Natural Resources [UC ANR], 2023).' : 'Mediterranean seasonality. Intensive activity between April and October (University of California Agriculture and Natural Resources [UC ANR], 2023).'}
@@ -164,8 +164,8 @@ export const TechEnvironmental = () => {
                 </p>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es'
-                    ? 'El uso de 12 meses en Arizona somete a los asientos convencionales a un estrés diario, generando una demanda constante. UMO retiene su memoria elástica a pesar del uso ininterrumpido, lo que reduce el costo de propiedad.'
-                    : '12-month use in Arizona subjects conventional seats to daily stress, generating constant demand. UMO retains its elastic memory despite uninterrupted use, reducing cost of ownership.'}
+                    ? 'El uso de 12 meses en Arizona somete a los asientos convencionales a un estrés diario continuo, generando una demanda constante de reemplazo (Arizona Cooperative Extension, 2021). UMO retiene su memoria elástica a pesar del uso ininterrumpido, lo que reduce el costo de propiedad.'
+                    : '12-month use in Arizona subjects conventional seats to daily stress, generating constant replacement demand (Arizona Cooperative Extension, 2021). UMO retains its elastic memory despite uninterrupted use, reducing cost of ownership.'}
                 </p>
               </div>
             </div>
@@ -199,27 +199,27 @@ export const TechEnvironmental = () => {
                   ? 'Los polímeros convencionales sufren fotodegradación y choque térmico. La radiación solar genera grietas que permiten la filtración de humedad hacia la espuma interna, destruyendo la ergonomía (National Oceanic and Atmospheric Administration [NOAA], 2025).'
                   : 'Conventional polymers suffer from photodegradation and thermal shock. Solar radiation creates cracks that allow moisture filtration into the inner foam, destroying ergonomics (National Oceanic and Atmospheric Administration [NOAA], 2025).'}
               </p>
-              <div className="grid grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 gap-6">
                 <div>
-                  <div className="flex items-center justify-between mb-1 gap-2">
-                    <span className="text-unoOrange font-bold text-xs uppercase tracking-widest">ARIZONA:</span>
+                  <div className="flex items-center justify-between mb-2 gap-2 border-b border-white/5 pb-1">
+                    <span className="text-unoOrange font-bold text-xs uppercase tracking-widest">ARIZONA</span>
                     <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 5.0</span>
                   </div>
-                  <p className="text-sm text-textSecondary">
+                  <p className="text-xs text-textSecondary leading-relaxed">
                     {language === 'es' 
-                      ? 'Extremo (+100 días > 38°C) con UV severo (NOAA, 2025).' 
-                      : 'Extreme (+100 days > 38°C) with severe UV (NOAA, 2025).'}
+                      ? 'El estado registra un índice UV promedio diario anual de 7.0, entrando en la categoría de riesgo de exposición "Alto" como media constante durante los 365 días del año (National Oceanic and Atmospheric Administration [NOAA], 2025). Durante el periodo comprendido entre mayo y agosto, el índice UV máximo promedio alcanza de forma sostenida niveles "Extremos" de 11+, registrando además más de 100 días al año con temperaturas superiores a los 38°C (NOAA, 2025). El impacto constante de esta radiación destruye los polímeros de los sillines convencionales por fotodegradación acelerada.' 
+                      : 'The state records an annual average daily UV index of 7.0, entering the "High" exposure risk category as a constant average 365 days a year (National Oceanic and Atmospheric Administration [NOAA], 2025). During the period from May to August, the average maximum UV index consistently reaches "Extreme" levels of 11+, also recording more than 100 days a year with temperatures exceeding 38°C (NOAA, 2025). The constant impact of this radiation destroys conventional seat polymers through accelerated photodegradation.'}
                   </p>
                 </div>
                 <div>
-                  <div className="flex items-center justify-between mb-1 gap-2">
-                    <span className="text-blue-400 font-bold text-xs uppercase tracking-widest">CALIFORNIA:</span>
-                    <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 3.5</span>
+                  <div className="flex items-center justify-between mb-2 gap-2 border-b border-white/5 pb-1">
+                    <span className="text-blue-400 font-bold text-xs uppercase tracking-widest">CALIFORNIA</span>
+                    <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 3.43</span>
                   </div>
-                  <p className="text-sm text-textSecondary">
+                  <p className="text-xs text-textSecondary leading-relaxed">
                     {language === 'es' 
-                      ? 'Insolación y UV en rangos moderados (NOAA, 2025).' 
-                      : 'Insolation and UV in moderate ranges (NOAA, 2025).'}
+                      ? 'Debido a su gran extensión geográfica y microclimas, el estado registra un índice UV promedio diario anual ponderado de 4.8, clasificándose globalmente en la categoría de riesgo "Moderado" (NOAA, 2025). Mientras el sur de California alcanza picos de radiación "Muy Alta" de 9.0 en verano, las regiones del centro y norte promedian índices significativamente menores durante gran parte del año, reduciendo el promedio estatal (NOAA, 2025).' 
+                      : 'Due to its large geographic extension and microclimates, the state records a weighted annual average daily UV index of 4.8, globally classifying under the "Moderate" risk category (NOAA, 2025). While southern California reaches "Very High" radiation peaks of 9.0 in summer, the central and northern regions average significantly lower indices during most of the year, reducing the state average (NOAA, 2025).'}
                   </p>
                 </div>
               </div>

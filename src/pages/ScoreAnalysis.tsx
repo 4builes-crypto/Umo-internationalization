@@ -11,12 +11,12 @@ const scoreData = [
   {
     category: { es: 'Político - Legal', en: 'Political - Legal' },
     arizona: 4.00,
-    california: 3.33
+    california: 4.05
   },
   {
     category: { es: 'Tecnológico y Geoambiental', en: 'Technological & Environmental' },
     arizona: 5.00,
-    california: 3.33
+    california: 3.28
   },
   {
     category: { es: 'Sociocultural', en: 'Socio-Cultural' },
