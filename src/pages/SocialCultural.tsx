@@ -48,7 +48,7 @@ export const SocialCultural = () => {
               <div className="glass-card p-6 border-zinc-800 hover:border-unoOrange/30 transition-colors">
                 <div className="flex justify-between items-start mb-2">
                   <h4 className="text-unoOrange font-bold text-xs tracking-widest uppercase">ARIZONA</h4>
-                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 3.0</span>
+                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 0.93</span>
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es'
@@ -111,20 +111,36 @@ export const SocialCultural = () => {
             </div>
             <p className="text-sm text-textSecondary leading-relaxed mb-4">
               {language === 'es'
-                ? 'El diseño urbano y las condiciones climáticas de Arizona consolidan un estilo de vida de cuidado intensivo de exteriores. El paisajismo es constante todo el año debido a la siembra de invierno y jardines xerófilos (Arizona Landscape Contractors Association [ALCA], 2024). Los operarios de podadoras pasan jornadas expuestos a calor severo, haciendo la ergonomía y confort térmico del asiento un factor crítico. La alta densidad de campos de golf exige mantenimiento diario bajo estándares estrictos (National Golf Foundation, 2024), acelerando el desgaste del equipo y validando la necesidad de componentes resistentes al calor.'
-                : 'Urban design and climatic conditions in Arizona consolidate an intensive outdoor lifestyle. Landscaping is year-round due to winter overseeding and desert-adapted xeriscaping (Arizona Landscape Contractors Association [ALCA], 2024). Mower operators spend long shifts exposed to severe heat, making seat ergonomics and thermal comfort critical. High golf course density requires daily maintenance under strict standards (National Golf Foundation, 2024), accelerating equipment wear and validating the need for heat-resistant components.'}
+                ? (
+                  <>
+                    El diseño urbano y las condiciones climáticas de Arizona consolidan un estilo de vida enfocado en el cuidado intensivo de exteriores. El estado registra un total aproximado de <span className="text-unoOrange underline font-semibold">14,230 empresas</span> de paisajismo activas (LawnStarter, 2025; IMARC Group, 2024). Aunque este volumen bruto es menor en comparación con California, Arizona destaca por tener una de las <span className="text-unoOrange underline font-semibold">concentraciones de servicios de mantenimiento exterior por habitante más elevadas de todo el corredor del Sun Belt</span>. El paisajismo opera de manera ininterrumpida durante los doce meses del año debido a la sobre-siembra de invierno y la gestión de jardines xerófilos (Arizona Landscape Contractors Association [ALCA], 2024). Los operarios de podadoras pasan jornadas extensas expuestos a un calor desértico severo, lo que convierte la ergonomía y el confort térmico del asiento en un factor crítico de operación. Adicionalmente, su alta densidad de campos de golf exige un mantenimiento diario bajo estándares estéticos muy estrictos (National Golf Foundation, 2024), acelerando el desgaste de la maquinaria y validando la necesidad de componentes de alta resiliencia.
+                  </>
+                )
+                : (
+                  <>
+                    Urban design and climatic conditions in Arizona consolidate a lifestyle focused on intensive outdoor care. The state records an approximate total of <span className="text-unoOrange underline font-semibold">14,230 active landscaping companies</span> (LawnStarter, 2025; IMARC Group, 2024). Although this gross volume is lower compared to California, Arizona stands out for having one of the <span className="text-unoOrange underline font-semibold">highest concentrations of outdoor maintenance services per inhabitant across the entire Sun Belt corridor</span>. Landscaping operates uninterrupted during all twelve months of the year due to winter overseeding and xeriscaping management (Arizona Landscape Contractors Association [ALCA], 2024). Mower operators spend long shifts exposed to severe desert heat, making seat ergonomics and thermal comfort a critical operational factor. Additionally, its high golf course density requires daily maintenance under very strict aesthetic standards (National Golf Foundation, 2024), accelerating machinery wear and validating the need for high-resilience components.
+                  </>
+                )}
             </p>
           </div>
 
           <div className="p-6 glass-card border-zinc-800">
             <div className="flex justify-between items-start mb-4">
               <h4 className="text-blue-400 font-bold text-xs tracking-widest uppercase">CALIFORNIA</h4>
-              <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded">Score: 4.0</span>
+              <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded">Score: 1.0</span>
             </div>
             <p className="text-sm text-textSecondary leading-relaxed mb-4">
               {language === 'es'
-                ? 'California cuenta con una sólida cultura de áreas verdes residenciales e industriales, especialmente en valles y costas. Sin embargo, las restricciones de agua (AB 1572) y sequías recurrentes han modificado el estilo de vida suburbano hacia jardines con menor necesidad de riego y mantenimiento intensivo constante durante los meses más secos, a diferencia del ciclo constante y prolongado de Arizona.'
-                : 'California has a strong culture of residential and industrial green areas, especially in valleys and coasts. However, water restrictions (AB 1572) and recurring droughts have shifted suburban lifestyles toward landscaping with less irrigation and intensive continuous maintenance during the driest months, unlike Arizona\'s constant, prolonged cycle.'}
+                ? (
+                  <>
+                    California posee una sólida cultura de áreas verdes residenciales e industriales, reflejada en su volumen nominal como el mercado más grande de la nación con un total aproximado de <span className="text-blue-400 underline font-semibold">52,682 empresas</span> de paisajismo registradas a lo largo de su territorio (This Old House, 2024; LawnStarter, 2025). Sin embargo, a pesar de la magnitud de este mercado bruto, la <span className="text-blue-400 underline font-semibold">dispersión geográfica y las restricciones gubernamentales de agua</span>, como la ley AB 1572, junto con las sequías recurrentes, han transformado el estilo de vida suburbano. Esto ha generado una <span className="text-blue-400 underline font-semibold">transición hacia jardines de bajo consumo hídrico, reduciendo notablemente la necesidad de un mantenimiento intensivo y constante durante los meses más secos</span>. A diferencia del ciclo de uso continuo de Arizona, la menor concentración de servicios por habitante y las pausas estacionales disminuyen la tasa de rotación y desgaste de los equipos de corte en el territorio californiano.
+                  </>
+                )
+                : (
+                  <>
+                    California possesses a solid culture of residential and industrial green areas, reflected in its nominal volume as the largest market in the nation with an approximate total of <span className="text-blue-400 underline font-semibold">52,682 registered landscaping companies</span> throughout its territory (This Old House, 2024; LawnStarter, 2025). However, despite the magnitude of this gross market, <span className="text-blue-400 underline font-semibold">geographic dispersion and government water restrictions</span>, such as the AB 1572 law, along with recurring droughts, have transformed the suburban lifestyle. This has generated a <span className="text-blue-400 underline font-semibold">transition toward low-water-use landscaping, notably reducing the need for intensive and constant maintenance during the driest months</span>. Unlike Arizona's continuous-use cycle, the lower concentration of services per inhabitant and seasonal pauses decrease the rotation and wear rate of cutting equipment in California.
+                  </>
+                )}
             </p>
           </div>
         </div>

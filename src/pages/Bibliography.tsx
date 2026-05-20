@@ -409,6 +409,39 @@ const referencesBySector = [
           es: 'Informe sobre la concentración de campos de golf en el Sun Belt y la frecuencia de mantenimiento requerida.',
           en: 'Report on golf course density in the Sun Belt and the required maintenance frequency.'
         }
+      },
+      {
+        author: 'LawnStarter',
+        year: '2025',
+        title: 'Landscaping Industry Statistics, Trends, and Market Size.',
+        source: 'LawnStarter Research',
+        link: 'https://www.lawnstarter.com/blog/landscaping/landscaping-industry-statistics/',
+        description: {
+          es: 'Estadísticas del sector de mantenimiento y diseño de jardines, detallando el número de empresas por estado.',
+          en: 'Statistics on the garden maintenance and design sector, detailing the number of companies by state.'
+        }
+      },
+      {
+        author: 'IMARC Group',
+        year: '2024',
+        title: 'United States Landscaping Services Market Report.',
+        source: 'Market Report',
+        link: 'https://www.imarcgroup.com/united-states-landscaping-services-market',
+        description: {
+          es: 'Estudio de mercado sobre los servicios de paisajismo en EE.UU., mostrando la densidad y crecimiento en el Sun Belt.',
+          en: 'Market study on landscaping services in the US, showing density and growth in the Sun Belt.'
+        }
+      },
+      {
+        author: 'This Old House',
+        year: '2024',
+        title: 'Home Landscaping Trends and Contractor Statistics in the US.',
+        source: 'Homeowner Reviews & Data',
+        link: 'https://www.thisoldhouse.com/landscaping/reviews/landscaping-industry-statistics',
+        description: {
+          es: 'Análisis de la densidad de contratistas y demanda residencial de paisajismo por estado en EE.UU.',
+          en: 'Analysis of contractor density and residential landscaping demand by state in the US.'
+        }
       }
     ]
   },

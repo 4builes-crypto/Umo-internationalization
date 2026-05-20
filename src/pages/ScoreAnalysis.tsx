@@ -20,8 +20,8 @@ const scoreData = [
   },
   {
     category: { es: 'Sociocultural', en: 'Socio-Cultural' },
-    arizona: 4.33,
-    california: 4.33
+    arizona: 3.64,
+    california: 3.33
   },
   {
     category: { es: 'Comercio Internacional', en: 'International Trade' },
