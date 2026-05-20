@@ -169,6 +169,17 @@ const referencesBySector = [
           es: 'Regulación ergonómica de California sobre riesgos por vibración (WBV).',
           en: 'California ergonomic regulation on vibration risks (WBV).'
         }
+      },
+      {
+        author: 'Occupational Safety and Health Administration (OSHA)',
+        year: '2026',
+        title: 'Ergonomics Standards and Guidelines for General Industry.',
+        source: 'U.S. Department of Labor',
+        link: 'https://www.osha.gov/ergonomics',
+        description: {
+          es: 'Normativas federales generales de ergonomía y seguridad en el trabajo en los Estados Unidos.',
+          en: 'General federal ergonomics and occupational safety guidelines in the United States.'
+        }
       }
     ]
   },
@@ -277,6 +288,28 @@ const referencesBySector = [
         description: {
           es: 'Análisis de la resolución que expande los beneficios fiscales (TPT) para maquinaria agrícola en Arizona.',
           en: 'Analysis of the ruling expanding tax benefits (TPT) for agricultural machinery in Arizona.'
+        }
+      },
+      {
+        author: 'Arizona Department of Revenue (ADOR)',
+        year: '2026',
+        title: 'Arizona Transaction Privilege Tax (TPT) Rates.',
+        source: 'State of Arizona',
+        link: 'https://azdor.gov/transaction-privilege-tax/tpt-tax-rates',
+        description: {
+          es: 'Tasas de impuesto sobre el privilegio de transacción (TPT) en Arizona.',
+          en: 'Transaction Privilege Tax (TPT) rates in Arizona.'
+        }
+      },
+      {
+        author: 'California Department of Tax and Fee Administration (CDTFA)',
+        year: '2026',
+        title: 'California Sales and Use Tax Rates.',
+        source: 'State of California',
+        link: 'https://www.cdtfa.ca.gov/taxes-and-fees/sales-use-tax-rates.htm',
+        description: {
+          es: 'Tasas oficiales de impuestos sobre las ventas y uso en el estado de California.',
+          en: 'Official sales and use tax rates in the State of California.'
         }
       }
     ]

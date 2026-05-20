@@ -50,9 +50,7 @@ export const PoliticalLegal = () => {
                     : 'Lower rates in Arizona allow farmers and landscaping companies to retain more capital, facilitating demand for premium spare parts.'}
                 </p>
               </div>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="glass-card p-6 border-zinc-800 hover:border-unoOrange/30 transition-colors">
                 <div className="flex justify-between items-start mb-2">
                   <h4 className="text-unoOrange font-bold text-xs tracking-widest uppercase">ARIZONA</h4>
@@ -60,22 +58,22 @@ export const PoliticalLegal = () => {
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es'
-                    ? 'Tasa estatal de 5.6% (promedio combinado 8.52%). Menor impacto en el precio final, favoreciendo el consumo y la competitividad de UMO (AZ Bound, 2026).'
-                    : 'State rate of 5.6% (combined average 8.52%). Lower impact on final price, favoring consumption and UMO\'s competitiveness (AZ Bound, 2026).'}
+                    ? 'Tasa estatal de 5.6% (promedio combinado 8.52%). Menor impacto en el precio final, favoreciendo el consumo y la competitividad de UMO (Arizona Department of Revenue [ADOR], 2026).'
+                    : 'State rate of 5.6% (combined average 8.52%). Lower impact on final price, favoring consumption and UMO\'s competitiveness (Arizona Department of Revenue [ADOR], 2026).'}
                 </p>
               </div>
               <div className="glass-card p-6 border-zinc-800 hover:border-blue-400/30 transition-colors">
                 <div className="flex justify-between items-start mb-2">
                   <h4 className="text-blue-400 font-bold text-xs tracking-widest uppercase">CALIFORNIA</h4>
-                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 2.0</span>
+                  <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 4.16</span>
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es'
-                    ? 'Tasa estatal base de 7.25%, hasta 10.25% en áreas urbanas. El alto costo fiscal eleva los precios finales y reduce el ahorro de las empresas (AZ Bound, 2026).'
-                    : 'Base state rate of 7.25%, up to 10.25% in urban areas. High fiscal cost raises final prices and reduces business savings (AZ Bound, 2026).'}
+                    ? 'Tasa estatal base de 7.25%, hasta 10.25% en áreas urbanas. El alto costo fiscal eleva los precios finales y reduce el ahorro de las empresas (California Department of Tax and Fee Administration [CDTFA], 2026).'
+                    : 'Base state rate of 7.25%, up to 10.25% in urban areas. High fiscal cost raises final prices and reduces business savings (California Department of Tax and Fee Administration [CDTFA], 2026).'}
                 </p>
               </div>
-            </div>
+            </div>   </div>
           </div>
 
           <motion.div 
@@ -133,18 +131,18 @@ export const PoliticalLegal = () => {
               </h3>
               <p className="text-sm text-textSecondary leading-relaxed">
                 {language === 'es'
-                  ? 'La Sección 5110 del Título 8 obliga a los empleadores a prevenir lesiones por movimiento repetitivo. Esto incluye controles de ingeniería para reducir la vibración de cuerpo completo (WBV). A diferencia del nivel federal, California exige proactividad.'
-                  : 'Title 8 Section 5110 requires employers to prevent repetitive motion injuries. This includes engineering controls to reduce whole-body vibration (WBV). Unlike the federal level, California requires proactivity.'}
+                  ? 'La Sección 5110 del Título 8 obliga a los empleadores a prevenir lesiones por movimiento repetitivo, exigiendo controles de ingeniería para reducir la vibración de cuerpo completo (California Department of Industrial Relations [DIR], s.f.). A diferencia del nivel federal, California exige proactividad.'
+                  : 'Title 8 Section 5110 requires employers to prevent repetitive motion injuries, mandating engineering controls to reduce whole-body vibration (California Department of Industrial Relations [DIR], n.d.). Unlike the federal level, California requires proactivity.'}
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div>
                   <span className="text-unoOrange font-bold text-xs uppercase tracking-widest mb-1 block">CALIFORNIA:</span>
-                  <p className="text-sm text-textSecondary">{language === 'es' ? 'Obligatorio (Sección 5110). Argumento de CUMPLIMIENTO.' : 'Mandatory (Section 5110). COMPLIANCE argument.'}</p>
+                  <p className="text-sm text-textSecondary">{language === 'es' ? 'Obligatorio (Sección 5110) (DIR, s.f.). Argumento de CUMPLIMIENTO.' : 'Mandatory (Section 5110) (DIR, n.d.). COMPLIANCE argument.'}</p>
                   <span className="inline-block mt-2 text-xs font-bold bg-unoOrange/20 px-2 py-0.5 rounded whitespace-nowrap">Score: 5.0</span>
                 </div>
                 <div>
                   <span className="text-blue-400 font-bold text-xs uppercase tracking-widest mb-1 block">ARIZONA:</span>
-                  <p className="text-sm text-textSecondary">{language === 'es' ? 'Estándar federal general. Argumento de PRODUCTIVIDAD.' : 'General federal standard. PRODUCTIVITY argument.'}</p>
+                  <p className="text-sm text-textSecondary">{language === 'es' ? 'Estándar federal general (OSHA, 2026). Argumento de PRODUCTIVIDAD.' : 'General federal standard (OSHA, 2026). PRODUCTIVITY argument.'}</p>
                   <span className="inline-block mt-2 text-xs font-bold bg-blue-400/20 px-2 py-0.5 rounded whitespace-nowrap">Score: 2.0</span>
                 </div>
               </div>
