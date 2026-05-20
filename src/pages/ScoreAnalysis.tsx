@@ -45,7 +45,7 @@ export const ScoreAnalysis = () => {
     <div className="space-y-12 pb-16 animate-in fade-in slide-in-from-bottom-4 duration-700">
       <header className="space-y-4">
         <h2 className="text-xl font-bold uppercase tracking-widest text-textSecondary">
-          {language === 'es' ? 'Sección 15' : 'Section 15'}
+          {language === 'es' ? 'Sección 14' : 'Section 14'}
         </h2>
         <h1 className="text-3xl lg:text-4xl font-bold tracking-tight text-white border-b border-glassBorder pb-4 flex items-center gap-3">
           <BarChart3 className="w-8 h-8 text-unoOrange" /> 

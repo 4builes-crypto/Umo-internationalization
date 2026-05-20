@@ -9,7 +9,7 @@ export const SocialCultural = () => {
     <div className="space-y-12 pb-16 animate-in fade-in slide-in-from-bottom-4 duration-700">
       <header className="space-y-4">
         <h2 className="text-xl font-bold uppercase tracking-widest text-textSecondary">
-          {language === 'es' ? 'Sección 12' : 'Section 12'}
+          {language === 'es' ? 'Sección 9' : 'Section 9'}
         </h2>
         <h1 className="text-3xl lg:text-4xl font-bold tracking-tight text-white border-b border-glassBorder pb-4">
           {language === 'es' ? 'Análisis Sociocultural' : 'Socio-Cultural Analysis'}

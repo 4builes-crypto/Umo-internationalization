@@ -437,7 +437,7 @@ export const Bibliography = () => {
     <div className="space-y-8 pb-12">
       <header className="space-y-4">
         <h2 className="text-xl font-bold uppercase tracking-widest text-textSecondary">
-          {language === 'es' ? 'Sección 16' : 'Section 16'}
+          {language === 'es' ? 'Sección 15' : 'Section 15'}
         </h2>
         <h1 className="text-3xl lg:text-4xl font-bold tracking-tight text-white border-b border-glassBorder pb-4 flex items-center gap-3">
           <BookOpen className="w-8 h-8 text-unoOrange" /> {language === 'es' ? 'Fuentes y Referencias por Sector' : 'Sources & References by Sector'}
