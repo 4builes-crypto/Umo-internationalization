@@ -504,47 +504,69 @@ const referencesBySector = [
     sector: { es: 'Logística y Tiempo de Exportación', en: 'Logistics & Export Lead Time' },
     items: [
       {
-        author: 'Freightos',
-        year: '2025',
-        title: 'International Freight Shipping Transit Time Calculator.',
-        source: 'Freightos Marketplace',
-        link: 'https://www.freightos.com/freight-resources/transit-time-calculator/',
+        author: 'Arizona Department of Transportation',
+        year: '2024',
+        title: 'Arizona-Mexico international border communities transportation framework study.',
+        source: 'State of Arizona',
+        link: 'https://azdot.gov/',
         description: {
-          es: 'Herramienta de cálculo de tiempos de tránsito para carga internacional.',
-          en: 'Transit time calculation tool for international freight.'
+          es: 'Estudio sobre el marco de transporte fronterizo internacional que analiza el flujo comercial y de carga terrestre entre Arizona y México.',
+          en: 'Study on the international border transportation framework analyzing trade and land freight flows between Arizona and Mexico.'
         }
       },
       {
-        author: 'Maersk',
-        year: '2025',
-        title: 'Transit Time and Shipping Routes Latin America to United States.',
-        source: 'Maersk Logistics',
-        link: 'https://www.maersk.com/',
+        author: 'California Air Resources Board (CARB)',
+        year: '2024',
+        title: 'Commercial ocean-going vessels and cargo handling equipment regulatory enforcement.',
+        source: 'State of California',
+        link: 'https://ww2.arb.ca.gov/',
         description: {
-          es: 'Rutas marítimas y tiempos estimados desde Latinoamérica hacia EE.UU.',
-          en: 'Maritime routes and estimated times from Latin America to the US.'
+          es: 'Regulaciones y fiscalización sobre emisiones en buques oceánicos y equipos de manejo de carga en terminales marítimas de California.',
+          en: 'Regulations and enforcement on emissions from ocean-going vessels and cargo handling equipment in California maritime terminals.'
         }
       },
       {
-        author: 'Port of Los Angeles / Long Beach',
-        year: '2025',
-        title: 'Port Statistics and Cargo Operations.',
-        source: 'Port Authorities',
-        link: 'https://www.portoflosangeles.org/business/statistics',
-        description: {
-          es: 'Estadísticas de carga e infraestructura portuaria en California.',
-          en: 'Cargo statistics and port infrastructure in California.'
-        }
-      },
-      {
-        author: 'International Trade Administration',
-        year: '2025',
-        title: 'U.S. Transportation and Logistics Industry Overview.',
+        author: 'U.S. Census Bureau',
+        year: '2024',
+        title: 'State trade data: Origin of movement of US exports and imports by state.',
         source: 'U.S. Department of Commerce',
-        link: 'https://www.trade.gov/transportation-and-logistics-industry',
+        link: 'https://www.census.gov/foreign-trade/data/index.html',
         description: {
-          es: 'Visión general de la industria logística y de transporte en los Estados Unidos.',
-          en: 'Overview of the transportation and logistics industry in the United States.'
+          es: 'Estadísticas oficiales sobre el origen del movimiento de exportaciones e importaciones a nivel estatal.',
+          en: 'Official statistics on the origin of export and import movements at the state level.'
+        }
+      },
+      {
+        author: 'U.S. Customs and Border Protection (CBP)',
+        year: '2025',
+        title: 'Trade statistics: Cargo processing times and port of entry volumes.',
+        source: 'U.S. Department of Homeland Security',
+        link: 'https://www.cbp.gov/newsroom/stats/trade',
+        description: {
+          es: 'Datos sobre tiempos de permanencia en aduanas (dwell time) y volúmenes de procesamiento de carga en puertos de entrada de EE.UU.',
+          en: 'Data on customs dwell times and cargo processing volumes at US ports of entry.'
+        }
+      },
+      {
+        author: 'U.S. Department of Commerce',
+        year: '2024',
+        title: 'International trade administration: State-level import summary and trade partner analysis.',
+        source: 'International Trade Administration',
+        link: 'https://www.trade.gov/data-visualization/state-imports',
+        description: {
+          es: 'Resumen de importaciones estatales y análisis de socios comerciales para identificar concentración geográfica.',
+          en: 'Summary of state imports and trade partner analysis to identify geographic concentration.'
+        }
+      },
+      {
+        author: 'U.S. Department of Transportation',
+        year: '2024',
+        title: 'Port performance Research: Annual report to Congress.',
+        source: 'Bureau of Transportation Statistics',
+        link: 'https://www.bts.gov/ports',
+        description: {
+          es: 'Informe anual sobre el rendimiento de los puertos de EE.UU., incluyendo capacidad de procesamiento en TEUs y cuellos de botella aduaneros.',
+          en: 'Annual report on US port performance, including TEU processing capacity and customs bottlenecks.'
         }
       }
     ]

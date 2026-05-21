@@ -25,7 +25,7 @@ const scoreData = [
   },
   {
     category: { es: 'Comercio Internacional', en: 'International Trade' },
-    arizona: 3.83,
+    arizona: 2.87,
     california: 4.50
   },
   {
@@ -128,8 +128,8 @@ export const ScoreAnalysis = () => {
             </h3>
             <p className="text-sm text-textSecondary leading-relaxed">
               {language === 'es'
-                ? 'Arizona presenta la puntuación más alta (4.07), impulsada por su excepcional desempeño en las dimensiones tecnológica (5.00) e industrial, así como un entorno fiscal favorable. Su menor costo operativo y logístico terrestre la convierte en la opción de entrada más eficiente operativamente.'
-                : 'Arizona presents the highest score (4.07), driven by its exceptional performance in the technological (5.00) and industrial dimensions, as well as a favorable fiscal environment. Its lower operational and land logistics costs make it the most operationally efficient entry option.'}
+                ? 'Arizona presenta una puntuación final de 3.91, manteniéndose muy competitiva gracias a su desempeño en las dimensiones tecnológica (5.00) e industrial, así como por un entorno regulatorio y fiscal favorable. No obstante, la saturación del comercio transfronterizo con México y la falta de acceso marítimo directo moderan su puntuación logística general.'
+                : 'Arizona presents a final score of 3.91, remaining highly competitive thanks to its performance in the technological (5.00) and industrial dimensions, as well as a favorable regulatory and fiscal environment. However, the saturation of cross-border trade with Mexico and the lack of direct maritime access moderate its overall logistics score.'}
             </p>
           </div>
           <div className="glass-card p-8 bg-blue-400/5 border-blue-400/20">
@@ -139,8 +139,8 @@ export const ScoreAnalysis = () => {
             </h3>
             <p className="text-sm text-textSecondary leading-relaxed">
               {language === 'es'
-                ? 'California mantiene un sólido 3.95, destacando en el área de comercio internacional (4.50) e inversión sostenible. Es un mercado de alto valor donde la obligatoriedad legal de la electrificación y la ergonomía compensa los mayores costos operativos.'
-                : 'California maintains a solid 3.95, standing out in international trade (4.50) and sustainable investment. It is a high-value market where the legal requirement for electrification and ergonomics offsets higher operating costs.'}
+                ? 'California lidera con un sólido 3.95, impulsada por su acceso portuario directo e infraestructura logística marítima de gran escala (4.50 en comercio internacional), además de un gran mercado potencial. Esto compensa los mayores costos regulatorios y operativos que presenta el estado.'
+                : 'California leads with a solid 3.95, driven by its direct port access and large-scale maritime logistics infrastructure (4.50 in international trade), along with a huge potential market. This offsets the higher regulatory and operational costs in the state.'}
             </p>
           </div>
         </div>
