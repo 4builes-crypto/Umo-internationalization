@@ -57,9 +57,15 @@ export const PoliticalLegal = () => {
                   <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded whitespace-nowrap">Score: 5.0</span>
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
-                  {language === 'es'
-                    ? 'Tasa estatal de 5.6% (promedio combinado 8.52%). Menor impacto en el precio final, favoreciendo el consumo y la competitividad de UMO (Arizona Department of Revenue [ADOR], 2026).'
-                    : 'State rate of 5.6% (combined average 8.52%). Lower impact on final price, favoring consumption and UMO\'s competitiveness (Arizona Department of Revenue [ADOR], 2026).'}
+                  {language === 'es' ? (
+                    <>
+                      Tasa estatal de <span className="px-1.5 py-0.5 bg-unoOrange/10 border border-unoOrange/20 text-unoOrange rounded font-semibold text-xs whitespace-nowrap">5.6%</span> (promedio combinado <span className="px-1.5 py-0.5 bg-unoOrange/10 border border-unoOrange/20 text-unoOrange rounded font-semibold text-xs whitespace-nowrap">8.52%</span>). Menor impacto en el precio final, favoreciendo el consumo y la competitividad de UMO (Arizona Department of Revenue [ADOR], 2026).
+                    </>
+                  ) : (
+                    <>
+                      State rate of <span className="px-1.5 py-0.5 bg-unoOrange/10 border border-unoOrange/20 text-unoOrange rounded font-semibold text-xs whitespace-nowrap">5.6%</span> (combined average <span className="px-1.5 py-0.5 bg-unoOrange/10 border border-unoOrange/20 text-unoOrange rounded font-semibold text-xs whitespace-nowrap">8.52%</span>). Lower impact on final price, favoring consumption and UMO's competitiveness (Arizona Department of Revenue [ADOR], 2026).
+                    </>
+                  )}
                 </p>
               </div>
               <div className="glass-card p-6 border-zinc-800 hover:border-blue-400/30 transition-colors">
@@ -68,9 +74,15 @@ export const PoliticalLegal = () => {
                   <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded whitespace-nowrap">Score: 4.16</span>
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
-                  {language === 'es'
-                    ? 'Tasa estatal base de 7.25%, hasta 10.25% en áreas urbanas. El alto costo fiscal eleva los precios finales y reduce el ahorro de las empresas (California Department of Tax and Fee Administration [CDTFA], 2026).'
-                    : 'Base state rate of 7.25%, up to 10.25% in urban areas. High fiscal cost raises final prices and reduces business savings (California Department of Tax and Fee Administration [CDTFA], 2026).'}
+                  {language === 'es' ? (
+                    <>
+                      Tasa estatal base de <span className="px-1.5 py-0.5 bg-blue-400/10 border border-blue-400/20 text-blue-400 rounded font-semibold text-xs whitespace-nowrap">7.25%</span>, hasta <span className="px-1.5 py-0.5 bg-blue-400/10 border border-blue-400/20 text-blue-400 rounded font-semibold text-xs whitespace-nowrap">10.25%</span> en áreas urbanas. El alto costo fiscal eleva los precios finales y reduce el ahorro de las empresas (California Department of Tax and Fee Administration [CDTFA], 2026).
+                    </>
+                  ) : (
+                    <>
+                      Base state rate of <span className="px-1.5 py-0.5 bg-blue-400/10 border border-blue-400/20 text-blue-400 rounded font-semibold text-xs whitespace-nowrap">7.25%</span>, up to <span className="px-1.5 py-0.5 bg-blue-400/10 border border-blue-400/20 text-blue-400 rounded font-semibold text-xs whitespace-nowrap">10.25%</span> in urban areas. High fiscal cost raises final prices and reduces business savings (California Department of Tax and Fee Administration [CDTFA], 2026).
+                    </>
+                  )}
                 </p>
               </div>
             </div>   </div>
@@ -212,8 +224,15 @@ export const PoliticalLegal = () => {
                 </div>
                 <p className="text-sm text-textSecondary leading-relaxed">
                   {language === 'es'
-                    ? 'Exención parcial del 5% estatal en maquinaria y partes de repuesto calificadas (CDTFA, s.f.). Beneficio parcial que ayuda pero no iguala la exención total de AZ.'
-                    : 'Partial 5% state exemption on qualified machinery and spare parts (CDTFA, n.d.). Partial benefit that helps but doesn\'t match AZ\'s total exemption.'}
+                    ? (
+                      <>
+                        Exención parcial del <span className="px-1.5 py-0.5 bg-blue-400/10 border border-blue-400/20 text-blue-400 rounded font-semibold text-xs whitespace-nowrap">5%</span> estatal en maquinaria y partes de repuesto calificadas (CDTFA, s.f.). Beneficio parcial que ayuda pero no iguala la exención total de AZ.
+                      </>
+                    ) : (
+                      <>
+                        Partial <span className="px-1.5 py-0.5 bg-blue-400/10 border border-blue-400/20 text-blue-400 rounded font-semibold text-xs whitespace-nowrap">5%</span> state exemption on qualified machinery and spare parts (CDTFA, n.d.). Partial benefit that helps but doesn't match AZ's total exemption.
+                      </>
+                    )}
                 </p>
               </div>
             </div>
