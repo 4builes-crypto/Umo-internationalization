@@ -30,8 +30,8 @@ const scoreData = [
   },
   {
     category: { es: 'Inversión Extranjera', en: 'Foreign Investment' },
-    arizona: 4.67,
-    california: 4.50
+    arizona: 3.40,
+    california: 4.33
   }
 ];
 
@@ -128,8 +128,8 @@ export const ScoreAnalysis = () => {
             </h3>
             <p className="text-sm text-textSecondary leading-relaxed">
               {language === 'es'
-                ? 'Arizona presenta la puntuación más alta (4.25), impulsada por su excepcional desempeño en las dimensiones tecnológica (5.0), de inversión (4.83) y comercio (4.67). Su entorno fiscal y logístico la convierte en la opción de entrada más eficiente operativamente.'
-                : 'Arizona presents the highest score (4.25), driven by its exceptional performance in the technological (5.0), investment (4.83), and trade (4.67) dimensions. Its fiscal and logistical environment makes it the most operationally efficient entry option.'}
+                ? 'Arizona presenta la puntuación más alta (4.07), impulsada por su excepcional desempeño en las dimensiones tecnológica (5.00) e industrial, así como un entorno fiscal favorable. Su menor costo operativo y logístico terrestre la convierte en la opción de entrada más eficiente operativamente.'
+                : 'Arizona presents the highest score (4.07), driven by its exceptional performance in the technological (5.00) and industrial dimensions, as well as a favorable fiscal environment. Its lower operational and land logistics costs make it the most operationally efficient entry option.'}
             </p>
           </div>
           <div className="glass-card p-8 bg-blue-400/5 border-blue-400/20">
@@ -139,8 +139,8 @@ export const ScoreAnalysis = () => {
             </h3>
             <p className="text-sm text-textSecondary leading-relaxed">
               {language === 'es'
-                ? 'California mantiene un sólido 4.18, destacando en el área sociocultural (5.0) y político-legal (4.50). Es un mercado de alto valor donde la obligatoriedad legal de la electrificación y la ergonomía compensa los mayores costos operativos.'
-                : 'California maintains a solid 4.18, standing out in the socio-cultural (5.0) and political-legal (4.50) areas. It is a high-value market where the legal requirement for electrification and ergonomics offsets higher operating costs.'}
+                ? 'California mantiene un sólido 3.95, destacando en el área de comercio internacional (4.50) e inversión sostenible. Es un mercado de alto valor donde la obligatoriedad legal de la electrificación y la ergonomía compensa los mayores costos operativos.'
+                : 'California maintains a solid 3.95, standing out in international trade (4.50) and sustainable investment. It is a high-value market where the legal requirement for electrification and ergonomics offsets higher operating costs.'}
             </p>
           </div>
         </div>

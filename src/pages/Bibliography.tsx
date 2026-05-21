@@ -319,35 +319,46 @@ const referencesBySector = [
     items: [
       {
         author: 'Arizona Commerce Authority',
-        year: '2025',
-        title: 'Manufacturing and Electric Vehicle Ecosystem Investment Report.',
+        year: '2024',
+        title: 'Manufacturing and Clean Energy Ecosystem Investment in the Southwest.',
         source: 'ACA',
         link: 'https://www.azcommerce.com/industries/manufacturing/',
         description: {
-          es: 'Reporte sobre la inversión masiva en semiconductores y el ecosistema de vehículos eléctricos en Arizona.',
-          en: 'Report on massive investment in semiconductors and the electric vehicle ecosystem in Arizona.'
-        }
-      },
-      {
-        author: 'California Energy Commission',
-        year: '2025',
-        title: 'Investment in Zero-Emission Vehicle Infrastructure and Manufacturing.',
-        source: 'CEC',
-        link: 'https://www.energy.ca.gov/programs-and-topics/programs/clean-transportation-program',
-        description: {
-          es: 'Planes de inversión para la infraestructura de transporte limpio y manufactura sostenible en California.',
-          en: 'Investment plans for clean transportation infrastructure and sustainable manufacturing in California.'
+          es: 'Reporte sobre la atracción de capitales y el crecimiento industrial del ecosistema de manufactura en Arizona.',
+          en: 'Report on capital attraction and industrial growth of the manufacturing ecosystem in Arizona.'
         }
       },
       {
         author: 'SelectUSA',
-        year: '2025',
-        title: 'Foreign Direct Investment: California and Arizona State Profiles.',
+        year: '2024',
+        title: 'Foreign Direct Investment State Profiles: California and Arizona.',
         source: 'U.S. Department of Commerce',
         link: 'https://www.trade.gov/selectusa-invest-state-profiles',
         description: {
           es: 'Perfiles estatales de IED que detallan el flujo de capital extranjero hacia manufactura y tecnología.',
           en: 'FDI state profiles detailing the flow of foreign capital toward manufacturing and technology.'
+        }
+      },
+      {
+        author: 'U.S. Bureau of Economic Analysis (BEA)',
+        year: '2025',
+        title: 'Foreign Direct Investment in the United States: U.S. State Activity and Expenditures.',
+        source: 'BEA Reports',
+        link: 'https://www.bea.gov/data/intl-trade-investment/direct-investment-country-and-state',
+        description: {
+          es: 'Estadísticas oficiales sobre la distribución y destinos de la inversión extranjera directa por estado.',
+          en: 'Official statistics on the distribution and destinations of foreign direct investment by state.'
+        }
+      },
+      {
+        author: 'National Association of Landscape Professionals (NALP)',
+        year: '2024',
+        title: 'Financial Benchmark and Market Size Report for Landscape Professionals.',
+        source: 'NALP Resources',
+        link: 'https://www.landscapeprofessionals.org/',
+        description: {
+          es: 'Estudio sectorial que analiza el tamaño de mercado, las inversiones y los desarrollos de paisajismo comercial.',
+          en: 'Sector study analyzing market size, investments, and commercial landscaping developments.'
         }
       },
       {
@@ -359,6 +370,17 @@ const referencesBySector = [
         description: {
           es: 'Datos sobre productividad agrícola e inversión en maquinaria y agrotecnología.',
           en: 'Data on agricultural productivity and investment in machinery and agrotechnology.'
+        }
+      },
+      {
+        author: 'California Governor\'s Office of Business and Economic Development (GO-Biz)',
+        year: '2025',
+        title: 'California Clean Energy and Infrastructure Investment Report.',
+        source: 'GO-Biz Publications',
+        link: 'https://business.ca.gov/',
+        description: {
+          es: 'Informe sobre los flujos de capital destinados a la transición hacia tecnologías de cero emisiones en el estado de California.',
+          en: 'Report on capital flows destined for the transition to zero-emission technologies in the State of California.'
         }
       }
     ]
