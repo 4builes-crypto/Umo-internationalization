@@ -10,8 +10,8 @@ const scoreData = [
   },
   {
     category: { es: 'Político - Legal', en: 'Political - Legal' },
-    arizona: 5.00,
-    california: 3.05
+    arizona: 4.00,
+    california: 4.05
   },
   {
     category: { es: 'Tecnológico y Geoambiental', en: 'Technological & Environmental' },
@@ -20,8 +20,8 @@ const scoreData = [
   },
   {
     category: { es: 'Sociocultural', en: 'Socio-Cultural' },
-    arizona: 3.64,
-    california: 3.33
+    arizona: 2.00,
+    california: 4.67
   },
   {
     category: { es: 'Comercio Internacional', en: 'International Trade' },
@@ -48,7 +48,7 @@ export const ScoreAnalysis = () => {
           {language === 'es' ? 'Sección 14' : 'Section 14'}
         </h2>
         <h1 className="text-3xl lg:text-4xl font-bold tracking-tight text-white border-b border-glassBorder pb-4 flex items-center gap-3">
-          <BarChart3 className="w-8 h-8 text-unoOrange" /> 
+          <BarChart3 className="w-8 h-8 text-unoOrange" />
           {language === 'es' ? 'Análisis de Puntajes y Viabilidad' : 'Score Analysis & Viability'}
         </h1>
         <p className="text-textSecondary max-w-3xl leading-relaxed mt-4">
@@ -77,7 +77,7 @@ export const ScoreAnalysis = () => {
               </thead>
               <tbody className="divide-y divide-glassBorder">
                 {scoreData.map((row, idx) => (
-                  <motion.tr 
+                  <motion.tr
                     key={idx}
                     initial={{ opacity: 0, x: -10 }}
                     whileInView={{ opacity: 1, x: 0 }}
@@ -128,8 +128,8 @@ export const ScoreAnalysis = () => {
             </h3>
             <p className="text-sm text-textSecondary leading-relaxed">
               {language === 'es'
-                ? 'Arizona lidera con una puntuación final de 4.07, impulsada por su excelente desempeño en las dimensiones tecnológicas (5.00), político-legal (5.00) y su favorable entorno fiscal y operativo para la comercialización de podadoras eléctricas. A pesar de los desafíos logísticos de no contar con costa directa y la concentración transfronteriza, sus condiciones de alta demanda continua y menor presión regulatoria la consolidan como la opción preferente de entrada.'
-                : 'Arizona leads with a final score of 4.07, driven by its outstanding performance in the technological (5.00) and political-legal (5.00) dimensions, as well as a highly favorable fiscal and operational environment for electric mowers. Despite logistics challenges from lacking a direct coast and cross-border trade concentration, its continuous high-demand conditions and lower regulatory burden consolidate it as the preferred entry choice.'}
+                ? 'Arizona presenta una puntuación final de 3.63, manteniéndose altamente competitiva en la dimensión tecnológica (5.00) y por un entorno político-legal y fiscal favorable (4.00). No obstante, su menor escala poblacional y la saturación del comercio transfronterizo con México moderan su puntuación de viabilidad global.'
+                : 'Arizona presents a final score of 3.63, remaining highly competitive in the technological dimension (5.00) and due to a favorable political-legal and fiscal environment (4.00). However, its smaller population scale and the saturation of cross-border trade with Mexico moderate its overall viability score.'}
             </p>
           </div>
           <div className="glass-card p-8 bg-blue-400/5 border-blue-400/20">
@@ -139,8 +139,8 @@ export const ScoreAnalysis = () => {
             </h3>
             <p className="text-sm text-textSecondary leading-relaxed">
               {language === 'es'
-                ? 'California obtiene un 3.79, donde su inigualable acceso logístico portuario (4.50) y gran escala demográfica se ven balanceados por rigurosas normativas medioambientales, impuestos más elevados y restricciones de agua que ralentizan la frecuencia del mantenimiento de áreas verdes residenciales.'
-                : 'California obtains a 3.79, where its unmatched port logistics access (4.50) and large demographic scale are balanced by rigorous environmental regulations, higher taxes, and water restrictions that slow down residential landscaping frequency.'}
+                ? 'California lidera con una puntuación final de 4.18, impulsada por su inigualable acceso logístico y portuario directo (4.50), una sólida base demográfica en su mercado sociocultural (4.67) y un gran volumen comercial y de inversión extranjera. Esto compensa los mayores costos regulatorios y operativos que presenta el estado.'
+                : 'California leads with a final score of 4.18, driven by its unmatched direct port and logistics access (4.50), a solid demographic base in its socio-cultural market (4.67), and a large volume of trade and foreign investment. This offsets the higher regulatory and operational costs in the state.'}
             </p>
           </div>
         </div>

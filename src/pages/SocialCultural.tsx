@@ -115,7 +115,7 @@ export const SocialCultural = () => {
           <div className="p-6 glass-card border-zinc-800">
             <div className="flex justify-between items-start mb-4">
               <h4 className="text-unoOrange font-bold text-xs tracking-widest uppercase">ARIZONA</h4>
-              <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded">Score: 5.0</span>
+              <span className="text-xs font-bold text-white px-2 py-0.5 bg-unoOrange/40 rounded">Score: 1.0</span>
             </div>
             <p className="text-sm text-textSecondary leading-relaxed mb-4">
               {language === 'es'
@@ -135,7 +135,7 @@ export const SocialCultural = () => {
           <div className="p-6 glass-card border-zinc-800">
             <div className="flex justify-between items-start mb-4">
               <h4 className="text-blue-400 font-bold text-xs tracking-widest uppercase">CALIFORNIA</h4>
-              <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded">Score: 1.0</span>
+              <span className="text-xs font-bold text-white px-2 py-0.5 bg-blue-400/40 rounded">Score: 5.0</span>
             </div>
             <p className="text-sm text-textSecondary leading-relaxed mb-4">
               {language === 'es'

@@ -148,14 +148,14 @@ export const PoliticalLegal = () => {
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div>
-                  <span className="text-unoOrange font-bold text-xs uppercase tracking-widest mb-1 block">CALIFORNIA:</span>
+                  <span className="text-blue-400 font-bold text-xs uppercase tracking-widest mb-1 block">CALIFORNIA:</span>
                   <p className="text-sm text-textSecondary">{language === 'es' ? 'Obligatorio (Sección 5110) (DIR, s.f.). Argumento de CUMPLIMIENTO.' : 'Mandatory (Section 5110) (DIR, n.d.). COMPLIANCE argument.'}</p>
-                  <span className="inline-block mt-2 text-xs font-bold bg-unoOrange/20 px-2 py-0.5 rounded whitespace-nowrap">Score: 5.0</span>
+                  <span className="inline-block mt-2 text-xs font-bold bg-blue-400/20 text-blue-400 px-2 py-0.5 rounded whitespace-nowrap border border-blue-400/20">Score: 5.0</span>
                 </div>
                 <div>
-                  <span className="text-blue-400 font-bold text-xs uppercase tracking-widest mb-1 block">ARIZONA:</span>
+                  <span className="text-unoOrange font-bold text-xs uppercase tracking-widest mb-1 block">ARIZONA:</span>
                   <p className="text-sm text-textSecondary">{language === 'es' ? 'Estándar federal general (OSHA, 2026). Argumento de PRODUCTIVIDAD.' : 'General federal standard (OSHA, 2026). PRODUCTIVITY argument.'}</p>
-                  <span className="inline-block mt-2 text-xs font-bold bg-blue-400/20 px-2 py-0.5 rounded whitespace-nowrap">Score: 2.0</span>
+                  <span className="inline-block mt-2 text-xs font-bold bg-unoOrange/20 text-unoOrange px-2 py-0.5 rounded whitespace-nowrap border border-unoOrange/20">Score: 2.0</span>
                 </div>
               </div>
             </div>
