@@ -10,8 +10,8 @@ const scoreData = [
   },
   {
     category: { es: 'Político - Legal', en: 'Political - Legal' },
-    arizona: 4.00,
-    california: 4.05
+    arizona: 5.00,
+    california: 3.05
   },
   {
     category: { es: 'Tecnológico y Geoambiental', en: 'Technological & Environmental' },
@@ -128,8 +128,8 @@ export const ScoreAnalysis = () => {
             </h3>
             <p className="text-sm text-textSecondary leading-relaxed">
               {language === 'es'
-                ? 'Arizona presenta una puntuación final de 3.91, manteniéndose muy competitiva gracias a su desempeño en las dimensiones tecnológica (5.00) e industrial, así como por un entorno regulatorio y fiscal favorable. No obstante, la saturación del comercio transfronterizo con México y la falta de acceso marítimo directo moderan su puntuación logística general.'
-                : 'Arizona presents a final score of 3.91, remaining highly competitive thanks to its performance in the technological (5.00) and industrial dimensions, as well as a favorable regulatory and fiscal environment. However, the saturation of cross-border trade with Mexico and the lack of direct maritime access moderate its overall logistics score.'}
+                ? 'Arizona lidera con una puntuación final de 4.07, impulsada por su excelente desempeño en las dimensiones tecnológicas (5.00), político-legal (5.00) y su favorable entorno fiscal y operativo para la comercialización de podadoras eléctricas. A pesar de los desafíos logísticos de no contar con costa directa y la concentración transfronteriza, sus condiciones de alta demanda continua y menor presión regulatoria la consolidan como la opción preferente de entrada.'
+                : 'Arizona leads with a final score of 4.07, driven by its outstanding performance in the technological (5.00) and political-legal (5.00) dimensions, as well as a highly favorable fiscal and operational environment for electric mowers. Despite logistics challenges from lacking a direct coast and cross-border trade concentration, its continuous high-demand conditions and lower regulatory burden consolidate it as the preferred entry choice.'}
             </p>
           </div>
           <div className="glass-card p-8 bg-blue-400/5 border-blue-400/20">
@@ -139,8 +139,8 @@ export const ScoreAnalysis = () => {
             </h3>
             <p className="text-sm text-textSecondary leading-relaxed">
               {language === 'es'
-                ? 'California lidera con un sólido 3.95, impulsada por su acceso portuario directo e infraestructura logística marítima de gran escala (4.50 en comercio internacional), además de un gran mercado potencial. Esto compensa los mayores costos regulatorios y operativos que presenta el estado.'
-                : 'California leads with a solid 3.95, driven by its direct port access and large-scale maritime logistics infrastructure (4.50 in international trade), along with a huge potential market. This offsets the higher regulatory and operational costs in the state.'}
+                ? 'California obtiene un 3.79, donde su inigualable acceso logístico portuario (4.50) y gran escala demográfica se ven balanceados por rigurosas normativas medioambientales, impuestos más elevados y restricciones de agua que ralentizan la frecuencia del mantenimiento de áreas verdes residenciales.'
+                : 'California obtains a 3.79, where its unmatched port logistics access (4.50) and large demographic scale are balanced by rigorous environmental regulations, higher taxes, and water restrictions that slow down residential landscaping frequency.'}
             </p>
           </div>
         </div>
