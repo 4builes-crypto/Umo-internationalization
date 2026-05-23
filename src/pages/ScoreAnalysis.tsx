@@ -49,7 +49,7 @@ export const ScoreAnalysis = () => {
         </h2>
         <h1 className="text-3xl lg:text-4xl font-bold tracking-tight text-white border-b border-glassBorder pb-4 flex items-center gap-3">
           <BarChart3 className="w-8 h-8 text-unoOrange" />
-          {language === 'es' ? 'Análisis de Puntajes y Viabilidad' : 'Score Analysis & Viability'}
+          {language === 'es' ? 'Análisis de Resultados' : 'Score Analysis'}
         </h1>
         <p className="text-textSecondary max-w-3xl leading-relaxed mt-4">
           {language === 'es'
@@ -144,6 +144,7 @@ export const ScoreAnalysis = () => {
             </p>
           </div>
         </div>
+
       </section>
     </div>
   );

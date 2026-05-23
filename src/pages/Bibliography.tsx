@@ -570,6 +570,44 @@ const referencesBySector = [
         }
       }
     ]
+  },
+  {
+    sector: { es: 'Estrategia de Internacionalización y Marketing', en: 'Internationalization & Marketing Strategy' },
+    items: [
+      {
+        author: 'Gensler, S., Verhoef, P. C., & Böhm, M.',
+        year: '2012',
+        title: 'Understanding consumers’ multichannel choices.',
+        source: 'Journal of Retailing and Consumer Services, 19(1), 93-103',
+        link: 'https://doi.org/10.1016/j.jretconser.2011.09.001',
+        description: {
+          es: 'Fundamentos sobre el comportamiento multicanal y estrategias digitales B2B.',
+          en: 'Fundamentals on multichannel behavior and B2B digital strategies.'
+        }
+      },
+      {
+        author: 'Johanson, J., & Vahlne, J. E.',
+        year: '2009',
+        title: 'The Uppsala internationalization process model revisited: From liability of foreignness to liability of outsidership.',
+        source: 'Journal of International Business Studies, 40(9), 1411-1431',
+        link: 'https://doi.org/10.1057/jibs.2009.24',
+        description: {
+          es: 'Modelo de internacionalización y estrategias de entrada a nuevos mercados.',
+          en: 'Internationalization model and market entry strategies.'
+        }
+      },
+      {
+        author: 'Koch, A. J.',
+        year: '2001',
+        title: 'Factors influencing market and entry mode selection: developing the MEMS model.',
+        source: 'Marketing Intelligence & Planning, 19(5), 351-361',
+        link: 'https://doi.org/10.1108/02634500110400941',
+        description: {
+          es: 'Análisis de factores que influyen en la selección de modos de entrada (estrategia de exportación y alianzas B2B).',
+          en: 'Analysis of factors influencing the selection of entry modes (export strategy and B2B alliances).'
+        }
+      }
+    ]
   }
 ];
 

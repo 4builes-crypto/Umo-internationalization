@@ -1,4 +1,4 @@
-import { Building2, BookMarked, TrendingUp, Users, Scale, Globe, Ship, Landmark, BarChart3 } from 'lucide-react';
+import { Building2, BookMarked, TrendingUp, Users, Scale, Globe, Ship, Landmark, BarChart3, Target } from 'lucide-react';
 import type { NavCategory } from '../types/navigation';
 
 export const NAVIGATION_DATA: NavCategory[] = [
@@ -66,10 +66,20 @@ export const NAVIGATION_DATA: NavCategory[] = [
   },
   {
     id: 'score_analysis',
-    label: 'Análisis de Puntajes',
+    label: 'Análisis de Resultados',
     icon: BarChart3,
     subcategories: [
-      { id: 'score_analysis_sub', label: 'Resumen de Viabilidad', path: '/score-analysis' },
+      { id: 'score_analysis_sub', label: 'Resumen de Puntajes', path: '/score-analysis' },
+      { id: 'selected_state_sub', label: 'Estado Seleccionado', path: '/selected-state' },
+    ]
+  },
+  {
+    id: 'estrategia',
+    label: 'Estrategia dentro del estado',
+    icon: Target,
+    subcategories: [
+      { id: 'estrategia_internacionalizacion', label: 'Estrategia de Internacionalización', path: '/international-strategy' },
+      { id: 'marketing_plan', label: 'Plan de Marketing', path: '/marketing-plan' }
     ]
   },
   {
