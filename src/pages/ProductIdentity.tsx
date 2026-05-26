@@ -21,6 +21,34 @@ export const ProductIdentity = () => {
         </h1>
       </header>
 
+      {/* Video de Presentación */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="glass-card overflow-hidden border-unoOrange/20 relative group"
+      >
+        <div className="aspect-video w-full relative bg-black/40">
+          <video
+            src={`${import.meta.env.BASE_URL}hero-video.mp4`}
+            controls
+            playsInline
+            className="w-full h-full object-contain"
+          >
+            {language === 'es' 
+              ? 'Tu navegador no soporta la reproducción de video.' 
+              : 'Your browser does not support the video tag.'}
+          </video>
+        </div>
+        <div className="p-4 bg-black/20 border-t border-glassBorder flex items-center justify-between">
+          <span className="text-sm font-medium text-white/80">
+            {language === 'es' ? 'Video de Presentación - UMO Internacionalización' : 'Presentation Video - UMO Internationalization'}
+          </span>
+          <span className="text-xs text-textSecondary bg-white/5 px-2.5 py-1 rounded-full">
+            MP4
+          </span>
+        </div>
+      </motion.div>
+
       {/* Identidad Corporativa Section */}
       <motion.div 
         initial={{ opacity: 0, y: 20 }}

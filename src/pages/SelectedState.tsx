@@ -28,7 +28,9 @@ export const SelectedState = () => {
             <div className="flex gap-4">
               <div className="w-2 h-2 rounded-full bg-unoOrange mt-2 flex-shrink-0" />
               <div>
-                <h4 className="text-white font-bold mb-1">Volumen de mercado y demanda</h4>
+                <h4 className="text-white font-bold mb-1">
+                  {language === 'es' ? 'Volumen de mercado y demanda' : 'Market Volume and Demand'}
+                </h4>
                 <p className="text-textSecondary text-sm leading-relaxed">
                   {language === 'es' 
                     ? 'El estado cuenta con una alta densidad demográfica, una vasta infraestructura de campos de golf y Jardines, contando con aproximadamente 52.682 empresas de paisajismo. Esta enorme base comercial garantiza un flujo constante y predecible de repuestos para el mantenimiento de flotas.'
@@ -40,7 +42,9 @@ export const SelectedState = () => {
             <div className="flex gap-4">
               <div className="w-2 h-2 rounded-full bg-unoOrange mt-2 flex-shrink-0" />
               <div>
-                <h4 className="text-white font-bold mb-1">Eficiencia logística</h4>
+                <h4 className="text-white font-bold mb-1">
+                  {language === 'es' ? 'Eficiencia logística' : 'Logistics Efficiency'}
+                </h4>
                 <p className="text-textSecondary text-sm leading-relaxed">
                   {language === 'es'
                     ? 'Al ser un estado costero con puertos de primer nivel, permite la recepción directa de la mercancía. Esto elimina la necesidad de incurrir en fletes terrestres internos de larga distancia, un sobrecosto crítico si se considera que ingresar por Arizona implicaría un transporte terrestre adicional de unas 370 millas (600 kilómetros). Si bien los tiempos en puerto son mayores que en Arizona la relación precio/beneficio es mucho mayor tomando en cuenta que hasta arizona el precio por contenedor aumentaría de 1200 a 1500 dólares, ya que si se acompaña con una buena logística y planeación ese tiempo en puerto no representaría un mayor problema.'
@@ -52,7 +56,9 @@ export const SelectedState = () => {
             <div className="flex gap-4">
               <div className="w-2 h-2 rounded-full bg-unoOrange mt-2 flex-shrink-0" />
               <div>
-                <h4 className="text-white font-bold mb-1">Efecto de la transición tecnológica</h4>
+                <h4 className="text-white font-bold mb-1">
+                  {language === 'es' ? 'Efecto de la transición tecnológica' : 'Effect of Technological Transition'}
+                </h4>
                 <p className="text-textSecondary text-sm leading-relaxed">
                   {language === 'es'
                     ? 'La regulación de 2024 que restringe la fabricación de podadoras a gasolina genera un doble beneficio. Por un lado, los equipos a combustión aún operativos requerirán piezas y como las sillas de UMO, que son totalmente compatibles serán compradas como repuesto para prolongar su vida útil. Por otro lado, las podadoras eléctricas introducidas tras la norma están próximas a cumplir sus primeros ciclos de mantenimiento.'
@@ -64,7 +70,9 @@ export const SelectedState = () => {
             <div className="flex gap-4">
               <div className="w-2 h-2 rounded-full bg-unoOrange mt-2 flex-shrink-0" />
               <div>
-                <h4 className="text-white font-bold mb-1">Estrés estructural de los materiales</h4>
+                <h4 className="text-white font-bold mb-1">
+                  {language === 'es' ? 'Estrés estructural de los materiales' : 'Structural Stress of Materials'}
+                </h4>
                 <p className="text-textSecondary text-sm leading-relaxed">
                   {language === 'es'
                     ? 'Aunque los índices de radiación UV y los meses de uso continuo son menores que en Arizona, la inmensa extensión territorial que cubren las empresas en California exige jornadas de trabajo severas. Este uso intensivo somete a la maquinaria a un alto estrés mecánico, acelerando el desgaste de los componentes y asegurando una demanda sostenida en el mercado de reposición.'
@@ -76,7 +84,9 @@ export const SelectedState = () => {
             <div className="flex gap-4">
               <div className="w-2 h-2 rounded-full bg-unoOrange mt-2 flex-shrink-0" />
               <div>
-                <h4 className="text-white font-bold mb-1">Capacidad económica</h4>
+                <h4 className="text-white font-bold mb-1">
+                  {language === 'es' ? 'Capacidad económica' : 'Economic Capacity'}
+                </h4>
                 <p className="text-textSecondary text-sm leading-relaxed">
                   {language === 'es'
                     ? 'California lidera en poder adquisitivo absoluto, registrando en 2025 un PIB per cápita real de 86.100 dólares —lo que sitúa al estado en el cuarto puesto a nivel nacional— y un ingreso medio por hogar de 99.122 dólares. Esta solidez financiera se traduce en un gasto en consumo personal (PCE) per cápita de 67.565 dólares, posicionando a sus consumidores entre los que más gastan en todo el país y facilitando una mayor disposición a pagar por comodidad, ergonomía y valor agregado, lo cual beneficia directamente la adopción de los sillines premium de UMO.'
