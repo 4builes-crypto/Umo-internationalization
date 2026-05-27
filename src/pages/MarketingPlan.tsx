@@ -1,4 +1,4 @@
-import { Megaphone, Map, CheckCircle2, DollarSign, Target, LayoutTemplate } from 'lucide-react';
+import { Megaphone, CheckCircle2, DollarSign, Target, LayoutTemplate } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export const MarketingPlan = () => {
@@ -17,45 +17,6 @@ export const MarketingPlan = () => {
       </header>
 
       <section className="space-y-8">
-        <div className="glass-card p-8 bg-surface border-glassBorder">
-          <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3 border-b border-glassBorder pb-2">
-            <Map className="w-6 h-6 text-unoOrange" />
-            {language === 'es' ? 'Estrategia de Entrada al Mercado' : 'Market Entry Strategy'}
-          </h3>
-          <div className="space-y-6">
-            <div>
-              <h4 className="text-white font-bold mb-2">
-                {language === 'es' ? 'Alternativas de Entrada: Modificación' : 'Entry Alternatives: Modification'}
-              </h4>
-              <p className="text-textSecondary text-sm leading-relaxed">
-                {language === 'es'
-                  ? 'La empresa adoptará una estrategia de Modificación del Producto. Aunque el núcleo técnico y material de los asientos (poliuretano y malla 3D) permanece estandarizado para optimizar las economías de escala, la interfaz mecánica se adaptará por completo para cumplir con las regulaciones de la California Air Resources Board (CARB) para motores de combustión pequeños.'
-                  : 'The company will adopt a Product Modification strategy. Although the technical and material core of the seats (polyurethane and 3D mesh) remains standardized to optimize economies of scale, the mechanical interface will be fully adapted to comply with the California Air Resources Board (CARB) regulations for small combustion engines.'}
-              </p>
-            </div>
-            <div>
-              <h4 className="text-white font-bold mb-2">
-                {language === 'es' ? 'Elementos Flexibles' : 'Flexible Elements'}
-              </h4>
-              <p className="text-textSecondary text-sm leading-relaxed">
-                {language === 'es'
-                  ? 'El diseño incorporará sistemas de anclaje universales y flexibles. Esta característica asegura la compatibilidad dual del producto, permitiendo tanto la revitalización de la maquinaria a gasolina vigente como la adaptación inmediata a las nuevas flotas eléctricas exigidas por la estricta normativa del estado de California.'
-                  : 'The design will incorporate universal and flexible anchoring systems. This feature ensures the dual compatibility of the product, allowing both the revitalization of current gasoline machinery and the immediate adaptation to new electric fleets required by the strict regulations of the state of California.'}
-              </p>
-            </div>
-            <div>
-              <h4 className="text-white font-bold mb-2">
-                {language === 'es' ? 'Justificación' : 'Justification'}
-              </h4>
-              <p className="text-textSecondary text-sm leading-relaxed">
-                {language === 'es'
-                  ? 'La elección de modificar la interfaz del producto responde a barreras legales y ambientales críticas en la región objetivo. Introducir el producto sin modificaciones limitaría el acceso al mercado de flotas nuevas y sostenibles, mientras que desarrollar un producto completamente nuevo elevaría los costos de desarrollo de manera innecesaria. La modificación equilibra la eficiencia en la producción con la relevancia comercial local.'
-                  : 'The choice to modify the product interface responds to critical legal and environmental barriers in the target region. Introducing the product without modifications would limit access to the market for new and sustainable fleets, while developing a completely new product would unnecessarily raise development costs. Modification balances production efficiency with local commercial relevance.'}
-              </p>
-            </div>
-          </div>
-        </div>
-
         <div className="glass-card p-8 bg-surface border-glassBorder">
           <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3 border-b border-glassBorder pb-2">
             <LayoutTemplate className="w-6 h-6 text-unoOrange" />
